@@ -32,7 +32,6 @@ for user_id in user_ids:
     except ValueError:
         USER_ID.append(user_id)
 
-MIN_GIFT_PRICE: int = config.getint('Gifts', 'MIN_GIFT_PRICE')
 MAX_GIFT_PRICE: int = config.getint('Gifts', 'MAX_GIFT_PRICE')
 GIFT_DELAY: float = config.getfloat('Gifts', 'GIFT_DELAY')
 

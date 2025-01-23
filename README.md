@@ -52,7 +52,6 @@ TIMEZONE = Europe/Moscow  # Timezone for scheduling
 LANGUAGE = EN  # Language for bot messages (EN/RU/UK)
 
 [Gifts]
-MIN_GIFT_PRICE = 0  # Minimum price of gifts to consider
 MAX_GIFT_PRICE = 10000  # Maximum price of gifts to consider
 GIFT_DELAY = 5  # Delay between sending gifts in seconds
 USER_ID = user1_id, username  # User IDs or usernames to send gifts to
