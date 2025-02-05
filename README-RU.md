@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Версия Python">
-  <img src="https://img.shields.io/github/license/bohd4nx/TGgifts-buyer" alt="Лицензия">
-  <img src="https://img.shields.io/github/stars/bohd4nx/TGgifts-buyer" alt="Звёзды">
+  <img src="https://img.shields.io/github/license/bohd4nx/Gifts-Buyer" alt="Лицензия">
+  <img src="https://img.shields.io/github/stars/bohd4nx/Gifts-Buyer" alt="Звёзды">
   <br>
   <a href="https://t.me/bohd4nx">
     <img src="https://img.shields.io/badge/разработчик-@bohd4nx-blue.svg" alt="Разработчик">
@@ -49,7 +49,7 @@ CHANNEL_ID = id_канала       # ID канала для уведомлени
 [Bot]
 INTERVAL = 10                # Интервал проверки подарков в секундах (мин: 10с)
 TIMEZONE = Europe/Moscow     # Ваш часовой пояс для логов и операций
-LANGUAGE = RU               # Язык бота (EN/RU/UK)
+LANGUAGE = RU                # Язык бота (EN/RU/UK)
 
 [Gifts]
 MAX_GIFT_PRICE = 10000      # Максимальная цена подарка для покупки (для нелимитированных)
@@ -74,9 +74,10 @@ PURCHASE_NON_LIMITED_GIFTS = False  # Покупать ли нелимитиро
 
 ## 🚀 Установка
 
-1. Клонируйте репозиторий:
+1. Клонируйте репозиторий: (или просто скачайте архивом)
 ```bash
-git clone https://github.com/bohd4nx/TGgifts-buyer.git
+git clone https://github.com/bohd4nx/Gifts-Buyer.git
+cd Gifts-Buyer
 ```
 
 2. Установите зависимости:
@@ -129,6 +130,19 @@ python main.py
 
 Только для образовательных целей. Используйте ответственно и на свой страх и риск.
 
-## 📄 Лицензия
+## 📝 Лицензия
 
-Лицензия MIT - См. файл [LICENSE](LICENSE)
+Этот проект под MIT лицензией. См. LICENSE для получения дополнительной информации.
+
+## 🌟 Поддержка
+
+Если вы считаете этот проект полезным:
+
+- Дайте ему звезду ⭐
+- Поделитесь с другими 🔄
+
+---
+
+<div align="center">
+    <h4>Built with ❤️ by <a href="https://t.me/bohd4nx" target="_blank">Bohdan</a></h4>
+</div>
