@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python Version">
-  <img src="https://img.shields.io/github/license/bohd4nx/TGgifts-buyer" alt="License">
-  <img src="https://img.shields.io/github/stars/bohd4nx/TGgifts-buyer" alt="Stars">
+  <img src="https://img.shields.io/github/license/bohd4nx/Gifts-Buyer" alt="License">
+  <img src="https://img.shields.io/github/stars/bohd4nx/Gifts-Buyer" alt="Stars">
   <br>
   <a href="https://t.me/bohd4nx">
     <img src="https://img.shields.io/badge/developer-@bohd4nx-blue.svg" alt="Developer">
@@ -66,17 +66,18 @@ The bot uses a sophisticated price range system to determine gift quantities:
 ```ini
 [Ranges]
 0,999,10000 = 1      # Price 0-999, supply limit 10000, send 1 gift
-1000,1999,100 = 2  # Price 1000-1999, supply limit 100, send 2 gifts
-2000,2999,1000 = 3  # Price 2000-2999, supply limit 1000, send 3 gifts
+1000,1999,100 = 2    # Price 1000-1999, supply limit 100, send 2 gifts
+2000,2999,1000 = 3   # Price 2000-2999, supply limit 1000, send 3 gifts
 ```
 
 Format: `min_price,max_price,supply_limit = quantity`
 
 ## 🚀 Installation
 
-1. Clone repository:
+1. Clone repository: (or just download it)
 ```bash
-git clone https://github.com/bohd4nx/TGgifts-buyer.git
+git clone https://github.com/bohd4nx/Gifts-Buyerr.git
+cd Gifts-Buyer
 ```
 
 2. Install requirements:
@@ -129,6 +130,20 @@ Add new language:
 
 For educational purposes only. Use responsibly and at your own risk.
 
-## 📄 License
+## 📝 License
 
-MIT License - See [LICENSE](LICENSE) file
+This project is MIT licensed. See LICENSE for more information.
+
+## 🌟 Support
+
+If you find this project useful:
+
+- Give it a star ⭐
+- Share with others 🔄
+- Consider contributing 🛠️
+
+---
+
+<div align="center">
+    <h4>Built with ❤️ by <a href="https://t.me/bohd4nx" target="_blank">Bohdan</a></h4>
+</div>
