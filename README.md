@@ -24,7 +24,8 @@
 
 ## 📝 Overview
 
-An advanced Telegram userbot for automated gift sending with dynamic price ranges and supply management. Supports both limited and non-limited gifts with configurable sending rules.
+An advanced Telegram userbot for automated gift sending with dynamic price ranges and supply management. Supports both
+limited and non-limited gifts with configurable sending rules.
 
 ## ✨ Features
 
@@ -75,22 +76,25 @@ Format: `min_price,max_price,supply_limit = quantity`
 ## 🚀 Installation
 
 1. Clone repository: (or just download it)
+
 ```bash
 git clone https://github.com/bohd4nx/Gifts-Buyerr.git
 cd Gifts-Buyer
 ```
 
 2. Install requirements:
+
 ```bash
 pip install -r requirements.txt
 ```
 
 3. Configure settings:
-   - Open `config.ini`
-   - Edit with your details
-   - Set up price ranges
+    - Open `config.ini`
+    - Edit with your details
+    - Set up price ranges
 
 4. Run:
+
 ```bash
 python main.py
 ```
@@ -98,11 +102,13 @@ python main.py
 ## 🌍 Localization
 
 Currently supports:
+
 - 🇺🇸 English
 - 🇷🇺 Russian
 - 🇺🇦 Ukrainian
 
 Add new language:
+
 1. Create `locales/your_lang.py`
 2. Add to `LANG_CODES` in `config.py`
 3. Set `LANGUAGE = YOUR_LANG` in config.ini
@@ -118,13 +124,13 @@ Add new language:
    ```
 
 2. Supply limit errors:
-   - Check your [Ranges] configuration
-   - Verify supply limits are appropriate
+    - Check your [Ranges] configuration
+    - Verify supply limits are appropriate
 
 3. Connection errors:
-   - Increase INTERVAL (minimum 10 seconds)
-   - Check internet connection
-   - Verify API credentials
+    - Increase INTERVAL (minimum 10 seconds)
+    - Check internet connection
+    - Verify API credentials
 
 ## ⚠️ Disclaimer
 

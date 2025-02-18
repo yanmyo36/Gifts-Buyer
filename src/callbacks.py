@@ -1,8 +1,7 @@
 import asyncio
 
-from pyrogram import Client
-
 import config
+from pyrogram import Client
 from src.notifications import notifications
 from utils.utils import buyer
 

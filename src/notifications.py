@@ -1,6 +1,5 @@
-from pyrogram import Client
-
 import config
+from pyrogram import Client
 from utils.common import format_user_reference, send_notification
 
 
@@ -38,7 +37,7 @@ async def notifications(app: Client, star_gift_id: int, **kwargs) -> None:
         'gift_price': lambda: locale.gift_price.format(star_gift_id, kwargs.get('gift_price'),
                                                        kwargs.get('gift_supply') or "N/A"),
         'success_message': lambda: locale.success_message.format(kwargs.get('current_gift'), num, star_gift_id, '') +
-                                   format_user_reference(kwargs.get('user_id'), kwargs.get('username'))
+        format_user_reference(kwargs.get('user_id'), kwargs.get('username'))
     }
 
     conditions = {

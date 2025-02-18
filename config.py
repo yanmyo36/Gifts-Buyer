@@ -11,6 +11,7 @@ config.read('config.ini')
 SESSION: str = str(Path(__file__).parent / "data/account")
 API_ID: int = config.getint('Telegram', 'API_ID')
 API_HASH: str = config.get('Telegram', 'API_HASH')
+PHONE_NUMBER: str = config.get('Telegram', 'PHONE_NUMBER')
 DATA_FILEPATH: Path = Path(__file__).parent / "data/json/history.json"
 
 # =========================

@@ -1,11 +1,10 @@
 from datetime import datetime
 from typing import Optional
 
+import config
 from pyrogram import Client
 from pyrogram.errors.exceptions import RPCError
 from pytz.tzinfo import BaseTzInfo
-
-import config
 
 
 def get_time(timezone: BaseTzInfo) -> str:

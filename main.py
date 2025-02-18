@@ -93,7 +93,8 @@ async def main() -> None:
     async with Client(
             name=config.SESSION,
             api_id=config.API_ID,
-            api_hash=config.API_HASH
+            api_hash=config.API_HASH,
+            phone_number=config.PHONE_NUMBER
     ) as client:
         await send_start_message(client)
         await process_gifts(client)

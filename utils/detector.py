@@ -3,10 +3,9 @@ import json
 import time
 import typing
 
+import config
 from pyrogram import Client, types
 from pytz import timezone as _timezone
-
-import config
 from utils.common import get_time
 
 timezone = _timezone(config.TIMEZONE)

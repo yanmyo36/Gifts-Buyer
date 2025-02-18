@@ -1,10 +1,9 @@
 import asyncio
 from typing import Tuple
 
+import config
 from pyrogram import Client
 from pyrogram.errors.exceptions import RPCError
-
-import config
 from src.notifications import notifications
 
 
@@ -109,7 +108,6 @@ async def buyer(app: Client, chat_id: int, star_gift_id: int, hide_my_name: bool
         star_gift_id: ID of gift to send
         hide_my_name: Whether to hide sender name
     """
-    # Initialize total_gifts with default value
     total_gifts = 1
 
     try:
