@@ -1,0 +1,3003 @@
+[
+  {
+    "_": "StarGift",
+    "id": 5871002671934079382,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6X5dm8nASevtfKh4EDfV7NMAAK8cQAChnNxSY75rb1538zbHgQ",
+      "file_unique_id": "AgADvHEAAoZzcUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 48691,
+      "date": "2025-02-14 00:17:37",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpfl2bycBJ6-18qHgQN9Xs0wAArxxAAKGc3FJjvmtvXnfzNsACAEAB20ABx4E",
+          "file_unique_id": "AgADvHEAAoZzcUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 8160
+        }
+      ]
+    },
+    "price": 250,
+    "convert_price": 213,
+    "available_amount": 73331,
+    "total_amount": 180000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5870862540036113469,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6W6QkSWJ1eVkuh2_LJ6s2RxAAIRawACuQpwSc862QYQBz5AHgQ",
+      "file_unique_id": "AgADEWsAArkKcEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 37645,
+      "date": "2025-02-13 12:23:11",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpbpCRJYnV5WS6Hb8snqzZHEAAhFrAAK5CnBJzzrZBhAHPkAACAEAB20ABx4E",
+          "file_unique_id": "AgADEWsAArkKcEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 8544
+        }
+      ]
+    },
+    "price": 300,
+    "convert_price": 255,
+    "available_amount": 107389,
+    "total_amount": 150000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5170145012310081615,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Wt2SW1mrKJP5ms-P7l7qOlAAJ8GwACkoTYS_itxFzPIpm1HgQ",
+      "file_unique_id": "AgADfBsAApKE2Es",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 25528,
+      "date": "2022-08-16 13:59:49",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "💝",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpa3ZJbWasok_maz4_uXuo6UAAnwbAAKShNhL-K3EXM8imbUACAEAB20ABx4E",
+          "file_unique_id": "AgADfBsAApKE2Es",
+          "width": 128,
+          "height": 128,
+          "file_size": 6244
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "is_limited": false
+  },
+  {
+    "_": "StarGift",
+    "id": 5170233102089322756,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WMjTt3rDqp9yamacXrA4QrAAKtVAACmj_pSnvPkDQv_sivHgQ",
+      "file_unique_id": "AgADrVQAApo_6Uo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 51240,
+      "date": "2024-09-07 17:07:10",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🧸",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpYyNO3esOqn3JqZpxesDhCsAAq1UAAKaP-lKe8-QNC_-yK8ACAEAB20ABx4E",
+          "file_unique_id": "AgADrVQAApo_6Uo",
+          "width": 128,
+          "height": 128,
+          "file_size": 5282
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "is_limited": false
+  },
+  {
+    "_": "StarGift",
+    "id": 5170250947678437525,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WWneJtLKh59TLWR8IqEat4AAKNSAACsU84SMuB4ge7V_wGHgQ",
+      "file_unique_id": "AgADjUgAArFPOEg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 10199,
+      "date": "2023-12-23 20:38:00",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "AnimatedAsianEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpZad4m0sqHn1MtZHwioRq3gAAo1IAAKxTzhIy4HiB7tX_AYACAEAB20ABx4E",
+          "file_unique_id": "AgADjUgAArFPOEg",
+          "width": 128,
+          "height": 128,
+          "file_size": 5010
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "is_limited": false
+  },
+  {
+    "_": "StarGift",
+    "id": 5168103777563050263,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Wrnasmn9ybjxuiVl1SB3HvAAJxGQAC1P-BS9CYmaAv74KEHgQ",
+      "file_unique_id": "AgADcRkAAtT_gUs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 48324,
+      "date": "2022-08-07 21:01:02",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🌹",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpaudqyaf3JuPG6JWXVIHce8AAnEZAALU_4FL0JiZoC_vgoQACAEAB20ABx4E",
+          "file_unique_id": "AgADcRkAAtT_gUs",
+          "width": 128,
+          "height": 128,
+          "file_size": 4052
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "is_limited": false
+  },
+  {
+    "_": "StarGift",
+    "id": 5170144170496491616,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WXCgSJyvfkCNPdzSKW44LAAAKBGAAClZ-JSmrGT5kBZFDGHgQ",
+      "file_unique_id": "AgADgRgAApWfiUo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 19679,
+      "date": "2022-07-15 15:54:17",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎂",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpZcKBInK9-QI093NIpbjgsAAAoEYAAKVn4lKasZPmQFkUMYACAEAB20ABx4E",
+          "file_unique_id": "AgADgRgAApWfiUo",
+          "width": 128,
+          "height": 128,
+          "file_size": 5168
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "is_limited": false
+  },
+  {
+    "_": "StarGift",
+    "id": 5170314324215857265,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XCelXaxeYhdmnINmiAQWD5AALeJQACRSDgSsjmE6AUz0NeHgQ",
+      "file_unique_id": "AgAD3iUAAkUg4Eo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 48433,
+      "date": "2023-02-02 19:34:29",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "💐",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpcJ6VdrF5iF2acg2aIBBYPkAAt4lAAJFIOBKyOYToBTPQ14ACAEAB20ABx4E",
+          "file_unique_id": "AgAD3iUAAkUg4Eo",
+          "width": 128,
+          "height": 128,
+          "file_size": 6932
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "is_limited": false
+  },
+  {
+    "_": "StarGift",
+    "id": 5170564780938756245,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UWdM_bvvsWNbXOOvCfrPX8AALLGwAC14mRSzvrMNfF90DPHgQ",
+      "file_unique_id": "AgADyxsAAteJkUs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 55268,
+      "date": "2022-08-09 04:40:41",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🚀",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpRZ0z9u--xY1tc468J-s9fwAAssbAALXiZFLO-sw18X3QM8ACAEAB20ABx4E",
+          "file_unique_id": "AgADyxsAAteJkUs",
+          "width": 128,
+          "height": 128,
+          "file_size": 5538
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "is_limited": false
+  },
+  {
+    "_": "StarGift",
+    "id": 5168043875654172773,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VBunt22TskM8iDNbPCS-siAAKZGwACzagQS38R6izkF899HgQ",
+      "file_unique_id": "AgADmRsAAs2oEEs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 60319,
+      "date": "2022-07-27 19:43:22",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🏆",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpUG6e3bZOyQzyIM1s8JL6yIAApkbAALNqBBLfxHqLOQXz30ACAEAB20ABx4E",
+          "file_unique_id": "AgADmRsAAs2oEEs",
+          "width": 128,
+          "height": 128,
+          "file_size": 4546
+        }
+      ]
+    },
+    "price": 100,
+    "convert_price": 85,
+    "is_limited": false
+  },
+  {
+    "_": "StarGift",
+    "id": 5170690322832818290,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VCT66h9dH1OzUf4HUgaH68AALoTwACJx74Ss1NNn7ovmieHgQ",
+      "file_unique_id": "AgAD6E8AAice-Eo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 61230,
+      "date": "2024-09-09 14:11:21",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "💍",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpUJPrqH10fU7NR_gdSBofrwAAuhPAAInHvhKzU02fui-aJ4ACAEAB20ABx4E",
+          "file_unique_id": "AgAD6E8AAice-Eo",
+          "width": 128,
+          "height": 128,
+          "file_size": 4672
+        }
+      ]
+    },
+    "price": 100,
+    "convert_price": 85,
+    "is_limited": false
+  },
+  {
+    "_": "StarGift",
+    "id": 5170521118301225164,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Vvkk_9uKwX_NRPCV1BZ0NeAAIbHgACQEjwS6XKX-OK2k1MHgQ",
+      "file_unique_id": "AgADGx4AAkBI8Es",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 47932,
+      "date": "2022-08-18 03:14:39",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "💎",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpW-ST_24rBf81E8JXUFnQ14AAhseAAJASPBLpcpf44raTUwACAEAB20ABx4E",
+          "file_unique_id": "AgADGx4AAkBI8Es",
+          "width": 128,
+          "height": 128,
+          "file_size": 3784
+        }
+      ]
+    },
+    "price": 100,
+    "convert_price": 85,
+    "is_limited": false
+  },
+  {
+    "_": "StarGift",
+    "id": 6028601630662853006,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WEhw6a50BjYz7zfPMNigu6AALXGAACy0WJSqKYQ7cuIwaJHgQ",
+      "file_unique_id": "AgAD1xgAAstFiUo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 42245,
+      "date": "2022-07-15 15:54:20",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🍾",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpYSHDprnQGNjPvN88w2KC7oAAtcYAALLRYlKophDty4jBokACAEAB20ABx4E",
+          "file_unique_id": "AgAD1xgAAstFiUo",
+          "width": 128,
+          "height": 128,
+          "file_size": 3542
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "is_limited": false
+  },
+  {
+    "_": "StarGift",
+    "id": 5783075783622787539,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XRB9687EwQgsnAC4PK8aIBAAIlPAAChpepS0gglbXt2KajHgQ",
+      "file_unique_id": "AgADJTwAAoaXqUs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 16899,
+      "date": "2023-09-03 21:37:44",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎂",
+      "set_name": "BirthdayCollection",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpdEH3rzsTBCCycALg8rxogEAAiU8AAKGl6lLSCCVte3YpqMACAEAB20ABx4E",
+          "file_unique_id": "AgADJTwAAoaXqUs",
+          "width": 128,
+          "height": 128,
+          "file_size": 5726
+        }
+      ]
+    },
+    "price": 500,
+    "convert_price": 425,
+    "available_amount": 274560,
+    "total_amount": 500000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5782988952268964995,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XxKKIBgV09_gzEYTe8Z9TNAAJcPQACPovwSzcro45SHj-qHgQ",
+      "file_unique_id": "AgADXD0AAj6L8Es",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 19762,
+      "date": "2023-09-11 01:16:29",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🗓",
+      "set_name": "BirthdayCollection",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpfEoogGBXT3-DMRhN7xn1M0AAlw9AAI-i_BLNyujjlIeP6oACAEAB20ABx4E",
+          "file_unique_id": "AgADXD0AAj6L8Es",
+          "width": 128,
+          "height": 128,
+          "file_size": 6586
+        }
+      ]
+    },
+    "price": 150,
+    "convert_price": 128,
+    "available_amount": 246298,
+    "total_amount": 500000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5782984811920491178,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XVPt_HNRs7pM2T0VOiQLjbAAKpMQACvGUAAUu1qWZHStZtjx4E",
+      "file_unique_id": "AgADqTEAArxlAAFL",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 25081,
+      "date": "2023-08-19 17:20:23",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🕯",
+      "set_name": "BirthdayCollection",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpdU-38c1GzukzZPRU6JAuNsAAqkxAAK8ZQABS7WpZkdK1m2PAAgBAAdtAAceBA",
+          "file_unique_id": "AgADqTEAArxlAAFL",
+          "width": 128,
+          "height": 128,
+          "file_size": 7916
+        }
+      ]
+    },
+    "price": 350,
+    "convert_price": 298,
+    "available_amount": 445918,
+    "total_amount": 500000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5872744075014177223,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WCHOF-U50PkM_fyltCrb7kAAIJZwACQsB5SdvsXgvuiQpgHgQ",
+      "file_unique_id": "AgADCWcAAkLAeUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 29166,
+      "date": "2025-02-14 15:37:54",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpYIc4X5TnQ-Qz9_KW0KtvuQAAglnAAJCwHlJ2-xeC-6JCmAACAEAB20ABx4E",
+          "file_unique_id": "AgADCWcAAkLAeUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 6648
+        }
+      ]
+    },
+    "price": 500,
+    "convert_price": 425,
+    "available_amount": 0,
+    "total_amount": 80000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5870972044522291836,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XhXF9YHLqYGL3sOzq-VlqfAAIJYwACel3ZS71YTe8YdzgJHgQ",
+      "file_unique_id": "AgADCWMAAnpd2Us",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 6855,
+      "date": "2025-01-05 14:28:20",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpeFcX1gcupgYvew7Or5WWp8AAgljAAJ6XdlLvVhN7xh3OAkACAEAB20ABx4E",
+          "file_unique_id": "AgADCWMAAnpd2Us",
+          "width": 128,
+          "height": 128,
+          "file_size": 3428
+        }
+      ]
+    },
+    "price": 200,
+    "convert_price": 170,
+    "available_amount": 0,
+    "total_amount": 200000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5870661333703197240,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Vgr0kHj63JiQYJoxXZ0VruAAKYZgACWAXRSxdNZVfu75RnHgQ",
+      "file_unique_id": "AgADmGYAAlgF0Us",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 30422,
+      "date": "2025-01-04 19:15:12",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpWCvSQePrcmJBgmjFdnRWu4AAphmAAJYBdFLF01lV-7vlGcACAEAB20ABx4E",
+          "file_unique_id": "AgADmGYAAlgF0Us",
+          "width": 128,
+          "height": 128,
+          "file_size": 5126
+        }
+      ]
+    },
+    "price": 5000,
+    "convert_price": 4250,
+    "available_amount": 0,
+    "total_amount": 9000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5870720080265871962,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XsaokZd5b7B1vPJEjjEy7ZAAIpaAACrzXRS1NWhTOZ4bjUHgQ",
+      "file_unique_id": "AgADKWgAAq810Us",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 18606,
+      "date": "2025-01-04 19:11:25",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpexqiRl3lvsHW88kSOMTLtkAAiloAAKvNdFLU1aFM5nhuNQACAEAB20ABx4E",
+          "file_unique_id": "AgADKWgAAq810Us",
+          "width": 128,
+          "height": 128,
+          "file_size": 5066
+        }
+      ]
+    },
+    "price": 10000,
+    "convert_price": 8500,
+    "available_amount": 0,
+    "total_amount": 5000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5868595669182186720,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XJBEL2XChO6xsc2ccRDKDKAAJIbQACmVBxSVvH2bPqsMUHHgQ",
+      "file_unique_id": "AgADSG0AAplQcUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 16157,
+      "date": "2025-02-14 00:33:35",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpckEQvZcKE7rGxzZxxEMoMoAAkhtAAKZUHFJW8fZs-qwxQcACAEAB20ABx4E",
+          "file_unique_id": "AgADSG0AAplQcUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 7168
+        }
+      ]
+    },
+    "price": 400,
+    "convert_price": 340,
+    "available_amount": 0,
+    "total_amount": 50000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5868348541058942091,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6V6fNu4So-Sm3xlzbzIZd6XAAKVdQACNPp4SQ0dTT9tKxSBHgQ",
+      "file_unique_id": "AgADlXUAAjT6eEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 16628,
+      "date": "2025-02-14 00:23:21",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpXp827hKj5KbfGXNvMhl3pcAApV1AAI0-nhJDR1NP20rFIEACAEAB20ABx4E",
+          "file_unique_id": "AgADlXUAAjT6eEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 6256
+        }
+      ]
+    },
+    "price": 1000,
+    "convert_price": 850,
+    "available_amount": 0,
+    "total_amount": 35000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5868220813026526561,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VDI9aOcQaim2wNoynMWRM3AALNYgACBQJ4SRRIkIOmMGENHgQ",
+      "file_unique_id": "AgADzWIAAgUCeEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 13485,
+      "date": "2025-02-14 00:23:21",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpUMj1o5xBqKbbA2jKcxZEzcAAs1iAAIFAnhJFEiQg6YwYQ0ACAEAB20ABx4E",
+          "file_unique_id": "AgADzWIAAgUCeEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 6312
+        }
+      ]
+    },
+    "price": 500,
+    "convert_price": 425,
+    "available_amount": 0,
+    "total_amount": 60000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5868503709637411929,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Ug24WHS4m7x2r3x5971JYSAAL6ZAACHLN5SWMc-UyUFrSUHgQ",
+      "file_unique_id": "AgAD-mQAAhyzeUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 29571,
+      "date": "2025-02-14 00:23:21",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpSDbhYdLibvHavfHn3vUlhIAAvpkAAIcs3lJYxz5TJQWtJQACAEAB20ABx4E",
+          "file_unique_id": "AgAD-mQAAhyzeUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 5134
+        }
+      ]
+    },
+    "price": 1000,
+    "convert_price": 850,
+    "available_amount": 0,
+    "total_amount": 35000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5868561433997870501,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6U_ZLdYD7GdnS29Nxk574bLAAJoXgACnMJ5SRwXeVJ0KnXsHgQ",
+      "file_unique_id": "AgADaF4AApzCeUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 26395,
+      "date": "2025-02-14 00:33:35",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpT9kt1gPsZ2dLb03GTnvhssAAmheAAKcwnlJHBd5UnQqdewACAEAB20ABx4E",
+          "file_unique_id": "AgADaF4AApzCeUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 6842
+        }
+      ]
+    },
+    "price": 500,
+    "convert_price": 425,
+    "available_amount": 0,
+    "total_amount": 40000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5870784783948186838,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XRvedIrtiiB2m60ugE5zY4AALmbgACf4ZwSUWk8gqAN7-rHgQ",
+      "file_unique_id": "AgAD5m4AAn-GcEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 18098,
+      "date": "2025-02-14 00:33:36",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpdG950iu2KIHabrS6ATnNjgAAuZuAAJ_hnBJRaTyCoA3v6sACAEAB20ABx4E",
+          "file_unique_id": "AgAD5m4AAn-GcEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 5476
+        }
+      ]
+    },
+    "price": 200,
+    "convert_price": 170,
+    "available_amount": 0,
+    "total_amount": 150000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5868659926187901653,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6U0Dj-Up9zPSCwwcCw9ptqNAALyYgACd_t5SRue43cW8AMHHgQ",
+      "file_unique_id": "AgAD8mIAAnf7eUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 27075,
+      "date": "2025-02-14 16:59:21",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpTQOP5Sn3M9ILDBwLD2m2o0AAvJiAAJ3-3lJG57jdxbwAwcACAEAB20ABx4E",
+          "file_unique_id": "AgAD8mIAAnf7eUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 5744
+        }
+      ]
+    },
+    "price": 2500,
+    "convert_price": 2125,
+    "available_amount": 0,
+    "total_amount": 15000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5870947077877400011,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XKjsUAAZ-J902BmiBFUpytSQACBmgAAnzOeEm_Pbd1N6nXaB4E",
+      "file_unique_id": "AgADBmgAAnzOeEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 34021,
+      "date": "2025-02-14 00:47:55",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpcqOxQABn4n3TYGaIEVSnK1JAAIGaAACfM54Sb89t3U3qddoAAgBAAdtAAceBA",
+          "file_unique_id": "AgADBmgAAnzOeEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 6696
+        }
+      ]
+    },
+    "price": 300,
+    "convert_price": 255,
+    "available_amount": 0,
+    "total_amount": 70000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5868455043362980631,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Xz2bRb-YkOXTMaMz1mePnjAALVYQACV5h5STPQN4nZHq-YHgQ",
+      "file_unique_id": "AgAD1WEAAleYeUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 54431,
+      "date": "2025-02-14 00:33:35",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpfPZtFv5iQ5dMxozPWZ4-eMAAtVhAAJXmHlJM9A3idker5gACAEAB20ABx4E",
+          "file_unique_id": "AgAD1WEAAleYeUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 7936
+        }
+      ]
+    },
+    "price": 10000,
+    "convert_price": 8500,
+    "available_amount": 0,
+    "total_amount": 2000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 6028426950047957932,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UVp-6_pP6EfmoAAR9m4gAB_gMAAtpfAAJy06BLrCZ4VBAjq8seBA",
+      "file_unique_id": "AgAD2l8AAnLToEs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 63485,
+      "date": "2024-12-30 23:35:30",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpRWn7r-k_oR-agABH2biAAH-AwAC2l8AAnLToEusJnhUECOrywAIAQAHbQAHHgQ",
+          "file_unique_id": "AgAD2l8AAnLToEs",
+          "width": 128,
+          "height": 128,
+          "file_size": 5808
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 400000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 6028283532500009446,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6U_ydp-5wsoIKhTOpSq8NQsAAJcZgAC_V-ZS4RkIm3SoVFkHgQ",
+      "file_unique_id": "AgADXGYAAv1fmUs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 47718,
+      "date": "2024-12-30 23:38:50",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpT_J2n7nCyggqFM6lKrw1CwAAlxmAAL9X5lLhGQibdKhUWQACAEAB20ABx4E",
+          "file_unique_id": "AgADXGYAAv1fmUs",
+          "width": 128,
+          "height": 128,
+          "file_size": 7726
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "available_amount": 0,
+    "total_amount": 200000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 6023917088358269866,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VUbIJ73W24g9LRTxRs6xwXAAIjawACnUyZS1ogQXFdz6DkHgQ",
+      "file_unique_id": "AgADI2sAAp1MmUs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 33336,
+      "date": "2024-12-30 21:26:38",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpVRsgnvdbbiD0tFPFGzrHBcAAiNrAAKdTJlLWiBBcV3PoOQACAEAB20ABx4E",
+          "file_unique_id": "AgADI2sAAp1MmUs",
+          "width": 128,
+          "height": 128,
+          "file_size": 5520
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 400000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 6023679164349940429,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UXGzg9bsOyGQgfqgx42mj1AAKYcgACs7iYS78uyynr3GU6HgQ",
+      "file_unique_id": "AgADmHIAArO4mEs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 56814,
+      "date": "2024-12-30 21:26:46",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpRcbOD1uw7IZCB-qDHjaaPUAAphyAAKzuJhLvy7LKevcZToACAEAB20ABx4E",
+          "file_unique_id": "AgADmHIAArO4mEs",
+          "width": 128,
+          "height": 128,
+          "file_size": 6206
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 400000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 6023752243218481939,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6W3eXuNmDKLFbapi4cXz3KHAAISaQACLgeYSx9EryfWC6dIHgQ",
+      "file_unique_id": "AgADEmkAAi4HmEs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 13892,
+      "date": "2024-12-30 21:26:31",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpbd5e42YMosVtqmLhxfPcocAAhJpAAIuB5hLH0SvJ9YLp0gACAEAB20ABx4E",
+          "file_unique_id": "AgADEmkAAi4HmEs",
+          "width": 128,
+          "height": 128,
+          "file_size": 7830
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "available_amount": 0,
+    "total_amount": 200000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 6003373314888696650,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6V99_MSa8XqPtQI4aDQz_JiAAIqZQACP4tJS5fq_7PsOTQjHgQ",
+      "file_unique_id": "AgADKmUAAj-LSUs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 53729,
+      "date": "2024-12-23 12:41:01",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpX338xJrxeo-1AjhoNDP8mIAAiplAAI_i0lLl-r_s-w5NCMACAEAB20ABx4E",
+          "file_unique_id": "AgADKmUAAj-LSUs",
+          "width": 128,
+          "height": 128,
+          "file_size": 6304
+        }
+      ]
+    },
+    "price": 10,
+    "convert_price": 9,
+    "available_amount": 0,
+    "total_amount": 600000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 6003767644426076664,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Xht9bu1bbrrKAXzkwCfWKmAAIpYwACtDRAS_ShMFwfsxNJHgQ",
+      "file_unique_id": "AgADKWMAArQ0QEs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 48548,
+      "date": "2024-12-22 17:58:37",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpeG31u7VtuusoBfOTAJ9YqYAAiljAAK0NEBL9KEwXB-zE0kACAEAB20ABx4E",
+          "file_unique_id": "AgADKWMAArQ0QEs",
+          "width": 128,
+          "height": 128,
+          "file_size": 5890
+        }
+      ]
+    },
+    "price": 10,
+    "convert_price": 9,
+    "available_amount": 0,
+    "total_amount": 600000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 6001538689543439169,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Wpg_qkggHUWeSJ4qPAif_zAAI3XwACiPdpSmADh3ixvbRkHgQ",
+      "file_unique_id": "AgADN18AAoj3aUo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 31806,
+      "date": "2024-12-01 14:03:49",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpamD-qSCAdRZ5Inio8CJ__MAAjdfAAKI92lKYAOHeLG9tGQACAEAB20ABx4E",
+          "file_unique_id": "AgADN18AAoj3aUo",
+          "width": 128,
+          "height": 128,
+          "file_size": 7642
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 400000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 6003643167683903930,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UaXngy9kRJGy7SrOuhPZiwAAKSYQACLGxhSrGfcUyyhn8_HgQ",
+      "file_unique_id": "AgADkmEAAixsYUo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 35862,
+      "date": "2024-12-01 14:06:27",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpRpeeDL2REkbLtKs66E9mLAAApJhAAIsbGFKsZ9xTLKGfz8ACAEAB20ABx4E",
+          "file_unique_id": "AgADkmEAAixsYUo",
+          "width": 128,
+          "height": 128,
+          "file_size": 7328
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 400000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 6003735372041814769,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6V4DNxbA37lE94zVz9A1ImbAALRXAACaIhIS8xUpobOAoF8HgQ",
+      "file_unique_id": "AgAD0VwAAmiISEs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 46064,
+      "date": "2024-12-23 12:41:14",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpXgM3FsDfuUT3jNXP0DUiZsAAtFcAAJoiEhLzFSmhs4CgXwACAEAB20ABx4E",
+          "file_unique_id": "AgAD0VwAAmiISEs",
+          "width": 128,
+          "height": 128,
+          "file_size": 6638
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 200000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 6001473264306619020,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WEGBxqaH3-qV_0WBCrfRByAAK3ZQACwZ-5SviG8CqpOroJHgQ",
+      "file_unique_id": "AgADt2UAAsGfuUo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 35963,
+      "date": "2024-12-09 15:33:07",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpYQYHGpoff6pX_RYEKt9EHIAArdlAALBn7lK-IbwKqk6ugkACAEAB20ABx4E",
+          "file_unique_id": "AgADt2UAAsGfuUo",
+          "width": 128,
+          "height": 128,
+          "file_size": 8390
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 200000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5983484377902875708,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UZttmt8hc27JEZXD0cXCaoAAKLYwACrLO5StseAAFzKhgahB4E",
+      "file_unique_id": "AgADi2MAAqyzuUo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 29309,
+      "date": "2024-12-09 16:35:20",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpRm22a3yFzbskRlcPRxcJqgAAotjAAKss7lK2x4AAXMqGBqEAAgBAAdtAAceBA",
+          "file_unique_id": "AgADi2MAAqyzuUo",
+          "width": 128,
+          "height": 128,
+          "file_size": 6740
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 300000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5983259145522906006,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VnreRuUU6Q3bRyzD6cXMdIAAJ8XAACN2a5Sk06RJY2CtwPHgQ",
+      "file_unique_id": "AgADfFwAAjdmuUo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 35247,
+      "date": "2024-12-09 13:48:19",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpWet5G5RTpDdtHLMPpxcx0gAAnxcAAI3ZrlKTTpEljYK3A8ACAEAB20ABx4E",
+          "file_unique_id": "AgADfFwAAjdmuUo",
+          "width": 128,
+          "height": 128,
+          "file_size": 8646
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 200000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5983471780763796287,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UOTLXUwWzE733tRq--p80BAAJeagACE7K5Stnk_ZiT1Ib8HgQ",
+      "file_unique_id": "AgADXmoAAhOyuUo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 64618,
+      "date": "2024-12-09 21:50:43",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpQ5MtdTBbMTvfe1Gr76nzQEAAl5qAAITsrlK2eT9mJPUhvwACAEAB20ABx4E",
+          "file_unique_id": "AgADXmoAAhOyuUo",
+          "width": 128,
+          "height": 128,
+          "file_size": 4330
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "available_amount": 0,
+    "total_amount": 150000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5981132629905245483,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UZY1cNLzkmGZSIDYaMZJRNAAI-WgACqZlgSu219j4pPcD4HgQ",
+      "file_unique_id": "AgADPloAAqmZYEo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 33475,
+      "date": "2024-12-01 14:01:07",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpRljVw0vOSYZlIgNhoxklE0AAj5aAAKpmWBK7bX2Pik9wPgACAEAB20ABx4E",
+          "file_unique_id": "AgADPloAAqmZYEo",
+          "width": 128,
+          "height": 128,
+          "file_size": 7254
+        }
+      ]
+    },
+    "price": 75,
+    "convert_price": 64,
+    "available_amount": 0,
+    "total_amount": 120000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5980789805615678057,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UgIxdGH_hcv2XzYwVlN0L-AAKVXwACWBmISpA2bswVniXQHgQ",
+      "file_unique_id": "AgADlV8AAlgZiEo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 38062,
+      "date": "2024-12-05 18:32:10",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpSAjF0Yf-Fy_ZfNjBWU3Qv4AApVfAAJYGYhKkDZuzBWeJdAACAEAB20ABx4E",
+          "file_unique_id": "AgADlV8AAlgZiEo",
+          "width": 128,
+          "height": 128,
+          "file_size": 7362
+        }
+      ]
+    },
+    "price": 100,
+    "convert_price": 85,
+    "available_amount": 0,
+    "total_amount": 90000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5981026247860290310,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6V1KOtuzrZ4FnxicjwiS4OQAAK3VwACwROgSq_YbObpL6ZeHgQ",
+      "file_unique_id": "AgADt1cAAsEToEo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 34233,
+      "date": "2024-12-07 16:32:35",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpXUo627OtngWfGJyPCJLg5AAArdXAALBE6BKr9hs5ukvpl4ACAEAB20ABx4E",
+          "file_unique_id": "AgADt1cAAsEToEo",
+          "width": 128,
+          "height": 128,
+          "file_size": 5128
+        }
+      ]
+    },
+    "price": 200,
+    "convert_price": 170,
+    "available_amount": 0,
+    "total_amount": 50000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5933590374185435592,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Uf11GqQqzNTVPNRrKsvdxAAAKhXAACN4qRScf3IWcFPM3YHgQ",
+      "file_unique_id": "AgADoVwAAjeKkUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 28679,
+      "date": "2024-11-11 15:46:24",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpR_XUapCrM1NU81Gsqy93EAAAqFcAAI3ipFJx_chZwU8zdgACAEAB20ABx4E",
+          "file_unique_id": "AgADoVwAAjeKkUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 5512
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 400000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5936017773737018241,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6W99C3nZJrlaGj_Tzd4WH3FAAI_tgACycZoSrasXHuF9bjQHgQ",
+      "file_unique_id": "AgADP7YAAsnGaEo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 13969,
+      "date": "2024-12-01 19:05:53",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpb30LedkmuVoaP9PN3hYfcUAAj-2AALJxmhKtqxce4X1uNAACAEAB20ABx4E",
+          "file_unique_id": "AgADP7YAAsnGaEo",
+          "width": 128,
+          "height": 128,
+          "file_size": 3548
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 200000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5935936766358847989,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WxgryW6_rR_-m8D5Qb6LfLAAJbVwACAfdoSYw9fUwl1cD2HgQ",
+      "file_unique_id": "AgADW1cAAgH3aEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 18167,
+      "date": "2024-11-07 11:39:10",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpbGCvJbr-tH_6bwPlBvot8sAAltXAAIB92hJjD19TCXVwPYACAEAB20ABx4E",
+          "file_unique_id": "AgADW1cAAgH3aEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 5614
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "available_amount": 0,
+    "total_amount": 100000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5936043693864651359,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XH89gGWLx9AAEyrxdY5Awy6wACz1sAAlHUcEnKMSBHFBBe-R4E",
+      "file_unique_id": "AgADz1sAAlHUcEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 19538,
+      "date": "2024-11-08 11:03:43",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpcfz2AZYvH0AATKvF1jkDDLrAALPWwACUdRwScoxIEcUEF75AAgBAAdtAAceBA",
+          "file_unique_id": "AgADz1sAAlHUcEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 5616
+        }
+      ]
+    },
+    "price": 100,
+    "convert_price": 85,
+    "available_amount": 0,
+    "total_amount": 50000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5936085638515261992,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VQfIV34su1RVKLd3nAMp9YAAK7YgACKhY5Ss9IjRLrZ0iSHgQ",
+      "file_unique_id": "AgADu2IAAioWOUo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 32641,
+      "date": "2024-11-27 18:11:44",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpVB8hXfiy7VFUot3ecAyn1gAArtiAAIqFjlKz0iNEutnSJIACAEAB20ABx4E",
+          "file_unique_id": "AgADu2IAAioWOUo",
+          "width": 128,
+          "height": 128,
+          "file_size": 4234
+        }
+      ]
+    },
+    "price": 150,
+    "convert_price": 128,
+    "available_amount": 0,
+    "total_amount": 30000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5933531623327795414,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WeIj8NblgR8aupn3AkuUCwAAJ5WwACXCC4SVb9bfM0I8bkHgQ",
+      "file_unique_id": "AgADeVsAAlwguEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 24578,
+      "date": "2024-11-15 15:09:18",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpZ4iPw1uWBHxq6mfcCS5QLAAAnlbAAJcILhJVv1t8zQjxuQACAEAB20ABx4E",
+          "file_unique_id": "AgADeVsAAlwguEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 4812
+        }
+      ]
+    },
+    "price": 350,
+    "convert_price": 298,
+    "available_amount": 0,
+    "total_amount": 15000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5933629604416717361,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VxGC0rhRo0vQ9yjh-FQqQYAAI9WgADo-hJcV67YLhP_wseBA",
+      "file_unique_id": "AgADPVoAA6PoSQ",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 14432,
+      "date": "2024-11-19 11:33:45",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpXEYLSuFGjS9D3KOH4VCpBgAAj1aAAOj6ElxXrtguE__CwAIAQAHbQAHHgQ",
+          "file_unique_id": "AgADPVoAA6PoSQ",
+          "width": 128,
+          "height": 128,
+          "file_size": 8816
+        }
+      ]
+    },
+    "price": 500,
+    "convert_price": 425,
+    "available_amount": 0,
+    "total_amount": 10000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5933671725160989227,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WATI3KrObdTcl-BE465nPvAAJJVgACgUpxSRYw4xrNnEobHgQ",
+      "file_unique_id": "AgADSVYAAoFKcUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 20925,
+      "date": "2024-11-08 11:28:17",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpYBMjcqs5t1NyX4ETjrmc-8AAklWAAKBSnFJFjDjGs2cShsACAEAB20ABx4E",
+          "file_unique_id": "AgADSVYAAoFKcUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 4380
+        }
+      ]
+    },
+    "price": 1000,
+    "convert_price": 850,
+    "available_amount": 0,
+    "total_amount": 5000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5936013938331222567,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6W4G6Wqr1g4O1pHChVZOsV_AAKgXQAC-lMJSjabmOFusRl9HgQ",
+      "file_unique_id": "AgADoF0AAvpTCUo",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 14800,
+      "date": "2024-11-23 12:01:19",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpbgbpaqvWDg7WkcKFVk6xX8AAqBdAAL6UwlKNpuY4W6xGX0ACAEAB20ABx4E",
+          "file_unique_id": "AgADoF0AAvpTCUo",
+          "width": 128,
+          "height": 128,
+          "file_size": 6402
+        }
+      ]
+    },
+    "price": 2000,
+    "convert_price": 1700,
+    "available_amount": 0,
+    "total_amount": 3000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5913442287462908725,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Ukvl-zm3L7-Lfb7iFFTmKtAAIZYgAC2YL5SVAvhEcEEoFrHgQ",
+      "file_unique_id": "AgADGWIAAtmC-Uk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 27394,
+      "date": "2024-11-21 17:25:33",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpSS-X7Obcvv4t9vuIUVOYq0AAhliAALZgvlJUC-ERwQSgWsACAEAB20ABx4E",
+          "file_unique_id": "AgADGWIAAtmC-Uk",
+          "width": 128,
+          "height": 128,
+          "file_size": 5536
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 400000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5915502858152706668,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Uh4Sdvg-7B_6xAX933Y_jhAAJrYwACBfpxSVsG1CXX3q-fHgQ",
+      "file_unique_id": "AgADa2MAAgX6cUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 53045,
+      "date": "2024-11-08 14:59:04",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpSHhJ2-D7sH_rEBf3fdj-OEAAmtjAAIF-nFJWwbUJdfer58ACAEAB20ABx4E",
+          "file_unique_id": "AgADa2MAAgX6cUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 3906
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 200000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5915733223018594841,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6V2Vbu-5hQ_KKirGDZ7G15eAAJtWAACnbxgSdfxgy0QbupHHgQ",
+      "file_unique_id": "AgADbVgAAp28YEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 13656,
+      "date": "2024-11-06 10:45:16",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpXZVu77mFD8oqKsYNnsbXl4AAm1YAAKdvGBJ1_GDLRBu6kcACAEAB20ABx4E",
+          "file_unique_id": "AgADbVgAAp28YEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 3700
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "available_amount": 0,
+    "total_amount": 100000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5915521180483191380,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VwmJY--6DhQn8d4kve-tawAAJEWgACIKX4SWMZN9mZAAFrNh4E",
+      "file_unique_id": "AgADRFoAAiCl-Ek",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 21731,
+      "date": "2024-11-21 12:40:54",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpXCYlj77oOFCfx3iS9761rAAAkRaAAIgpfhJYxk32ZkAAWs2AAgBAAdtAAceBA",
+          "file_unique_id": "AgADRFoAAiCl-Ek",
+          "width": 128,
+          "height": 128,
+          "file_size": 3054
+        }
+      ]
+    },
+    "price": 1000,
+    "convert_price": 850,
+    "available_amount": 0,
+    "total_amount": 5000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5915550639663874519,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XA9-pgD9YEd66qz7XDe6DpAAIuXwAC-3hZSfKozlVY-kYRHgQ",
+      "file_unique_id": "AgADLl8AAvt4WUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 16221,
+      "date": "2024-11-06 10:51:12",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpcD36mAP1gR3rqrPtcN7oOkAAi5fAAL7eFlJ8qjOVVj6RhEACAEAB20ABx4E",
+          "file_unique_id": "AgADLl8AAvt4WUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 4968
+        }
+      ]
+    },
+    "price": 100,
+    "convert_price": 85,
+    "available_amount": 0,
+    "total_amount": 50000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5913517067138499193,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WdoeE2BmGMSFTtaBVfb7HUAALsVgAC6e4pSSUFZCwwQH7GHgQ",
+      "file_unique_id": "AgAD7FYAAunuKUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 18429,
+      "date": "2024-11-01 17:46:12",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpZ2h4TYGYYxIVO1oFV9vsdQAAuxWAALp7ilJJQVkLDBAfsYACAEAB20ABx4E",
+          "file_unique_id": "AgAD7FYAAunuKUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 3586
+        }
+      ]
+    },
+    "price": 500,
+    "convert_price": 425,
+    "available_amount": 0,
+    "total_amount": 10000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5879737836550226478,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VI4ogRx5f1-Bk1FxXsTo43AAJGWQACfAJRSXBUeO8sW9yOHgQ",
+      "file_unique_id": "AgADRlkAAnwCUUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 28193,
+      "date": "2024-11-05 13:57:57",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpUjiiBHHl_X4GTUXFexOjjcAAkZZAAJ8AlFJcFR47yxb3I4ACAEAB20ABx4E",
+          "file_unique_id": "AgADRlkAAnwCUUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 2892
+        }
+      ]
+    },
+    "price": 500,
+    "convert_price": 425,
+    "available_amount": 0,
+    "total_amount": 10000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5882125812596999035,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UDvq_6aOVrhgVnjfL7ZTuWAAJZXAAC1ro5SW5sSZ5lghRtHgQ",
+      "file_unique_id": "AgADWVwAAta6OUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 24009,
+      "date": "2024-11-02 20:32:48",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpQO-r_po5WuGBWeN8vtlO5YAAllcAALWujlJbmxJnmWCFG0ACAEAB20ABx4E",
+          "file_unique_id": "AgADWVwAAta6OUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 8170
+        }
+      ]
+    },
+    "price": 100,
+    "convert_price": 85,
+    "available_amount": 0,
+    "total_amount": 50000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5882252952218894938,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Vjv6r_jq6jnuDi-9ITFLpxAAJBYgAClIc5SSK0Pg7FBteyHgQ",
+      "file_unique_id": "AgADQWIAApSHOUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 25499,
+      "date": "2024-11-03 16:51:46",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpWO_qv-OrqOe4OL70hMUunEAAkFiAAKUhzlJIrQ-DsUG17IACAEAB20ABx4E",
+          "file_unique_id": "AgADQWIAApSHOUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 7302
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "available_amount": 0,
+    "total_amount": 100000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5859442703032386168,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VVgP1GmpDQvk8z3_XK74wPAAKBWQACM_4oSbaYlFmcd6ybHgQ",
+      "file_unique_id": "AgADgVkAAjP-KEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 63901,
+      "date": "2024-11-01 17:46:47",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpVWA_UaakNC-TzPf9crvjA8AAoFZAAIz_ihJtpiUWZx3rJsACAEAB20ABx4E",
+          "file_unique_id": "AgADgVkAAjP-KEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 5270
+        }
+      ]
+    },
+    "price": 500,
+    "convert_price": 425,
+    "available_amount": 0,
+    "total_amount": 10000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5857140566201991735,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Vzs1dbEz2EqqhIHP02EKtJAAK9XgACrw8oSc4sahyfJv2KHgQ",
+      "file_unique_id": "AgADvV4AAq8PKEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 19940,
+      "date": "2024-11-01 17:46:03",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpXOzV1sTPYSqqEgc_TYQq0kAAr1eAAKvDyhJzixqHJ8m_YoACAEAB20ABx4E",
+          "file_unique_id": "AgADvV4AAq8PKEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 5324
+        }
+      ]
+    },
+    "price": 100,
+    "convert_price": 85,
+    "available_amount": 0,
+    "total_amount": 50000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5856973938650776169,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UAAcsm6_dDefsl0WKhCnVy1wACbFkAAgkVMEnNivdoS31fph4E",
+      "file_unique_id": "AgADbFkAAgkVMEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 28242,
+      "date": "2024-11-02 14:21:54",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpQAByybr90N5-yXRYqEKdXLXAAJsWQACCRUwSc2K92hLfV-mAAgBAAdtAAceBA",
+          "file_unique_id": "AgADbFkAAgkVMEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 5322
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "available_amount": 0,
+    "total_amount": 100000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5846226946928673709,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WKEeZ-eWFSu9f3aPuYp9VuAAJZOwACHOn4SHmVbOJtV5xKHgQ",
+      "file_unique_id": "AgADWTsAAhzp-Eg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 50925,
+      "date": "2023-10-05 21:03:24",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🧪",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpYoR5n55YVK71_do-5in1W4AAlk7AAIc6fhIeZVs4m1XnEoACAEAB20ABx4E",
+          "file_unique_id": "AgADWTsAAhzp-Eg",
+          "width": 128,
+          "height": 128,
+          "file_size": 7128
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "available_amount": 0,
+    "total_amount": 5000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5846192273657692751,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WwQcBSPyxIVZvGpjiZWm2rAAJSOwACsExxSOtMYBwWHu9fHgQ",
+      "file_unique_id": "AgADUjsAArBMcUg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 30535,
+      "date": "2023-09-22 21:15:15",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "💀",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpbBBwFI_LEhVm8amOJlabasAAlI7AAKwTHFI60xgHBYe718ACAEAB20ABx4E",
+          "file_unique_id": "AgADUjsAArBMcUg",
+          "width": 128,
+          "height": 128,
+          "file_size": 3938
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 10000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5845776576658015084,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UKxpTFFEVJEa1EjwVeM_FzAALgPQACPKkhSU7HiTDW9eu6HgQ",
+      "file_unique_id": "AgAD4D0AAjypIUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 18834,
+      "date": "2023-10-09 22:43:16",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🐸",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpQrGlMUURUkRrUSPBV4z8XMAAuA9AAI8qSFJTseJMNb167oACAEAB20ABx4E",
+          "file_unique_id": "AgAD4D0AAjypIUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 4618
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 15000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5825895989088617224,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WKmImkEny1ciSPv2wU8vwMAAJMOgACkieYSCu5oclP2DsGHgQ",
+      "file_unique_id": "AgADTDoAApInmEg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 6607,
+      "date": "2023-09-26 16:37:30",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🍭",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpYqYiaQSfLVyJI-_bBTy_AwAAkw6AAKSJ5hIK7mhyU_YOwYACAEAB20ABx4E",
+          "file_unique_id": "AgADTDoAApInmEg",
+          "width": 128,
+          "height": 128,
+          "file_size": 4054
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 300000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5825801628657124140,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Vlg4Heaj4yLpZzz7q60AEPAAKlMwACXQRpSaS8Pwf4mYV_HgQ",
+      "file_unique_id": "AgADpTMAAl0EaUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 43081,
+      "date": "2023-10-16 13:37:58",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🍲",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpWWDgd5qPjIulnPPurrQAQ8AAqUzAAJdBGlJpLw_B_iZhX8ACAEAB20ABx4E",
+          "file_unique_id": "AgADpTMAAl0EaUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 5812
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 120000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5825480571261813595,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VR1mucRlxsZ61oh7r8JNv6AAKSLgACEIrxS22jsBhWhJK3HgQ",
+      "file_unique_id": "AgADki4AAhCK8Us",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 11750,
+      "date": "2023-09-10 21:44:54",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "👁",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpVHWa5xGXGxnrWiHuvwk2_oAApIuAAIQivFLbaOwGFaEkrcACAEAB20ABx4E",
+          "file_unique_id": "AgADki4AAhCK8Us",
+          "width": 128,
+          "height": 128,
+          "file_size": 4538
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 120000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5843762284240831056,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XeA6AeuedTnm2glKtcp1vFAAJOOQACqekwSA114I8H9SaMHgQ",
+      "file_unique_id": "AgADTjkAAqnpMEg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 25875,
+      "date": "2023-09-16 21:54:29",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "💎",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpd4DoB6551OebaCUq1ynW8UAAk45AAKp6TBIDXXgjwf1JowACAEAB20ABx4E",
+          "file_unique_id": "AgADTjkAAqnpMEg",
+          "width": 128,
+          "height": 128,
+          "file_size": 6926
+        }
+      ]
+    },
+    "price": 100,
+    "convert_price": 85,
+    "available_amount": 0,
+    "total_amount": 5000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5841689550203650524,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6V4nMJ8UdhIQxM8bvb5HqcDAAKONQACZFdxSAEnG1yajJjXHgQ",
+      "file_unique_id": "AgADjjUAAmRXcUg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 21301,
+      "date": "2023-09-22 14:17:55",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🫦",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpXicwnxR2EhDEzxu9vkepwMAAo41AAJkV3FIAScbXJqMmNcACAEAB20ABx4E",
+          "file_unique_id": "AgADjjUAAmRXcUg",
+          "width": 128,
+          "height": 128,
+          "file_size": 4188
+        }
+      ]
+    },
+    "price": 50,
+    "convert_price": 43,
+    "available_amount": 0,
+    "total_amount": 10000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5841632504448025405,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WCkp_YWQx_SGDAKkjg3-PrAAKFNgAC9bnwS5956AJItFBeHgQ",
+      "file_unique_id": "AgADhTYAAvW58Es",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 18644,
+      "date": "2023-09-10 20:55:51",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "😏",
+      "set_name": "MemePumpkinsEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpYKSn9hZDH9IYMAqSODf4-sAAoU2AAL1ufBLn3noAki0UF4ACAEAB20ABx4E",
+          "file_unique_id": "AgADhTYAAvW58Es",
+          "width": 128,
+          "height": 128,
+          "file_size": 6360
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 30000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5841391256135008713,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6U0Ikom77UJry0j9eykvR11AALSPAAC_Dz4SYSSUNP0NTEyHgQ",
+      "file_unique_id": "AgAD0jwAAvw8-Ek",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 14763,
+      "date": "2023-10-30 02:08:12",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🔤",
+      "set_name": "SpookyLetters",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpTQiSibvtQmvLSP17KS9HXUAAtI8AAL8PPhJhJJQ0_Q1MTIACAEAB20ABx4E",
+          "file_unique_id": "AgAD0jwAAvw8-Ek",
+          "width": 128,
+          "height": 128,
+          "file_size": 8688
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 30000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5839038009193792264,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WE2Rsb3mKBmEPuZTyBewtmAAISNgAC3IO5SC0lBfjChz7YHgQ",
+      "file_unique_id": "AgADEjYAAtyDuUg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 28325,
+      "date": "2023-09-29 17:00:27",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🌺",
+      "set_name": "ReaperSkullEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpYTZGxveYoGYQ-5lPIF7C2YAAhI2AALcg7lILSUF-MKHPtgACAEAB20ABx4E",
+          "file_unique_id": "AgADEjYAAtyDuUg",
+          "width": 128,
+          "height": 128,
+          "file_size": 6394
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 30000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5841336413697606412,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6VMs1y1hv0gJj95p7rw1gxdAAKjMgACgzspSW0yGw-WzY6aHgQ",
+      "file_unique_id": "AgADozIAAoM7KUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 31490,
+      "date": "2023-10-10 10:52:42",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🔮",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpUyzXLWG_SAmP3mnuvDWDF0AAqMyAAKDOylJbTIbD5bNjpoACAEAB20ABx4E",
+          "file_unique_id": "AgADozIAAoM7KUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 8064
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 30000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5837063436634161765,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XKieVRPFw3_wLBs-AMFrpFAAJ-PgACxvdASdGYIMI9yMx5HgQ",
+      "file_unique_id": "AgADfj4AAsb3QEk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 22519,
+      "date": "2023-10-12 22:33:57",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🧹",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpcqJ5VE8XDf_AsGz4AwWukUAAn4-AALG90BJ0Zggwj3IzHkACAEAB20ABx4E",
+          "file_unique_id": "AgADfj4AAsb3QEk",
+          "width": 128,
+          "height": 128,
+          "file_size": 4904
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 30000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5836780359634649414,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6X5AkpzWXF28AmUMKehcko5AALuOAACZBDZSFSU5_nBltZKHgQ",
+      "file_unique_id": "AgAD7jgAAmQQ2Ug",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 38148,
+      "date": "2023-10-02 12:47:44",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "📍",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpfkCSnNZcXbwCZQwp6FySjkAAu44AAJkENlIVJTn-cGW1koACAEAB20ABx4E",
+          "file_unique_id": "AgAD7jgAAmQQ2Ug",
+          "width": 128,
+          "height": 128,
+          "file_size": 6022
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 30000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5837059369300132790,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6WEf2v_KgUGUBFK1CFqTkWVAAIrOAAC-zXxSC-UZ4bkC41rHgQ",
+      "file_unique_id": "AgADKzgAAvs18Ug",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 21216,
+      "date": "2023-10-04 20:49:40",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🐈‍⬛",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpYR_a_8qBQZQEUrUIWpORZUAAis4AAL7NfFIL5RnhuQLjWsACAEAB20ABx4E",
+          "file_unique_id": "AgADKzgAAvs18Ug",
+          "width": 128,
+          "height": 128,
+          "file_size": 4762
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 20000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5821384757304362229,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6Xco6vxLjdsUQH-Y3UulpOWAALaOQACiGqBSegtruMvVRswHgQ",
+      "file_unique_id": "AgAD2jkAAohqgUk",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 23864,
+      "date": "2023-10-18 22:30:55",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎩",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpdyjq_EuN2xRAf5jdS6Wk5YAAto5AAKIaoFJ6C2u4y9VGzAACAEAB20ABx4E",
+          "file_unique_id": "AgAD2jkAAohqgUk",
+          "width": 128,
+          "height": 128,
+          "file_size": 4764
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 100000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5821205665758053411,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UogcmXsq-90bTEnNaR-UtIAAJjPAACivToSN578juNMaUhHgQ",
+      "file_unique_id": "AgADYzwAAor06Eg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 24509,
+      "date": "2023-10-04 17:32:26",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🕯",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpSiByZeyr73RtMSc1pH5S0gAAmM8AAKK9OhI3nvyO40xpSEACAEAB20ABx4E",
+          "file_unique_id": "AgADYzwAAor06Eg",
+          "width": 128,
+          "height": 128,
+          "file_size": 5944
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 50000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5821261908354794038,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XMNeCIWAVgzeZUxOMgZ9pNAAKbNwACZPfxS6j5no12R2_gHgQ",
+      "file_unique_id": "AgADmzcAAmT38Us",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 25004,
+      "date": "2023-09-11 12:43:06",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🍄",
+      "set_name": "HalloweenTeamEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpcw14IhYBWDN5lTE4yBn2k0AAps3AAJk9_FLqPmejXZHb-AACAEAB20ABx4E",
+          "file_unique_id": "AgADmzcAAmT38Us",
+          "width": 128,
+          "height": 128,
+          "file_size": 3972
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 100000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5170594532177215681,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6UI5tgfQFarRtix1Q-VYd4KAAJeGwACFsJIS-gZUO6nWSNFHgQ",
+      "file_unique_id": "AgADXhsAAhbCSEs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 58063,
+      "date": "2022-08-01 20:50:47",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🍭",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpQjm2B9AVqtG2LHVD5Vh3goAAl4bAAIWwkhL6BlQ7qdZI0UACAEAB20ABx4E",
+          "file_unique_id": "AgADXhsAAhbCSEs",
+          "width": 128,
+          "height": 128,
+          "file_size": 3986
+        }
+      ]
+    },
+    "price": 15,
+    "convert_price": 13,
+    "available_amount": 0,
+    "total_amount": 500000,
+    "is_limited": true
+  },
+  {
+    "_": "StarGift",
+    "id": 5167939598143193218,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWe1F6XGG8JJIQSYOc_KJq1fErN6AAIqHAACJQWAS4QwzLakwdN4HgQ",
+      "file_unique_id": "AgADKhwAAiUFgEs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 41442,
+      "date": "2022-08-07 21:00:18",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🌸",
+      "set_name": "RestrictedEmoji",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABZ7UXpcYbwkkhBJg5z8omrV8Ss3oAAiocAAIlBYBLhDDMtqTB03gACAEAB20ABx4E",
+          "file_unique_id": "AgADKhwAAiUFgEs",
+          "width": 128,
+          "height": 128,
+          "file_size": 5456
+        }
+      ]
+    },
+    "price": 25,
+    "convert_price": 21,
+    "available_amount": 0,
+    "total_amount": 100000,
+    "is_limited": true
+  }
+]
