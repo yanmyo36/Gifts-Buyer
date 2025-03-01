@@ -11,7 +11,7 @@ peer_id_error = (
     "<b>❗Error while sending gift!</b>\n\n"
     "Please make sure the initialization message has been sent successfully, "
     "you have interacted with this user previously, <b><i>and that you are not sending a gift to yourself!</i></b>\n\n"
-    "⚠️ If nothing helps, try adding them to your contacts or DM the developer: @B7XX7B"
+    "⚠️ If nothing helps, try adding them to your contacts or DM the developer: @bohd4nx"
 )
 
 error_message = "<b>❗Error while buying a gift!</b>\n\n<pre>{}</pre>"

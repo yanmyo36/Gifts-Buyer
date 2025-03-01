@@ -1,36 +1,18 @@
 from datetime import datetime
 from typing import Optional
 
-import config
 from pyrogram import Client
 from pyrogram.errors.exceptions import RPCError
 from pytz.tzinfo import BaseTzInfo
 
+import config
+
 
 def get_time(timezone: BaseTzInfo) -> str:
-    """
-    Get current time formatted according to specified timezone.
-    
-    Args:
-        timezone (BaseTzInfo): Timezone to format time in
-        
-    Returns:
-        str: Formatted time string
-    """
     return datetime.now().astimezone(timezone).strftime("%d.%m.%y :: %H:%M:%S")
 
 
 def format_user_reference(user_id: int, username: Optional[str] = None) -> str:
-    """
-    Format user reference for notifications with proper HTML formatting.
-    
-    Args:
-        user_id: User's Telegram ID
-        username: Optional username
-        
-    Returns:
-        str: Formatted user reference string
-    """
     if username:
         return f"@{username} | <code>{user_id}</code>"
     if str(user_id).isdigit():
@@ -38,19 +20,7 @@ def format_user_reference(user_id: int, username: Optional[str] = None) -> str:
     return f"@{user_id.strip()}"
 
 
-async def send_notification(
-        app: Client,
-        message: str,
-        disable_web_page_preview: bool = True
-) -> None:
-    """
-    Send notification message to configured channel.
-    
-    Args:
-        app: Telegram client instance
-        message: Message to send
-        disable_web_page_preview: Whether to disable link previews
-    """
+async def send_notification(app: Client, message: str, disable_web_page_preview: bool = True) -> None:
     try:
         if config.CHANNEL_ID:
             await app.send_message(
@@ -63,7 +33,6 @@ async def send_notification(
 
 
 def format_number(num: int) -> str:
-    """Convert number to k/m format"""
     if num >= 1000000:
         return f"{num / 1000000:.1f}m".rstrip('0').rstrip('.')
     elif num >= 1000:

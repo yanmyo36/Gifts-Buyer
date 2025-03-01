@@ -3,21 +3,16 @@ import json
 import time
 import typing
 
-import config
 from pyrogram import Client, types
 from pytz import timezone as _timezone
+
+import config
 from utils.common import get_time
 
 timezone = _timezone(config.TIMEZONE)
 
 
 async def _load_old_gifts() -> dict:
-    """
-    Load previously seen gifts from storage file.
-    
-    Returns:
-        dict: Mapping of gift IDs to gift data
-    """
     try:
         with config.DATA_FILEPATH.open("r", encoding='utf-8') as file:
             old_gifts_raw = json.load(file)
@@ -27,26 +22,11 @@ async def _load_old_gifts() -> dict:
 
 
 async def _save_gifts(gifts: list) -> None:
-    """
-    Save current gifts to storage file.
-    
-    Args:
-        gifts (list): List of gift data to save
-    """
     with config.DATA_FILEPATH.open("w", encoding='utf-8') as file:
         json.dump(gifts, file, indent=4, default=types.Object.default, ensure_ascii=False)
 
 
 async def _get_formatted_gifts(app: Client) -> tuple[dict, list]:
-    """
-    Get current gifts from Telegram and format them.
-    
-    Args:
-        app (Client): Telegram client instance
-        
-    Returns:
-        tuple: (Mapping of gift IDs to data, List of all gift IDs)
-    """
     all_gifts = [
         json.loads(json.dumps(gift, indent=4, default=types.Object.default, ensure_ascii=False))
         for gift in await app.get_star_gifts()
@@ -59,16 +39,6 @@ async def _get_formatted_gifts(app: Client) -> tuple[dict, list]:
 
 
 async def detector(app: Client, new_callback: typing.Callable, connect_every_loop: bool = True) -> None:
-    """
-    Main detector loop that checks for new Telegram gifts.
-    
-    Continuously monitors Telegram for new star gifts and processes them according to configured rules.
-    
-    Args:
-        app (Client): Telegram client instance
-        new_callback (Callable): Callback function to handle new gifts
-        connect_every_loop (bool): Whether to reconnect on each iteration
-    """
     locale = config.locale
     dot = 0
 

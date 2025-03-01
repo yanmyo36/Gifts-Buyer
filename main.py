@@ -20,22 +20,12 @@ language, _ = get_locale(config.LANGUAGE)
 
 
 async def send_greeting(client: Client, chat_id: int) -> bool:
-    """
-    Send a greeting message to a specified chat.
-    
-    Args:
-        client (Client): Pyrogram client instance
-        chat_id (int): Telegram chat ID to send message to
-        
-    Returns:
-        bool: True if message sent successfully, False if failed
-    """
     try:
         await client.send_message(
             chat_id,
             "👋 Just a quick check-in! Feel free to ignore this message.\n\n"
             "⭐Sent via <a href='https://github.com/bohd4nx/TGgifts-buyer'>Gifts Buyer</a>\n"
-            "🧑‍💻Developed by @B7XX7B (@GiftsTracker)",
+            "🧑‍💻Developed by @bohd4nx (@GiftsTracker)",
             disable_web_page_preview=True
         )
         await client.get_users(chat_id)
@@ -45,7 +35,6 @@ async def send_greeting(client: Client, chat_id: int) -> bool:
 
 
 async def send_start_message(client: Client) -> None:
-    """Send start message to configured channel with current settings."""
     ranges_info = "\n".join([
         f"💰 {min_price}-{max_price} | 🎁 {num_gifts}x | ⚡️ Supply: {format_number(supply)}"
         for min_price, max_price, supply, num_gifts in config.GIFT_RANGES
@@ -56,13 +45,6 @@ async def send_start_message(client: Client) -> None:
 
 
 async def process_gifts(client: Client) -> None:
-    """
-    Process gift sending for all configured users and gift IDs.
-    Handles sending gifts to each user with error handling and delay between sends.
-    
-    Args:
-        client (Client): Pyrogram client instance
-    """
     locale = config.locale
     for gift_id in config.GIFT_IDS:
         if gift_id in sent_gift_ids:
@@ -82,11 +64,6 @@ async def process_gifts(client: Client) -> None:
 
 
 async def main() -> None:
-    """
-    Main application entry point.
-    Initializes the Telegram client and orchestrates the gift sending process.
-    Handles client lifecycle and detector setup.
-    """
     cmd(app_info)
     title(app_info, language)
 
