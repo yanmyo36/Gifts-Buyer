@@ -1,22 +1,23 @@
 import asyncio
 import traceback
-from typing import Set
+from typing import Set, Dict, Any
 
 from pyrogram import Client
 from pyrogram.errors.exceptions import RPCError
 from pytz import timezone as _timezone
 
-import config
+from data.config import config
 from src.banner import title, info, cmd, get_locale
-from src.callbacks import update_callback, new_callback
-from utils.common import get_time, send_notification, format_number
+from src.callbacks import new_callback
+from utils.common import send_notification, format_number
 from utils.detector import detector
-from utils.utils import buyer
+from utils.helper import buyer
+from utils.logger import info as log_info, error
 
 sent_gift_ids: Set[int] = set()
 timezone = _timezone(config.TIMEZONE)
-app_info = info()
-language, _ = get_locale(config.LANGUAGE)
+app_info: Dict[str, Any] = info()
+language, locale = get_locale(config.LANGUAGE)
 
 
 async def send_greeting(client: Client, chat_id: int) -> bool:
@@ -24,7 +25,7 @@ async def send_greeting(client: Client, chat_id: int) -> bool:
         await client.send_message(
             chat_id,
             "👋 Just a quick check-in! Feel free to ignore this message.\n\n"
-            "⭐Sent via <a href='https://github.com/bohd4nx/TGgifts-buyer'>Gifts Buyer</a>\n"
+            "⭐Sent via <a href='https://github.com/bohd4nx/Gifts-Buyer'>Gifts Buyer</a>\n"
             "🧑‍💻Developed by @bohd4nx (@GiftsTracker)",
             disable_web_page_preview=True
         )
@@ -40,12 +41,11 @@ async def send_start_message(client: Client) -> None:
         for min_price, max_price, supply, num_gifts in config.GIFT_RANGES
     ])
 
-    message = f"{config.locale.start_message.format(ranges_info=ranges_info)}\n\n"
+    message = f"{locale.start_message.format(ranges_info=ranges_info)}\n\n"
     await send_notification(client, message)
 
 
 async def process_gifts(client: Client) -> None:
-    locale = config.locale
     for gift_id in config.GIFT_IDS:
         if gift_id in sent_gift_ids:
             continue
@@ -53,12 +53,11 @@ async def process_gifts(client: Client) -> None:
         for chat_id in config.USER_ID:
             try:
                 if await send_greeting(client, chat_id):
-                    await buyer(client, chat_id, int(gift_id))
+                    await buyer(client, chat_id, int(gift_id), locale)
                     await asyncio.sleep(5)
             except RPCError as ex:
-                print(
-                    f"\n\033[91m[ ERROR ]\033[0m {locale.purchase_error.format(gift_id, chat_id)}\n{str(ex)}\n"
-                )
+                error(locale.purchase_error.format(gift_id, chat_id))
+                error(str(ex))
 
         sent_gift_ids.add(gift_id)
 
@@ -75,15 +74,14 @@ async def main() -> None:
     ) as client:
         await send_start_message(client)
         await process_gifts(client)
-        await detector(client, new_callback, update_callback)
+        await detector(client, new_callback, locale)
 
 
 if __name__ == "__main__":
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        current_time = get_time(timezone)
-        print(f"\n\n\033[91m[ INFO ]\033[0m \033[1m{config.locale.terminated}\033[0m - {current_time}")
-    except Exception as ex:
-        print(f"\n\n\033[91m[ ERROR ]\033[0m {config.locale.unexpected_error}")
+        log_info(f"{locale.terminated}")
+    except Exception:
+        error(locale.unexpected_error)
         traceback.print_exc()

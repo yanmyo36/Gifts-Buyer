@@ -44,7 +44,7 @@ def get_locale(lang: str):
 
     try:
         locale_module = import_module(f'locales.{lang.lower()}')
-        return locale_module.LANG[3:], locale_module.CODE
+        return locale_module.LANG[3:], locale_module
     except ModuleNotFoundError:
         locale_module = import_module('locales.en')
-        return locale_module.LANG[3:], locale_module.CODE
+        return locale_module.LANG[3:], locale_module

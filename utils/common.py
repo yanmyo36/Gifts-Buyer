@@ -1,23 +1,24 @@
-from datetime import datetime
 from typing import Optional
 
 from pyrogram import Client
 from pyrogram.errors.exceptions import RPCError
-from pytz.tzinfo import BaseTzInfo
+from pyrogram.types import Gift
 
-import config
-
-
-def get_time(timezone: BaseTzInfo) -> str:
-    return datetime.now().astimezone(timezone).strftime("%d.%m.%y :: %H:%M:%S")
+from data.config import config
+from utils.logger import error
 
 
 def format_user_reference(user_id: int, username: Optional[str] = None) -> str:
     if username:
         return f"@{username} | <code>{user_id}</code>"
-    if str(user_id).isdigit():
+    if isinstance(user_id, int) or (isinstance(user_id, str) and user_id.isdigit()):
         return f'<a href="tg://user?id={user_id}">{user_id}</a>'
-    return f"@{user_id.strip()}"
+    return f"@{user_id}" if isinstance(user_id, str) else str(user_id)
+
+
+async def find_gift_by_id(app: Client, gift_id: int) -> Gift:
+    gifts = await app.get_available_gifts()
+    return next((gift for gift in gifts if gift.id == gift_id), None)
 
 
 async def send_notification(app: Client, message: str, disable_web_page_preview: bool = True) -> None:
@@ -29,7 +30,7 @@ async def send_notification(app: Client, message: str, disable_web_page_preview:
                 disable_web_page_preview=disable_web_page_preview
             )
     except RPCError as ex:
-        print(f"\n\033[91m[ ERROR ]\033[0m Failed to send notification: {str(ex)}\n")
+        error(f'Failed to send notification: {str(ex)}')
 
 
 def format_number(num: int) -> str:

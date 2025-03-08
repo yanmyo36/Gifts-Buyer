@@ -1,9 +1,9 @@
 {
   "name": "Telegram Gifts Auto-buyer",
   "title": "Gifts Buyer",
-  "version": "2025.3",
+  "version": "2025.4",
   "description": "A Telegram user-bot that automatically buys new gifts, both limited and non-limited. Very flexible setup.",
-  "release_date": "02.03.2025",
+  "release_date": "08.03.2025",
   "publisher": {
     "name": "Bohdan",
     "contact": {
@@ -22,12 +22,6 @@
     "install": "pip install -r requirements.txt"
   },
   "license": "MIT",
-  "platforms": [
-    "Windows",
-    "Linux",
-    "Ubuntu",
-    "macOS"
-  ],
   "scripts": {
     "start": "python main.py"
   }

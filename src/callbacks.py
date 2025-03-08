@@ -1,10 +1,12 @@
 import asyncio
+from typing import Any
 
 from pyrogram import Client
 
-import config
+from data.config import config
 from src.notifications import notifications
-from utils.utils import buyer
+from utils.helper import buyer
+from utils.logger import warn
 
 sent_gift_ids = set()
 
@@ -32,33 +34,25 @@ def _handle_non_limited_gift(gift_id: int, gift_price: float) -> bool:
     return False
 
 
-async def new_callback(app: Client, star_gift_raw: dict) -> None:
-    gift_price = star_gift_raw.get("price", 0)
-    gift_supply = star_gift_raw.get("total_amount", 0)
-    gift_id = star_gift_raw['id']
-    locale = config.locale
+async def new_callback(app: Client, gift_raw: dict, locale: Any) -> None:
+    gift_price = gift_raw.get("price", 0)
+    gift_supply = gift_raw.get("total_amount", 0)
+    gift_id = gift_raw['id']
 
     if not _is_gift_within_limits(gift_price, gift_supply):
-        print(f"\033[91m[ WARN ]\033[0m {locale.gift_expensive.format(gift_id, gift_price, gift_supply)}\n")
-        await notifications(app, gift_id, gift_price=gift_price, gift_supply=gift_supply)
+        warn(locale.gift_expensive.format(gift_id))
+        await notifications(app, gift_id, gift_price=gift_price, gift_supply=gift_supply, locale=locale)
         return
 
-    if star_gift_raw.get("is_limited", False):
+    if gift_raw.get("is_limited", False):
         if not _handle_limited_gift(gift_id):
             return
     elif not _handle_non_limited_gift(gift_id, gift_price):
-        print(f"\033[91m[ WARN ]\033[0m {locale.non_limited_gift.format(gift_id)}\n")
-        await notifications(app, gift_id, non_limited_error=True)
+        warn(locale.non_limited_gift.format(gift_id))
+        await notifications(app, gift_id, non_limited_error=True, locale=locale)
         return
 
     for i, chat_id in enumerate(config.USER_ID):
-        await buyer(app, chat_id, gift_id)
+        await buyer(app, chat_id, gift_id, locale)
         if i < len(config.USER_ID) - 1:
             await asyncio.sleep(config.GIFT_DELAY)
-
-
-async def update_callback(new_gift_raw: dict) -> None:
-    if "message_id" not in new_gift_raw:
-        return
-
-    message_id = new_gift_raw["message_id"]
