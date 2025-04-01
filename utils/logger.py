@@ -9,7 +9,7 @@ logging.addLevelName(SUCCESS_LEVEL, "SUCCESS")
 class SimpleFormatter(logging.Formatter):
     def format(self, record):
         timestamp = datetime.datetime.now().strftime("%d.%m.%y %H:%M:%S")
-        formatted_levelname = f"[{timestamp}] -  [{record.levelname}] -"
+        formatted_levelname = f"[{timestamp}] - [{record.levelname}]: "
         record.levelname = formatted_levelname
         return super().format(record)
 
@@ -35,18 +35,22 @@ logger.addHandler(console_handler)
 
 
 def info(message: str) -> None:
+    print("\r", end="")
     logger.info(message)
 
 
 def warn(message: str) -> None:
+    print("\r", end="")
     logger.warning(message)
 
 
 def error(message: str) -> None:
+    print("\r", end="")
     logger.error(message)
 
 
 def success(message: str) -> None:
+    print("\r", end="")
     if isinstance(logger, CustomLogger):
         logger.success(message)
     else:
@@ -55,5 +59,5 @@ def success(message: str) -> None:
 
 def log_same_line(message: str, level: str = "INFO") -> None:
     timestamp = datetime.datetime.now().strftime("%d.%m.%y %H:%M:%S")
-    formatted_message = f"\r[{timestamp}] -  [{level.upper()}] - {message}"
-    print(formatted_message, end="\r", flush=True)
+    formatted_message = f"\r[{timestamp}] - [{level.upper()}]: {message}"
+    print(formatted_message, end="", flush=True)

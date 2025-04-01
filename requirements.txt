@@ -1,6 +1,8 @@
-asyncio~=3.4.3
-pyfiglet~=1.0.2
-pytz~=2024.2
-python-dotenv~=1.0.1
+pyfiglet==1.0.2
+asyncio==3.4.3
 pyrofork==2.3.58
 tgcrypto-pyrofork==1.2.7
+configparser==6.0.1
+python-i18n==0.3.9
+PyYAML==6.0.2
+pytz==2024.2

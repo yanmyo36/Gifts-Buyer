@@ -1,0 +1,64 @@
+errors:
+  missing_config: |
+    Missing Required Configuration
+
+    It seems you've missed filling in some required settings in config.ini.
+    The following settings are missing:
+    {}
+
+    Please check the documentation or contact the developer @bohd4nx for assistance.
+    Visit https://github.com/bohd4nx/Gifts-Buyer/blob/master/README.md for more information.
+
+telegram:
+  start_message: |
+    <b>✅ Gifts Buyer Successfully Started</b>
+    <b>Selected language:</b> <code>%{language}</code>
+    <b>Your current balance:</b> <code>%{balance} ⭐</code>
+
+    <b>📝 Gift purchase logic:</b>
+    <blockquote>According to your settings:
+    • Gifts in the price range <b>%{min_price}-%{max_price} ⭐</b> will be purchased
+    • Each matching gift will be sent <b>%{quantity}x</b> times
+    
+    For non-limited gifts, the <code>PURCHASE_NON_LIMITED_GIFTS</code> setting applies
+    For upgradable gifts only, the <code>PURCHASE_ONLY_UPGRADABLE_GIFTS</code> setting applies</blockquote>
+
+    <i>💡 Gifts outside the specified criteria will be automatically skipped</i>
+    
+    <b>🧑‍💻Developed by @bohd4nx | @AccessCheckerBot & @WhoseGiftBot</b>
+  peer_id_error: |
+    <b>❗Error while sending gift!</b>
+
+    Please make sure the initialization message has been sent successfully, 
+    you have interacted with this user previously, <b><i>and that you are not sending a gift to yourself!</i></b>
+
+    ⚠️ If nothing helps, try adding them to your contacts or DM the developer: @bohd4nx
+  error_message: "<b>❗Error while buying a gift!</b>\n\n<pre>%{error}</pre>"
+  balance_error: "<b>🎁 Gift</b> [<code>%{gift_id}</code>] could not be sent due to insufficient balance!\n\n<b>❗ Please top up your balance to continue sending gifts.</b>\n\n<b>Required:</b> <code>%{gift_price} ⭐</code>\n<b>Balance:</b> <code>%{current_balance} ⭐</code>"
+  non_limited_error: "<b>❗Gift</b> [<code>%{gift_id}</code>] is non-limited. Skipping due to user settings..."
+  non_upgradable_error: "<b>❗Gift</b> [<code>%{gift_id}</code>] is not upgradable. Skipping due to user settings..."
+  sold_out_error: "<b>❗Gift</b> [<code>%{gift_id}</code>] is sold out. Skipping..."
+  gift_price: "<b>🎁 Gift</b> [<code>%{gift_id}</code>] does not match the user's specified settings\n\nPrice: <b>%{price} ⭐ | supply: %{supply}</b>. Skipping..."
+  success_message: "<b>🎁 Gift (%{current}/%{total}):</b> [<code>%{gift_id}</code>] has been successfully sent!\n\n<b>Recipient:%{recipient}</b>"
+  sold_out_summary: "<b>⚠️ Skipped %{count} sold out gifts</b>"
+  non_limited_summary: "<b>⚠️ Skipped %{count} non-limited gifts</b> according to your settings"
+  non_upgradable_summary: "<b>⚠️ Skipped %{count} non-upgradable gifts</b> according to your settings"
+
+console:
+  low_balance: "Insufficient stars balance to send gift!"
+  out_of_stock: "Limited gift: %{gift_id} Out of Stock."
+  sold_out_gift: "Gift: %{gift_id} is sold out. Skipping..."
+  peer_id: "Please ensure that you have interacted with this user previously or are not sending a gift to yourself!"
+  gift_send_error: "Failed to send gift: %{gift_id} to user: %{chat_id}"
+  gift_checking: "Checking for new gifts"
+  new_gifts: "New gifts found:"
+  gift_expensive: "Gift: %{gift_id} does not match the user's specified settings."
+  non_limited_gift: "Gift: %{gift_id} is non-limited. Skipping..."
+  non_upgradable_gift: "Gift: %{gift_id} is not upgradable. Skipping..."
+  purchase_error: "Error while buying a gift %{gift_id} for user: %{chat_id}"
+  terminated: "Program terminated"
+  unexpected_error: "An unexpected error occurred:"
+  gift_sent: "Gift (%{current}/%{total}): %{gift_id} successfully sent to %{recipient}"
+  sold_out_gifts_summary: "Skipped %{count} sold out gifts"
+  non_limited_gifts_summary: "Skipped %{count} non-limited gifts"
+  non_upgradable_gifts_summary: "Skipped %{count} non-upgradable gifts"

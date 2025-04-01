@@ -1,15 +1,13 @@
 import asyncio
 import json
 import time
-from typing import Any, Callable
+from typing import Callable
 
 from pyrogram import Client, types
-from pytz import timezone as _timezone
 
-from data.config import config
+from data.config import config, _
+from src.callbacks import process_skipped_gifts
 from utils.logger import log_same_line, info
-
-timezone = _timezone(config.TIMEZONE)
 
 
 async def _load_old_gifts() -> dict:
@@ -38,13 +36,12 @@ async def _get_formatted_gifts(app: Client) -> tuple[dict, list]:
     return all_gifts_raw, all_gifts_ids
 
 
-async def detector(app: Client, new_callback: Callable, locale: Any) -> None:
+async def detector(app: Client, new_callback: Callable) -> None:
     dot = 0
 
     while True:
         dot = (dot + 1) % 4
-        log_same_line(f'{locale.gift_checking}{"." * dot}')
-
+        log_same_line(f'{_("console.gift_checking")}{"." * dot}')
         time.sleep(0.2)
 
         if not app.is_connected:
@@ -59,17 +56,16 @@ async def detector(app: Client, new_callback: Callable, locale: Any) -> None:
         }
 
         if new_gifts_raw:
-            print("\n\n")
-            info(f'{locale.new_gifts} {len(new_gifts_raw)}')
-            print("\n\n")
+            info(f'{_("console.new_gifts")} {len(new_gifts_raw)}')
 
             all_gifts_amount = len(all_gifts_ids)
             for gift_id, gift_raw in new_gifts_raw.items():
                 gift_raw["number"] = all_gifts_amount - all_gifts_ids.index(gift_id)
 
             for gift_id, gift_raw in sorted(new_gifts_raw.items(), key=lambda it: it[1]["number"]):
-                await new_callback(app, gift_raw, locale)
+                await new_callback(app, gift_raw)
+
+            await process_skipped_gifts(app)
 
         await _save_gifts(list(all_gifts_raw.values()))
-
         await asyncio.sleep(config.INTERVAL)
