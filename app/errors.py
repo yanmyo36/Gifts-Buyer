@@ -4,8 +4,8 @@ from pyrogram import Client
 from pyrogram.errors import RPCError
 
 from app.notifications import send_notification
+from app.utils.logger import error
 from data.config import t
-from utils.logger import error
 
 
 async def handle_gift_error(app: Client, ex: RPCError, gift_id: int, chat_id: int,

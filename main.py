@@ -4,12 +4,12 @@ import traceback
 from pyrogram import Client
 from pytz import timezone as _timezone
 
+from app.core.banner import title, info, cmd
+from app.core.callbacks import new_callback
 from app.notifications import send_start_message
-from core.banner import title, info, cmd
-from core.callbacks import new_callback
+from app.utils.detector import detector
+from app.utils.logger import info as log_info, error
 from data.config import config, t, get_language_display
-from utils.detector import detector
-from utils.logger import info as log_info, error
 
 timezone = _timezone(config.TIMEZONE)
 app_info = info()

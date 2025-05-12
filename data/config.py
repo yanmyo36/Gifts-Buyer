@@ -7,7 +7,7 @@ from typing import List, Dict, Any
 import i18n
 import yaml
 
-from utils.logger import error
+from app.utils.logger import error
 
 locales_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'locales')
 i18n.load_path.append(locales_path)

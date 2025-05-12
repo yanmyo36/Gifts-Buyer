@@ -5,9 +5,9 @@ from typing import Callable, Dict, List, Tuple
 
 from pyrogram import Client, types
 
-from core.callbacks import process_skipped_gifts
+from app.core.callbacks import process_skipped_gifts
+from app.utils.logger import log_same_line, info
 from data.config import config, t
-from utils.logger import log_same_line, info
 
 
 async def _load_old_gifts() -> Dict[int, dict]:

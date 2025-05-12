@@ -5,8 +5,8 @@ from pyrogram import Client
 
 from app.notifications import send_notification
 from app.purchase import buy_gift
+from app.utils.logger import warn, info
 from data.config import config, t
-from utils.logger import warn, info
 
 _skipped_sold_out_gifts = 0
 _skipped_non_limited_gifts = 0
