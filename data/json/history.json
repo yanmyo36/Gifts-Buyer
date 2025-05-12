@@ -1,15 +1,15 @@
 [
   {
     "_": "Gift",
-    "id": 6005880141270483700,
+    "id": 5830323722413671504,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8ObtK1dyUq6PzVhbRBNtSIPAALnZAACV_VYS9FC7qm-nhQAAR4E",
-      "file_unique_id": "AgAD52QAAlf1WEs",
+      "file_id": "CAACAgIAAxUAAWgib2ZGS6pF0ySqBeoIJd0CAAH1egACfHoAAuyZ6EhURmmkEgmBSR4E",
+      "file_unique_id": "AgADfHoAAuyZ6Eg",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
-      "file_size": 30040,
-      "date": "2025-04-01 01:23:03",
+      "file_size": 45951,
+      "date": "2025-05-08 23:28:56",
       "width": 512,
       "height": 512,
       "is_animated": true,
@@ -20,33 +20,33 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw5u0rV3JSro_NWFtEE21Ig8AAudkAAJX9VhL0ULuqb6eFAAJAQAHbQAHHgQ",
-          "file_unique_id": "AgAD52QAAlf1WEs",
+          "file_id": "AAMCAgADFQABaCJvZkZLqkXTJKoF6ggl3QIAAfV6AAJ8egAC7JnoSFRGaaQSCYFJAAgBAAdtAAceBA",
+          "file_unique_id": "AgADfHoAAuyZ6Eg",
           "width": 128,
           "height": 128,
-          "file_size": 7162
+          "file_size": 5868
         }
       ]
     },
-    "price": 200,
-    "convert_price": 170,
-    "available_amount": 39769,
-    "total_amount": 150000,
+    "price": 100,
+    "convert_price": 85,
+    "available_amount": 94867,
+    "total_amount": 500000,
     "is_limited": true,
     "is_sold_out": false,
     "is_birthday": false
   },
   {
     "_": "Gift",
-    "id": 6006064678835323371,
+    "id": 5832325860073407546,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MTBDIRvZSn0aMXsyEud7xoAAIufAACKAZZS4mm_cKGueWIHgQ",
-      "file_unique_id": "AgADLnwAAigGWUs",
+      "file_id": "CAACAgIAAxUAAWgib2asnX4NX8EEIXhmihMB51lrAAL2bAACPgAB6UjiDNFrZ9UxCB4E",
+      "file_unique_id": "AgAD9mwAAj4AAelI",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
-      "file_size": 45712,
-      "date": "2025-04-01 01:23:03",
+      "file_size": 54349,
+      "date": "2025-05-08 23:28:56",
       "width": 512,
       "height": 512,
       "is_animated": true,
@@ -57,18 +57,55 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwxMEMhG9lKfRoxezIS53vGgAAi58AAIoBllLiab9woa55YgACAEAB20ABx4E",
-          "file_unique_id": "AgADLnwAAigGWUs",
+          "file_id": "AAMCAgADFQABaCJvZqydfg1fwQQheGaKEwHnWWsAAvZsAAI-AAHpSOIM0Wtn1TEIAAgBAAdtAAceBA",
+          "file_unique_id": "AgAD9mwAAj4AAelI",
           "width": 128,
           "height": 128,
-          "file_size": 6984
+          "file_size": 6824
         }
       ]
     },
-    "price": 100,
-    "convert_price": 85,
-    "available_amount": 85142,
-    "total_amount": 300000,
+    "price": 150,
+    "convert_price": 128,
+    "available_amount": 47575,
+    "total_amount": 250000,
+    "is_limited": true,
+    "is_sold_out": false,
+    "is_birthday": false
+  },
+  {
+    "_": "Gift",
+    "id": 5830340739074097859,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWgib2bF_25MgRegZit4FFY1lsocAAJkcwACfTPoSL9XCFFTZ0gMHgQ",
+      "file_unique_id": "AgADZHMAAn0z6Eg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 45220,
+      "date": "2025-05-08 23:28:57",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABaCJvZsX_bkyBF6BmK3gUVjWWyhwAAmRzAAJ9M-hIv1cIUVNnSAwACAEAB20ABx4E",
+          "file_unique_id": "AgADZHMAAn0z6Eg",
+          "width": 128,
+          "height": 128,
+          "file_size": 5128
+        }
+      ]
+    },
+    "price": 300,
+    "convert_price": 255,
+    "available_amount": 49271,
+    "total_amount": 150000,
     "is_limited": true,
     "is_sold_out": false,
     "is_birthday": false
@@ -78,7 +115,7 @@
     "id": 5170145012310081615,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8M6_bIRd14CZ58oqaZanb9yAAJ8GwACkoTYS_itxFzPIpm1HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bhjF0x6Qz965BKDixBFR59AAJ8GwACkoTYS_itxFzPIpm1HgQ",
       "file_unique_id": "AgADfBsAApKE2Es",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -94,7 +131,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwzr9shF3XgJnnyipplqdv3IAAnwbAAKShNhL-K3EXM8imbUACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZuGMXTHpDP3rkEoOLEEVHn0AAnwbAAKShNhL-K3EXM8imbUACAEAB20ABx4E",
           "file_unique_id": "AgADfBsAApKE2Es",
           "width": 128,
           "height": 128,
@@ -113,7 +150,7 @@
     "id": 5170233102089322756,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MNgXGqrweDWcO5FbL23haYAAKtVAACmj_pSnvPkDQv_sivHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bGDpJcsQ0x2KeMrosKCeYvAAKtVAACmj_pSnvPkDQv_sivHgQ",
       "file_unique_id": "AgADrVQAApo_6Uo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -129,7 +166,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzww2BcaqvB4NZw7kVsvbeFpgAAq1UAAKaP-lKe8-QNC_-yK8ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZsYOklyxDTHYp4yuiwoJ5i8AAq1UAAKaP-lKe8-QNC_-yK8ACAEAB20ABx4E",
           "file_unique_id": "AgADrVQAApo_6Uo",
           "width": 128,
           "height": 128,
@@ -148,7 +185,7 @@
     "id": 5170250947678437525,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NCLQX9a9iE_fEYQ7JWjKx2AAKNSAACsU84SMuB4ge7V_wGHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZyOJUSFHndi7TtUwl1szRLAAKNSAACsU84SMuB4ge7V_wGHgQ",
       "file_unique_id": "AgADjUgAArFPOEg",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -164,7 +201,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw0ItBf1r2IT98RhDslaMrHYAAo1IAAKxTzhIy4HiB7tX_AYACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZnI4lRIUed2LtO1TCXWzNEsAAo1IAAKxTzhIy4HiB7tX_AYACAEAB20ABx4E",
           "file_unique_id": "AgADjUgAArFPOEg",
           "width": 128,
           "height": 128,
@@ -183,7 +220,7 @@
     "id": 5168103777563050263,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8N-2onjrvAy0VyOYEUnfHB8AAJxGQAC1P-BS9CYmaAv74KEHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZvOcS59FPsxEVvz8FWOOdhAAJxGQAC1P-BS9CYmaAv74KEHgQ",
       "file_unique_id": "AgADcRkAAtT_gUs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -199,7 +236,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw37aieOu8DLRXI5gRSd8cHwAAnEZAALU_4FL0JiZoC_vgoQACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZm85xLn0U-zERW_PwVY452EAAnEZAALU_4FL0JiZoC_vgoQACAEAB20ABx4E",
           "file_unique_id": "AgADcRkAAtT_gUs",
           "width": 128,
           "height": 128,
@@ -218,7 +255,7 @@
     "id": 5170144170496491616,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OK9hwoh0TMj49hc8op3HWWAAKBGAAClZ-JSmrGT5kBZFDGHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2a1n2CiJlUZwfbbnDQU6yosAAKBGAAClZ-JSmrGT5kBZFDGHgQ",
       "file_unique_id": "AgADgRgAApWfiUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -234,7 +271,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw4r2HCiHRMyPj2FzyincdZYAAoEYAAKVn4lKasZPmQFkUMYACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZrWfYKImVRnB9tucNBTrKiwAAoEYAAKVn4lKasZPmQFkUMYACAEAB20ABx4E",
           "file_unique_id": "AgADgRgAApWfiUo",
           "width": 128,
           "height": 128,
@@ -253,7 +290,7 @@
     "id": 5170314324215857265,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PZaKvSVyV31imTnTNM3S5cAALeJQACRSDgSsjmE6AUz0NeHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YeVDBklhp6RvzwdGNUVHbSAALeJQACRSDgSsjmE6AUz0NeHgQ",
       "file_unique_id": "AgAD3iUAAkUg4Eo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -269,7 +306,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw9loq9JXJXfWKZOdM0zdLlwAAt4lAAJFIOBKyOYToBTPQ14ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZh5UMGSWGnpG_PB0Y1RUdtIAAt4lAAJFIOBKyOYToBTPQ14ACAEAB20ABx4E",
           "file_unique_id": "AgAD3iUAAkUg4Eo",
           "width": 128,
           "height": 128,
@@ -288,7 +325,7 @@
     "id": 5170564780938756245,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8N_uleYNivkSpuAMEHEPWWxAALLGwAC14mRSzvrMNfF90DPHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YboExA4Lw3Tv2tv0NN750KAALLGwAC14mRSzvrMNfF90DPHgQ",
       "file_unique_id": "AgADyxsAAteJkUs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -304,7 +341,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw3-6V5g2K-RKm4AwQcQ9ZbEAAssbAALXiZFLO-sw18X3QM8ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZhugTEDgvDdO_a2_Q03vnQoAAssbAALXiZFLO-sw18X3QM8ACAEAB20ABx4E",
           "file_unique_id": "AgADyxsAAteJkUs",
           "width": 128,
           "height": 128,
@@ -323,7 +360,7 @@
     "id": 5168043875654172773,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NrnJjzjn-okttE3nBohqjcAAKZGwACzagQS38R6izkF899HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Y8pmWNPlZvxGA4nBsWNkGSAAKZGwACzagQS38R6izkF899HgQ",
       "file_unique_id": "AgADmRsAAs2oEEs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -339,7 +376,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw2ucmPOOf6iS20TecGiGqNwAApkbAALNqBBLfxHqLOQXz30ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZjymZY0-Vm_EYDicGxY2QZIAApkbAALNqBBLfxHqLOQXz30ACAEAB20ABx4E",
           "file_unique_id": "AgADmRsAAs2oEEs",
           "width": 128,
           "height": 128,
@@ -358,7 +395,7 @@
     "id": 5170690322832818290,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OuAAEmItZo_3ijv3XcLyRFHgAC6E8AAice-ErNTTZ-6L5onh4E",
+      "file_id": "CAACAgIAAxUAAWgib2bxJ4hffErB3Q4uhoheH4bcAALoTwACJx74Ss1NNn7ovmieHgQ",
       "file_unique_id": "AgAD6E8AAice-Eo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -374,7 +411,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw64AASYi1mj_eKO_ddwvJEUeAALoTwACJx74Ss1NNn7ovmieAAgBAAdtAAceBA",
+          "file_id": "AAMCAgADFQABaCJvZvEniF98SsHdDi6GiF4fhtwAAuhPAAInHvhKzU02fui-aJ4ACAEAB20ABx4E",
           "file_unique_id": "AgAD6E8AAice-Eo",
           "width": 128,
           "height": 128,
@@ -393,7 +430,7 @@
     "id": 5170521118301225164,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OYm8FRTjPTnmuxLrCGIpOdAAIbHgACQEjwS6XKX-OK2k1MHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bI1FQVq5zKhJePaVLOeqVjAAIbHgACQEjwS6XKX-OK2k1MHgQ",
       "file_unique_id": "AgADGx4AAkBI8Es",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -409,7 +446,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw5ibwVFOM9Oea7EusIYik50AAhseAAJASPBLpcpf44raTUwACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZsjUVBWrnMqEl49pUs56pWMAAhseAAJASPBLpcpf44raTUwACAEAB20ABx4E",
           "file_unique_id": "AgADGx4AAkBI8Es",
           "width": 128,
           "height": 128,
@@ -428,7 +465,7 @@
     "id": 6028601630662853006,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NR-9jaTBfpqKbixlv8-K_NAALXGAACy0WJSqKYQ7cuIwaJHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bN4Lv7yZD_3AABoFrL28w65gAC1xgAAstFiUqimEO3LiMGiR4E",
       "file_unique_id": "AgAD1xgAAstFiUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -444,7 +481,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw1H72NpMF-mopuLGW_z4r80AAtcYAALLRYlKophDty4jBokACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZs3gu_vJkP_cAAGgWsvbzDrmAALXGAACy0WJSqKYQ7cuIwaJAAgBAAdtAAceBA",
           "file_unique_id": "AgAD1xgAAstFiUo",
           "width": 128,
           "height": 128,
@@ -463,7 +500,7 @@
     "id": 5782984811920491178,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8Mj1cfxIyqK-JU8ECT0ln1vAAKpMQACvGUAAUu1qWZHStZtjx4E",
+      "file_id": "CAACAgIAAxUAAWgib2ZQq_d-NOFKYI8MIln_yCDZAAKpMQACvGUAAUu1qWZHStZtjx4E",
       "file_unique_id": "AgADqTEAArxlAAFL",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -479,7 +516,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwyPVx_EjKor4lTwQJPSWfW8AAqkxAAK8ZQABS7WpZkdK1m2PAAgBAAdtAAceBA",
+          "file_id": "AAMCAgADFQABaCJvZlCr93404UpgjwwiWf_IINkAAqkxAAK8ZQABS7WpZkdK1m2PAAgBAAdtAAceBA",
           "file_unique_id": "AgADqTEAArxlAAFL",
           "width": 128,
           "height": 128,
@@ -490,7 +527,7 @@
     "price": 350,
     "convert_price": 298,
     "upgrade_price": 25,
-    "available_amount": 354517,
+    "available_amount": 172560,
     "total_amount": 500000,
     "is_limited": true,
     "is_sold_out": false,
@@ -498,10 +535,205 @@
   },
   {
     "_": "Gift",
+    "id": 5807641025165919973,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWgib2aZyZClA6dHzIwKsDgOAAEN5QACrHQAAmtCmEgidQ0yx0ekUB4E",
+      "file_unique_id": "AgADrHQAAmtCmEg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 38460,
+      "date": "2025-05-01 01:20:04",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABaCJvZpnJkKUDp0fMjAqwOA4AAQ3lAAKsdAACa0KYSCJ1DTLHR6RQAAgBAAdtAAceBA",
+          "file_unique_id": "AgADrHQAAmtCmEg",
+          "width": 128,
+          "height": 128,
+          "file_size": 6512
+        }
+      ]
+    },
+    "first_sale_date": "2025-05-01 01:12:36",
+    "last_sale_date": "2025-05-06 17:21:43",
+    "price": 100,
+    "convert_price": 85,
+    "available_amount": 0,
+    "total_amount": 500000,
+    "is_limited": true,
+    "is_sold_out": true,
+    "is_birthday": false
+  },
+  {
+    "_": "Gift",
+    "id": 5773668482394620318,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWgib2buTSyQ-zEPMhRdLgxiv1lvAAIFbwACMgMhSMwfKox4xrmmHgQ",
+      "file_unique_id": "AgADBW8AAjIDIUg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 60018,
+      "date": "2025-04-19 20:04:58",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABaCJvZu5NLJD7MQ8yFF0uDGK_WW8AAgVvAAIyAyFIzB8qjHjGuaYACAEAB20ABx4E",
+          "file_unique_id": "AgADBW8AAjIDIUg",
+          "width": 128,
+          "height": 128,
+          "file_size": 4374
+        }
+      ]
+    },
+    "first_sale_date": "2025-04-19 21:21:47",
+    "last_sale_date": "2025-04-20 15:07:27",
+    "price": 200,
+    "convert_price": 170,
+    "upgrade_price": 25,
+    "available_amount": 0,
+    "total_amount": 180000,
+    "is_limited": true,
+    "is_sold_out": true,
+    "is_birthday": false
+  },
+  {
+    "_": "Gift",
+    "id": 5773725897517433693,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWgib2asapmMt6Vhy_maM53nW_o5AAKEdQACA7ohSH6d9EcIQkgqHgQ",
+      "file_unique_id": "AgADhHUAAgO6IUg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 64438,
+      "date": "2025-04-19 20:04:58",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABaCJvZqxqmYy3pWHL-Zoznedb-jkAAoR1AAIDuiFIfp30RwhCSCoACAEAB20ABx4E",
+          "file_unique_id": "AgADhHUAAgO6IUg",
+          "width": 128,
+          "height": 128,
+          "file_size": 7750
+        }
+      ]
+    },
+    "first_sale_date": "2025-04-19 21:21:47",
+    "last_sale_date": "2025-04-20 19:11:40",
+    "price": 150,
+    "convert_price": 128,
+    "available_amount": 0,
+    "total_amount": 250000,
+    "is_limited": true,
+    "is_sold_out": true,
+    "is_birthday": false
+  },
+  {
+    "_": "Gift",
+    "id": 5773791997064119815,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWgib2Z9PSTSt6B3zLvYiPus6F7IAAIFpQACTxYoSMEYlZovE4vRHgQ",
+      "file_unique_id": "AgADBaUAAk8WKEg",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 65445,
+      "date": "2025-04-20 12:05:07",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABaCJvZn09JNK3oHfMu9iI-6zoXsgAAgWlAAJPFihIwRiVmi8Ti9EACAEAB20ABx4E",
+          "file_unique_id": "AgADBaUAAk8WKEg",
+          "width": 128,
+          "height": 128,
+          "file_size": 7788
+        }
+      ]
+    },
+    "first_sale_date": "2025-04-19 21:21:46",
+    "last_sale_date": "2025-04-20 15:11:53",
+    "price": 75,
+    "convert_price": 64,
+    "available_amount": 0,
+    "total_amount": 500000,
+    "is_limited": true,
+    "is_sold_out": true,
+    "is_birthday": false
+  },
+  {
+    "_": "Gift",
+    "id": 6042113507581755979,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWgib2awr-uvgtT4aiwfYnYKokjYAAIihQACTcnYS8J1RcHtaBHIHgQ",
+      "file_unique_id": "AgADIoUAAk3J2Es",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 38897,
+      "date": "2025-04-12 23:45:15",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABaCJvZrCv66-C1PhqLB9idgqiSNgAAiKFAAJNydhLwnVFwe1oEcgACAEAB20ABx4E",
+          "file_unique_id": "AgADIoUAAk3J2Es",
+          "width": 128,
+          "height": 128,
+          "file_size": 6332
+        }
+      ]
+    },
+    "first_sale_date": "2025-04-12 23:54:32",
+    "last_sale_date": "2025-04-15 20:45:00",
+    "price": 200,
+    "convert_price": 170,
+    "available_amount": 0,
+    "total_amount": 180000,
+    "is_limited": true,
+    "is_sold_out": true,
+    "is_birthday": false
+  },
+  {
+    "_": "Gift",
     "id": 6005797617768858105,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OKpWMLaN0cPSGSz1WY_qYLAAKJcwACogABWUvBxiriUYfogR4E",
+      "file_id": "CAACAgIAAxUAAWgib2bP3_SMsC6_HonBskrYJYV_AAKJcwACogABWUvBxiriUYfogR4E",
       "file_unique_id": "AgADiXMAAqIAAVlL",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -517,7 +749,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw4qlYwto3Rw9IZLPVZj-pgsAAolzAAKiAAFZS8HGKuJRh-iBAAgBAAdtAAceBA",
+          "file_id": "AAMCAgADFQABaCJvZs_f9IywLr8eicGyStglhX8AAolzAAKiAAFZS8HGKuJRh-iBAAgBAAdtAAceBA",
           "file_unique_id": "AgADiXMAAqIAAVlL",
           "width": 128,
           "height": 128,
@@ -540,7 +772,7 @@
     "id": 6005659564635063386,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8M6e6QQ3nTYNiSMc433MadNAAJxaAACnPZYS7wlci0LwHnMHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Zq5sgix3XSYlGGF0ATx_kMAAJxaAACnPZYS7wlci0LwHnMHgQ",
       "file_unique_id": "AgADcWgAApz2WEs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -556,7 +788,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwzp7pBDedNg2JIxzjfcxp00AAnFoAAKc9lhLvCVyLQvAecwACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZmrmyCLHddJiUYYXQBPH-QwAAnFoAAKc9lhLvCVyLQvAecwACAEAB20ABx4E",
           "file_unique_id": "AgADcWgAApz2WEs",
           "width": 128,
           "height": 128,
@@ -577,10 +809,88 @@
   },
   {
     "_": "Gift",
+    "id": 6005880141270483700,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWgib2aNnyEI_q1UPWytGW3-mNYYAALnZAACV_VYS9FC7qm-nhQAAR4E",
+      "file_unique_id": "AgAD52QAAlf1WEs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 30040,
+      "date": "2025-04-01 01:23:03",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABaCJvZo2fIQj-rVQ9bK0Zbf6Y1hgAAudkAAJX9VhL0ULuqb6eFAAJAQAHbQAHHgQ",
+          "file_unique_id": "AgAD52QAAlf1WEs",
+          "width": 128,
+          "height": 128,
+          "file_size": 7162
+        }
+      ]
+    },
+    "first_sale_date": "2025-04-01 01:57:59",
+    "last_sale_date": "2025-04-03 19:33:47",
+    "price": 200,
+    "convert_price": 170,
+    "available_amount": 0,
+    "total_amount": 150000,
+    "is_limited": true,
+    "is_sold_out": true,
+    "is_birthday": false
+  },
+  {
+    "_": "Gift",
+    "id": 6006064678835323371,
+    "sticker": {
+      "_": "Sticker",
+      "file_id": "CAACAgIAAxUAAWgib2aR3DkaFRDzZNEImJOsT2LMAAIufAACKAZZS4mm_cKGueWIHgQ",
+      "file_unique_id": "AgADLnwAAigGWUs",
+      "file_name": "AnimatedSticker.tgs",
+      "mime_type": "application/x-tgsticker",
+      "file_size": 45712,
+      "date": "2025-04-01 01:23:03",
+      "width": 512,
+      "height": 512,
+      "is_animated": true,
+      "is_video": false,
+      "needs_repainting": false,
+      "emoji": "🎁",
+      "set_name": "GiftsGiftsGifts",
+      "thumbs": [
+        {
+          "_": "Thumbnail",
+          "file_id": "AAMCAgADFQABaCJvZpHcORoVEPNk0QiYk6xPYswAAi58AAIoBllLiab9woa55YgACAEAB20ABx4E",
+          "file_unique_id": "AgADLnwAAigGWUs",
+          "width": 128,
+          "height": 128,
+          "file_size": 6984
+        }
+      ]
+    },
+    "first_sale_date": "2025-04-01 01:57:58",
+    "last_sale_date": "2025-04-03 18:44:26",
+    "price": 100,
+    "convert_price": 85,
+    "available_amount": 0,
+    "total_amount": 300000,
+    "is_limited": true,
+    "is_sold_out": true,
+    "is_birthday": false
+  },
+  {
+    "_": "Gift",
     "id": 6005564615793050414,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NpIJ6vCLuHwibzAyul9lWtAAJRbQACyfBYS6wO4lSQ9RcxHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bDfYVMrQz7KljWzUhLicWkAAJRbQACyfBYS6wO4lSQ9RcxHgQ",
       "file_unique_id": "AgADUW0AAsnwWEs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -596,7 +906,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw2kgnq8Iu4fCJvMDK6X2Va0AAlFtAALJ8FhLrA7iVJD1FzEACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZsN9hUytDPsqWNbNSEuJxaQAAlFtAALJ8FhLrA7iVJD1FzEACAEAB20ABx4E",
           "file_unique_id": "AgADUW0AAsnwWEs",
           "width": 128,
           "height": 128,
@@ -619,7 +929,7 @@
     "id": 6003456431095808759,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8P7MlRaqXkoWQL3ekKdBfM2AAJEeQACtfFQSx7pEcUCnXRpHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2asXYf8tF4U0OG2T8gnpCaIAAJEeQACtfFQSx7pEcUCnXRpHgQ",
       "file_unique_id": "AgADRHkAArXxUEs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -635,7 +945,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw_syVFqpeShZAvd6Qp0F8zYAAkR5AAK18VBLHukRxQKddGkACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZqxdh_y0XhTQ4bZPyCekJogAAkR5AAK18VBLHukRxQKddGkACAEAB20ABx4E",
           "file_unique_id": "AgADRHkAArXxUEs",
           "width": 128,
           "height": 128,
@@ -658,7 +968,7 @@
     "id": 5998981470310368313,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MS_9II14pZv1NQl1vXeSntAALabgACauZBS10M6U7_D4HBHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZJ98VPMqko3fPSHmuIh3xzAALabgACauZBS10M6U7_D4HBHgQ",
       "file_unique_id": "AgAD2m4AAmrmQUs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -674,7 +984,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwxL_0gjXilm_U1CXW9d5Ke0AAtpuAAJq5kFLXQzpTv8PgcEACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZkn3xU8yqSjd89Iea4iHfHMAAtpuAAJq5kFLXQzpTv8PgcEACAEAB20ABx4E",
           "file_unique_id": "AgAD2m4AAmrmQUs",
           "width": 128,
           "height": 128,
@@ -697,7 +1007,7 @@
     "id": 5960747083030856414,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8M8-izWxnwTLOEk5u0jT7-WAAJucwACwc24SoEYqV6lC_GTHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YzOmyyy1K-GKuZdsnMuSGEAAJucwACwc24SoEYqV6lC_GTHgQ",
       "file_unique_id": "AgADbnMAAsHNuEo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -713,7 +1023,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwzz6LNbGfBMs4STm7SNPv5YAAm5zAALBzbhKgRipXqUL8ZMACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZjM6bLLLUr4Yq5l2ycy5IYQAAm5zAALBzbhKgRipXqUL8ZMACAEAB20ABx4E",
           "file_unique_id": "AgADbnMAAsHNuEo",
           "width": 128,
           "height": 128,
@@ -736,7 +1046,7 @@
     "id": 5963238670868677492,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8Nl1gpSg0wIW2FS25a19EN5AAKecgAC7rq5Ss26oYH6zOHjHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bhahkqTlkM7RSnX43IYWzcAAKecgAC7rq5Ss26oYH6zOHjHgQ",
       "file_unique_id": "AgADnnIAAu66uUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -751,7 +1061,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw2XWClKDTAhbYVLblrX0Q3kAAp5yAALuurlKzbqhgfrM4eMACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZuFqGSpOWQztFKdfjchhbNwAAp5yAALuurlKzbqhgfrM4eMACAEAB20ABx4E",
           "file_unique_id": "AgADnnIAAu66uUo",
           "width": 128,
           "height": 128,
@@ -774,7 +1084,7 @@
     "id": 5933793770951673155,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NXnixfdvac2GgI_u2Rv9bUAAJ1YAACa3VhSnBA5xAi5M99HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZGODP4waf_zYpYxPwa1iboAAJ1YAACa3VhSnBA5xAi5M99HgQ",
       "file_unique_id": "AgADdWAAAmt1YUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -790,7 +1100,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw1eeLF929pzYaAj-7ZG_1tQAAnVgAAJrdWFKcEDnECLkz30ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZkY4M_jBp__NiljE_BrWJugAAnVgAAJrdWFKcEDnECLkz30ACAEAB20ABx4E",
           "file_unique_id": "AgADdWAAAmt1YUo",
           "width": 128,
           "height": 128,
@@ -814,7 +1124,7 @@
     "id": 5933937398953018107,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PwRuuXp4iuGFTxC0DvLBIiAALScgACWndZSjrhHbquJwbNHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YkHB2g45sDHpNCGsXpO5RpAALScgACWndZSjrhHbquJwbNHgQ",
       "file_unique_id": "AgAD0nIAAlp3WUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -830,7 +1140,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw_BG65eniK4YVPELQO8sEiIAAtJyAAJad1lKOuEduq4nBs0ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZiQcHaDjmwMek0Iaxek7lGkAAtJyAAJad1lKOuEduq4nBs0ACAEAB20ABx4E",
           "file_unique_id": "AgAD0nIAAlp3WUo",
           "width": 128,
           "height": 128,
@@ -853,7 +1163,7 @@
     "id": 5933770397739647689,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8M1kgMuhcdLnBKlA-dKCbMGAAKlZgACORNhSq1cVsBZGAl7HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZgWgQyDiX6bWep8lZXtHQPAAKlZgACORNhSq1cVsBZGAl7HgQ",
       "file_unique_id": "AgADpWYAAjkTYUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -869,7 +1179,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwzWSAy6Fx0ucEqUD50oJswYAAqVmAAI5E2FKrVxWwFkYCXsACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZmBaBDIOJfptZ6nyVle0dA8AAqVmAAI5E2FKrVxWwFkYCXsACAEAB20ABx4E",
           "file_unique_id": "AgADpWYAAjkTYUo",
           "width": 128,
           "height": 128,
@@ -892,7 +1202,7 @@
     "id": 5933543975653737112,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PDBsHYDz2jH5uJn-MY1ttaAAKjZQACYgRgSlnJZsmj2k37HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Z8uy2wq4HBd5goYOSW33EcAAKjZQACYgRgSlnJZsmj2k37HgQ",
       "file_unique_id": "AgADo2UAAmIEYEo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -908,7 +1218,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw8MGwdgPPaMfm4mf4xjW21oAAqNlAAJiBGBKWclmyaPaTfsACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZny7LbCrgcF3mChg5JbfcRwAAqNlAAJiBGBKWclmyaPaTfsACAEAB20ABx4E",
           "file_unique_id": "AgADo2UAAmIEYEo",
           "width": 128,
           "height": 128,
@@ -931,7 +1241,7 @@
     "id": 5935877878062253519,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8O6KiKdUoQOPno_qGWYAWgRAAKpcAACRuVZSu7wG7-1yEY0HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZTNWDdDFm2mPhP9DqZj5ODAAKpcAACRuVZSu7wG7-1yEY0HgQ",
       "file_unique_id": "AgADqXAAAkblWUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -947,7 +1257,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw7oqIp1ShA4-ej-oZZgBaBEAAqlwAAJG5VlK7vAbv7XIRjQACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZlM1YN0MWbaY-E_0OpmPk4MAAqlwAAJG5VlK7vAbv7XIRjQACAEAB20ABx4E",
           "file_unique_id": "AgADqXAAAkblWUo",
           "width": 128,
           "height": 128,
@@ -970,7 +1280,7 @@
     "id": 5933737850477478635,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8ObNBDM72Ea5sEH5xU2XntNAAK5agACe_hYSvmkZ24uZNQyHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YVXQd1CMAO7Ddd0K3Vres_AAK5agACe_hYSvmkZ24uZNQyHgQ",
       "file_unique_id": "AgADuWoAAnv4WEo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -986,7 +1296,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw5s0EMzvYRrmwQfnFTZee00AArlqAAJ7-FhK-aRnbi5k1DIACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZhVdB3UIwA7sN13QrdWt6z8AArlqAAJ7-FhK-aRnbi5k1DIACAEAB20ABx4E",
           "file_unique_id": "AgADuWoAAnv4WEo",
           "width": 128,
           "height": 128,
@@ -1009,7 +1319,7 @@
     "id": 5913351908466098791,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8M1PyJ8rmNi967Lrx-9kJApAAI7dgACTWMRSpv0ZOUsb54pHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2a9xNrO1g1abtjcQrQYROl3AAI7dgACTWMRSpv0ZOUsb54pHgQ",
       "file_unique_id": "AgADO3YAAk1jEUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1025,7 +1335,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwzU_InyuY2L3rsuvH72QkCkAAjt2AAJNYxFKm_Rk5SxvnikACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZr3E2s7WDVpu2NxCtBhE6XcAAjt2AAJNYxFKm_Rk5SxvnikACAEAB20ABx4E",
           "file_unique_id": "AgADO3YAAk1jEUo",
           "width": 128,
           "height": 128,
@@ -1048,7 +1358,7 @@
     "id": 5895518353849582541,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MKGi6c6Ud_DC96H1xKNKlBAAIHdQACnlXRSfqkNWVWFcQ3HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Z4RkZDP4aObmEO725S4QWhAAIHdQACnlXRSfqkNWVWFcQ3HgQ",
       "file_unique_id": "AgADB3UAAp5V0Uk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1064,7 +1374,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwwoaLpzpR38ML3ofXEo0qUEAAgd1AAKeVdFJ-qQ1ZVYVxDcACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZnhGRkM_ho5uYQ7vblLhBaEAAgd1AAKeVdFJ-qQ1ZVYVxDcACAEAB20ABx4E",
           "file_unique_id": "AgADB3UAAp5V0Uk",
           "width": 128,
           "height": 128,
@@ -1087,7 +1397,7 @@
     "id": 5895328365971244193,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MY6boZ7P9sekUovxElW4xhAAIqcAACKXnQSVIUOVBxnr1yHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Ysf3sWkOzjdvApv1Lp7piqAAIqcAACKXnQSVIUOVBxnr1yHgQ",
       "file_unique_id": "AgADKnAAAil50Ek",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1103,7 +1413,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwxjpuhns_2x6RSi_ESVbjGEAAipwAAIpedBJUhQ5UHGevXIACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZix_exaQ7ON28Cm_UunumKoAAipwAAIpedBJUhQ5UHGevXIACAEAB20ABx4E",
           "file_unique_id": "AgADKnAAAil50Ek",
           "width": 128,
           "height": 128,
@@ -1126,7 +1436,7 @@
     "id": 5897593557492957738,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OYiRuleNFbghewrifmnmblAAJ_agACT0zYSeS7jvCe9e8gHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2a9ulZ6Z5Djfrw67OWmV3YDAAJ_agACT0zYSeS7jvCe9e8gHgQ",
       "file_unique_id": "AgADf2oAAk9M2Ek",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1142,7 +1452,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw5iJG6V40VuCF7CuJ-aeZuUAAn9qAAJPTNhJ5LuO8J717yAACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZr26VnpnkON-vDrs5aZXdgMAAn9qAAJPTNhJ5LuO8J717yAACAEAB20ABx4E",
           "file_unique_id": "AgADf2oAAk9M2Ek",
           "width": 128,
           "height": 128,
@@ -1166,7 +1476,7 @@
     "id": 5895544372761461960,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NtGzZ47Ko9ZgHZnUwsndadAAKxbAAC8p7QSZBta4DmdVVtHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bnl1gcSSVSemt-cuptyfYDAAKxbAAC8p7QSZBta4DmdVVtHgQ",
       "file_unique_id": "AgADsWwAAvKe0Ek",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1182,7 +1492,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw20bNnjsqj1mAdmdTCyd1p0AArFsAALyntBJkG1rgOZ1VW0ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZueXWBxJJVJ6a35y6m3J9gMAArFsAALyntBJkG1rgOZ1VW0ACAEAB20ABx4E",
           "file_unique_id": "AgADsWwAAvKe0Ek",
           "width": 128,
           "height": 128,
@@ -1205,7 +1515,7 @@
     "id": 5897581235231785485,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MwOzVGUQFTaIagtcP7eO12AALyaQACC2jQSba_IXlE1Y2BHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Zupz8iu_mKoBwuLYyp0mTFAALyaQACC2jQSba_IXlE1Y2BHgQ",
       "file_unique_id": "AgAD8mkAAgto0Ek",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1221,7 +1531,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwzA7NUZRAVNohqC1w_t47XYAAvJpAAILaNBJtr8heUTVjYEACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZm6nPyK7-YqgHC4tjKnSZMUAAvJpAAILaNBJtr8heUTVjYEACAEAB20ABx4E",
           "file_unique_id": "AgAD8mkAAgto0Ek",
           "width": 128,
           "height": 128,
@@ -1244,7 +1554,7 @@
     "id": 5895603153683874485,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OUWZDWKWnWdol0eNPh03-cAAIqaQAC3QvYSdAV_8fGE1n-HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Ze8t5Wuce7_jXaFl1ZBCF_AAIqaQAC3QvYSdAV_8fGE1n-HgQ",
       "file_unique_id": "AgADKmkAAt0L2Ek",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1260,7 +1570,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw5RZkNYpadZ2iXR40-HTf5wAAippAALdC9hJ0BX_x8YTWf4ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZl7y3la5x7v-NdoWXVkEIX8AAippAALdC9hJ0BX_x8YTWf4ACAEAB20ABx4E",
           "file_unique_id": "AgADKmkAAt0L2Ek",
           "width": 128,
           "height": 128,
@@ -1283,7 +1593,7 @@
     "id": 5872744075014177223,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8O-pniN1NZlmaCdoOvvP6fXAAIJZwACQsB5SdvsXgvuiQpgHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YvpuvXG0q8N4-1Nk3gcY8oAAIJZwACQsB5SdvsXgvuiQpgHgQ",
       "file_unique_id": "AgADCWcAAkLAeUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1299,7 +1609,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw76meI3U1mWZoJ2g6-8_p9cAAglnAAJCwHlJ2-xeC-6JCmAACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZi-m69cbSrw3j7U2TeBxjygAAglnAAJCwHlJ2-xeC-6JCmAACAEAB20ABx4E",
           "file_unique_id": "AgADCWcAAkLAeUk",
           "width": 128,
           "height": 128,
@@ -1322,7 +1632,7 @@
     "id": 5870972044522291836,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MFegAB5hFNF5nU6paTlr9OjwACCWMAAnpd2Uu9WE3vGHc4CR4E",
+      "file_id": "CAACAgIAAxUAAWgib2ZihFWNYC56F-Q6ZC5RMpM_AAIJYwACel3ZS71YTe8YdzgJHgQ",
       "file_unique_id": "AgADCWMAAnpd2Us",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1337,7 +1647,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwwV6AAHmEU0XmdTqlpOWv06PAAIJYwACel3ZS71YTe8YdzgJAAgBAAdtAAceBA",
+          "file_id": "AAMCAgADFQABaCJvZmKEVY1gLnoX5DpkLlEykz8AAgljAAJ6XdlLvVhN7xh3OAkACAEAB20ABx4E",
           "file_unique_id": "AgADCWMAAnpd2Us",
           "width": 128,
           "height": 128,
@@ -1360,7 +1670,7 @@
     "id": 5871002671934079382,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OD_FgLhTCuBu0mHdcZyvuAAAK8cQAChnNxSY75rb1538zbHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YPHsmhQ4b5uu3a00xHLL1XAAK8cQAChnNxSY75rb1538zbHgQ",
       "file_unique_id": "AgADvHEAAoZzcUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1375,7 +1685,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw4P8WAuFMK4G7SYd1xnK-4AAArxxAAKGc3FJjvmtvXnfzNsACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZg8eyaFDhvm67drTTEcsvVcAArxxAAKGc3FJjvmtvXnfzNsACAEAB20ABx4E",
           "file_unique_id": "AgADvHEAAoZzcUk",
           "width": 128,
           "height": 128,
@@ -1398,7 +1708,7 @@
     "id": 5870661333703197240,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8Pqpu6JMUwXuwLkwdCpUyCMAAKYZgACWAXRSxdNZVfu75RnHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2b6jrUexo0J57yxA-WS-CNxAAKYZgACWAXRSxdNZVfu75RnHgQ",
       "file_unique_id": "AgADmGYAAlgF0Us",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1413,7 +1723,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw-qm7okxTBe7AuTB0KlTIIwAAphmAAJYBdFLF01lV-7vlGcACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZvqOtR7GjQnnvLED5ZL4I3EAAphmAAJYBdFLF01lV-7vlGcACAEAB20ABx4E",
           "file_unique_id": "AgADmGYAAlgF0Us",
           "width": 128,
           "height": 128,
@@ -1436,7 +1746,7 @@
     "id": 5870862540036113469,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8M9kDIT_TY0kTwkiGlTy8YfAAIRawACuQpwSc862QYQBz5AHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2aA8ZRww2inCamIiOocfCQEAAIRawACuQpwSc862QYQBz5AHgQ",
       "file_unique_id": "AgADEWsAArkKcEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1451,7 +1761,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwz2QMhP9NjSRPCSIaVPLxh8AAhFrAAK5CnBJzzrZBhAHPkAACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZoDxlHDDaKcJqYiI6hx8JAQAAhFrAAK5CnBJzzrZBhAHPkAACAEAB20ABx4E",
           "file_unique_id": "AgADEWsAArkKcEk",
           "width": 128,
           "height": 128,
@@ -1474,7 +1784,7 @@
     "id": 5870720080265871962,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PgR29263FJxwzgfyW9F4XBAAIpaAACrzXRS1NWhTOZ4bjUHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YTbaaivNGrtR392S7HiCmkAAIpaAACrzXRS1NWhTOZ4bjUHgQ",
       "file_unique_id": "AgADKWgAAq810Us",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1489,7 +1799,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw-BHb3brcUnHDOB_Jb0XhcEAAiloAAKvNdFLU1aFM5nhuNQACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZhNtpqK80au1Hf3ZLseIKaQAAiloAAKvNdFLU1aFM5nhuNQACAEAB20ABx4E",
           "file_unique_id": "AgADKWgAAq810Us",
           "width": 128,
           "height": 128,
@@ -1512,7 +1822,7 @@
     "id": 5868595669182186720,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PVFxnWWm2FOV8WI19DTn6UAAJIbQACmVBxSVvH2bPqsMUHHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bJM-aaQXygqqSXfpEsf-SpAAJIbQACmVBxSVvH2bPqsMUHHgQ",
       "file_unique_id": "AgADSG0AAplQcUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1528,7 +1838,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw9UXGdZabYU5XxYjX0NOfpQAAkhtAAKZUHFJW8fZs-qwxQcACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZskz5ppBfKCqpJd-kSx_5KkAAkhtAAKZUHFJW8fZs-qwxQcACAEAB20ABx4E",
           "file_unique_id": "AgADSG0AAplQcUk",
           "width": 128,
           "height": 128,
@@ -1551,7 +1861,7 @@
     "id": 5868348541058942091,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NdNGi-vlnNOhPeqwez59rnAAKVdQACNPp4SQ0dTT9tKxSBHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2b4qAcUiQmntM330L8SunYCAAKVdQACNPp4SQ0dTT9tKxSBHgQ",
       "file_unique_id": "AgADlXUAAjT6eEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1567,7 +1877,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw100aL6-Wc06E96rB7Pn2ucAApV1AAI0-nhJDR1NP20rFIEACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZvioBxSJCae0zffQvxK6dgIAApV1AAI0-nhJDR1NP20rFIEACAEAB20ABx4E",
           "file_unique_id": "AgADlXUAAjT6eEk",
           "width": 128,
           "height": 128,
@@ -1591,7 +1901,7 @@
     "id": 5868220813026526561,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PsgLa5L8_abM2FfTLrwOqRAALNYgACBQJ4SRRIkIOmMGENHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bA8SLb-WBY_Bh6QBN2kFluAALNYgACBQJ4SRRIkIOmMGENHgQ",
       "file_unique_id": "AgADzWIAAgUCeEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1607,7 +1917,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw-yAtrkvz9pszYV9MuvA6pEAAs1iAAIFAnhJFEiQg6YwYQ0ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZsDxItv5YFj8GHpAE3aQWW4AAs1iAAIFAnhJFEiQg6YwYQ0ACAEAB20ABx4E",
           "file_unique_id": "AgADzWIAAgUCeEk",
           "width": 128,
           "height": 128,
@@ -1631,7 +1941,7 @@
     "id": 5868503709637411929,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8ODevSV2I892FJ5MV_fDKc6AAL6ZAACHLN5SWMc-UyUFrSUHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bCU4UX9DyfNJ5szGFuS-8yAAL6ZAACHLN5SWMc-UyUFrSUHgQ",
       "file_unique_id": "AgAD-mQAAhyzeUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1647,7 +1957,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw4N69JXYjz3YUnkxX98MpzoAAvpkAAIcs3lJYxz5TJQWtJQACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZsJThRf0PJ80nmzMYW5L7zIAAvpkAAIcs3lJYxz5TJQWtJQACAEAB20ABx4E",
           "file_unique_id": "AgAD-mQAAhyzeUk",
           "width": 128,
           "height": 128,
@@ -1671,7 +1981,7 @@
     "id": 5868561433997870501,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8ObBZUiQyAFKnQW9T_0uqhwAAJoXgACnMJ5SRwXeVJ0KnXsHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZlMjKSSnwkdWD4ySij6PYCAAJoXgACnMJ5SRwXeVJ0KnXsHgQ",
       "file_unique_id": "AgADaF4AApzCeUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1687,7 +1997,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw5sFlSJDIAUqdBb1P_S6qHAAAmheAAKcwnlJHBd5UnQqdewACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZmUyMpJKfCR1YPjJKKPo9gIAAmheAAKcwnlJHBd5UnQqdewACAEAB20ABx4E",
           "file_unique_id": "AgADaF4AApzCeUk",
           "width": 128,
           "height": 128,
@@ -1710,7 +2020,7 @@
     "id": 5870784783948186838,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8Pab3AR2LB_08nY1xuNoyriAALmbgACf4ZwSUWk8gqAN7-rHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ahMf74WQABqczGOwrtTLVP4AAC5m4AAn-GcElFpPIKgDe_qx4E",
       "file_unique_id": "AgAD5m4AAn-GcEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1726,7 +2036,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw9pvcBHYsH_TydjXG42jKuIAAuZuAAJ_hnBJRaTyCoA3v6sACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZqEx_vhZAAGpzMY7Cu1MtU_gAALmbgACf4ZwSUWk8gqAN7-rAAgBAAdtAAceBA",
           "file_unique_id": "AgAD5m4AAn-GcEk",
           "width": 128,
           "height": 128,
@@ -1749,7 +2059,7 @@
     "id": 5868659926187901653,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OGOe0gUOHh6j95R9koGFxaAALyYgACd_t5SRue43cW8AMHHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Ytyvco8NnYTJ07SOIJhC7WAALyYgACd_t5SRue43cW8AMHHgQ",
       "file_unique_id": "AgAD8mIAAnf7eUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1765,7 +2075,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw4Y57SBQ4eHqP3lH2SgYXFoAAvJiAAJ3-3lJG57jdxbwAwcACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZi3K9yjw2dhMnTtI4gmELtYAAvJiAAJ3-3lJG57jdxbwAwcACAEAB20ABx4E",
           "file_unique_id": "AgAD8mIAAnf7eUk",
           "width": 128,
           "height": 128,
@@ -1789,7 +2099,7 @@
     "id": 5870947077877400011,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8P5tfwTiA2P1j63xhXR4559AAIGaAACfM54Sb89t3U3qddoHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Z2XRKBboke4iYPysFTVK60AAIGaAACfM54Sb89t3U3qddoHgQ",
       "file_unique_id": "AgADBmgAAnzOeEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1805,7 +2115,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw_m1_BOIDY_WPrfGFdHjnn0AAgZoAAJ8znhJvz23dTep12gACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZnZdEoFuiR7iJg_KwVNUrrQAAgZoAAJ8znhJvz23dTep12gACAEAB20ABx4E",
           "file_unique_id": "AgADBmgAAnzOeEk",
           "width": 128,
           "height": 128,
@@ -1828,7 +2138,7 @@
     "id": 5868455043362980631,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8Pn18_zf_E8DJpiVm4hmFG9AALVYQACV5h5STPQN4nZHq-YHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bidgflkMHJZv3B09CzIUfgAALVYQACV5h5STPQN4nZHq-YHgQ",
       "file_unique_id": "AgAD1WEAAleYeUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1844,7 +2154,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw-fXz_N_8TwMmmJWbiGYUb0AAtVhAAJXmHlJM9A3idker5gACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZuJ2B-WQwclm_cHT0LMhR-AAAtVhAAJXmHlJM9A3idker5gACAEAB20ABx4E",
           "file_unique_id": "AgAD1WEAAleYeUk",
           "width": 128,
           "height": 128,
@@ -1867,7 +2177,7 @@
     "id": 6028426950047957932,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PzU8DInwJt3CpecPxq6gl1AALaXwACctOgS6wmeFQQI6vLHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YUjE3D_GGzX3wIgfw-AhLtAALaXwACctOgS6wmeFQQI6vLHgQ",
       "file_unique_id": "AgAD2l8AAnLToEs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1882,7 +2192,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw_NTwMifAm3cKl5w_GrqCXUAAtpfAAJy06BLrCZ4VBAjq8sACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZhSMTcP8YbNffAiB_D4CEu0AAtpfAAJy06BLrCZ4VBAjq8sACAEAB20ABx4E",
           "file_unique_id": "AgAD2l8AAnLToEs",
           "width": 128,
           "height": 128,
@@ -1906,7 +2216,7 @@
     "id": 6028283532500009446,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8O0v1MInFKVlNJtlWvHr5yrAAJcZgAC_V-ZS4RkIm3SoVFkHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bQqn2a3b0SS5HImnmqzcvaAAJcZgAC_V-ZS4RkIm3SoVFkHgQ",
       "file_unique_id": "AgADXGYAAv1fmUs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1921,7 +2231,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw7S_UwicUpWU0m2Va8evnKsAAlxmAAL9X5lLhGQibdKhUWQACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZtCqfZrdvRJLkciaearNy9oAAlxmAAL9X5lLhGQibdKhUWQACAEAB20ABx4E",
           "file_unique_id": "AgADXGYAAv1fmUs",
           "width": 128,
           "height": 128,
@@ -1944,7 +2254,7 @@
     "id": 6023917088358269866,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MufbeNCQTBDCYsE1KCwbuPAAIjawACnUyZS1ogQXFdz6DkHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2b02Fd4hoRZvpnEXqab-1kHAAIjawACnUyZS1ogQXFdz6DkHgQ",
       "file_unique_id": "AgADI2sAAp1MmUs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1959,7 +2269,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwy59t40JBMEMJiwTUoLBu48AAiNrAAKdTJlLWiBBcV3PoOQACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZvTYV3iGhFm-mcReppv7WQcAAiNrAAKdTJlLWiBBcV3PoOQACAEAB20ABx4E",
           "file_unique_id": "AgADI2sAAp1MmUs",
           "width": 128,
           "height": 128,
@@ -1982,7 +2292,7 @@
     "id": 6023679164349940429,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NGlSgZTExAAmU5mS7xgDQuAAKYcgACs7iYS78uyynr3GU6HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bQ1Vm6wZEmDSHkLmq6fJ4MAAKYcgACs7iYS78uyynr3GU6HgQ",
       "file_unique_id": "AgADmHIAArO4mEs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -1997,7 +2307,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw0aVKBlMTEACZTmZLvGANC4AAphyAAKzuJhLvy7LKevcZToACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZtDVWbrBkSYNIeQuarp8ngwAAphyAAKzuJhLvy7LKevcZToACAEAB20ABx4E",
           "file_unique_id": "AgADmHIAArO4mEs",
           "width": 128,
           "height": 128,
@@ -2020,7 +2330,7 @@
     "id": 6023752243218481939,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PG1bNLezpX5qxlZcs5K-o1AAISaQACLgeYSx9EryfWC6dIHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2aPQOrd8MOhw3WHByJlMP_NAAISaQACLgeYSx9EryfWC6dIHgQ",
       "file_unique_id": "AgADEmkAAi4HmEs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2035,7 +2345,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw8bVs0t7OlfmrGVlyzkr6jUAAhJpAAIuB5hLH0SvJ9YLp0gACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZo9A6t3ww6HDdYcHImUw_80AAhJpAAIuB5hLH0SvJ9YLp0gACAEAB20ABx4E",
           "file_unique_id": "AgADEmkAAi4HmEs",
           "width": 128,
           "height": 128,
@@ -2059,7 +2369,7 @@
     "id": 6003373314888696650,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OELXfPpXdWWj-FhT5AV9fkAAIqZQACP4tJS5fq_7PsOTQjHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YXHi2MRFsKZY6gn2GMe1CpAAIqZQACP4tJS5fq_7PsOTQjHgQ",
       "file_unique_id": "AgADKmUAAj-LSUs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2074,7 +2384,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw4Qtd8-ld1ZaP4WFPkBX1-QAAiplAAI_i0lLl-r_s-w5NCMACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZhceLYxEWwpljqCfYYx7UKkAAiplAAI_i0lLl-r_s-w5NCMACAEAB20ABx4E",
           "file_unique_id": "AgADKmUAAj-LSUs",
           "width": 128,
           "height": 128,
@@ -2098,7 +2408,7 @@
     "id": 6003767644426076664,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NwiIC9uiFXF3nkw1SuodrjAAIpYwACtDRAS_ShMFwfsxNJHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bwtzbO4q_4F8PEGNG8Jk-jAAIpYwACtDRAS_ShMFwfsxNJHgQ",
       "file_unique_id": "AgADKWMAArQ0QEs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2113,7 +2423,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw3CIgL26IVcXeeTDVK6h2uMAAiljAAK0NEBL9KEwXB-zE0kACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZvC3Ns7ir_gXw8QY0bwmT6MAAiljAAK0NEBL9KEwXB-zE0kACAEAB20ABx4E",
           "file_unique_id": "AgADKWMAArQ0QEs",
           "width": 128,
           "height": 128,
@@ -2136,7 +2446,7 @@
     "id": 6001538689543439169,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8M8gIioNd_3Rvl-hiQqW5UXAAI3XwACiPdpSmADh3ixvbRkHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YvJVmMDeG-AbsuwqH5rWBuAAI3XwACiPdpSmADh3ixvbRkHgQ",
       "file_unique_id": "AgADN18AAoj3aUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2151,7 +2461,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwzyAiKg13_dG-X6GJCpblRcAAjdfAAKI92lKYAOHeLG9tGQACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZi8lWYwN4b4Buy7CofmtYG4AAjdfAAKI92lKYAOHeLG9tGQACAEAB20ABx4E",
           "file_unique_id": "AgADN18AAoj3aUo",
           "width": 128,
           "height": 128,
@@ -2175,7 +2485,7 @@
     "id": 6003643167683903930,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OUT9lOsnk4uit5LN407TOJAAKSYQACLGxhSrGfcUyyhn8_HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Zd-_ICjuX5_maKrC2S_pcnAAKSYQACLGxhSrGfcUyyhn8_HgQ",
       "file_unique_id": "AgADkmEAAixsYUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2190,7 +2500,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw5RP2U6yeTi6K3ks3jTtM4kAApJhAAIsbGFKsZ9xTLKGfz8ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZl378gKO5fn-ZoqsLZL-lycAApJhAAIsbGFKsZ9xTLKGfz8ACAEAB20ABx4E",
           "file_unique_id": "AgADkmEAAixsYUo",
           "width": 128,
           "height": 128,
@@ -2214,7 +2524,7 @@
     "id": 6003735372041814769,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NhhEC3SLHLbrupVwjtxEBkAALRXAACaIhIS8xUpobOAoF8HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2aQaHxEBN9COs91xnuR-VBjAALRXAACaIhIS8xUpobOAoF8HgQ",
       "file_unique_id": "AgAD0VwAAmiISEs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2229,7 +2539,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw2GEQLdIsctuu6lXCO3EQGQAAtFcAAJoiEhLzFSmhs4CgXwACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZpBofEQE30I6z3XGe5H5UGMAAtFcAAJoiEhLzFSmhs4CgXwACAEAB20ABx4E",
           "file_unique_id": "AgAD0VwAAmiISEs",
           "width": 128,
           "height": 128,
@@ -2252,7 +2562,7 @@
     "id": 6001473264306619020,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PCyhYfvC00w1V4MpE2WOGHAAK3ZQACwZ-5SviG8CqpOroJHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2aBl22jDLCMj_JS1dipe4JiAAK3ZQACwZ-5SviG8CqpOroJHgQ",
       "file_unique_id": "AgADt2UAAsGfuUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2267,7 +2577,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw8LKFh-8LTTDVXgykTZY4YcAArdlAALBn7lK-IbwKqk6ugkACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZoGXbaMMsIyP8lLV2Kl7gmIAArdlAALBn7lK-IbwKqk6ugkACAEAB20ABx4E",
           "file_unique_id": "AgADt2UAAsGfuUo",
           "width": 128,
           "height": 128,
@@ -2291,7 +2601,7 @@
     "id": 5983484377902875708,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MsUQqh171ALd0wg8eOy66AAAKLYwACrLO5StseAAFzKhgahB4E",
+      "file_id": "CAACAgIAAxUAAWgib2aCt2bjWIMHfL32H05UUXTYAAKLYwACrLO5StseAAFzKhgahB4E",
       "file_unique_id": "AgADi2MAAqyzuUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2306,7 +2616,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwyxRCqHXvUAt3TCDx47LroAAAotjAAKss7lK2x4AAXMqGBqEAAgBAAdtAAceBA",
+          "file_id": "AAMCAgADFQABaCJvZoK3ZuNYgwd8vfYfTlRRdNgAAotjAAKss7lK2x4AAXMqGBqEAAgBAAdtAAceBA",
           "file_unique_id": "AgADi2MAAqyzuUo",
           "width": 128,
           "height": 128,
@@ -2330,7 +2640,7 @@
     "id": 5983259145522906006,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8Nz3fid8G5qLSemFS7YSlghAAJ8XAACN2a5Sk06RJY2CtwPHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2a3p4J-TL_SReY_d_xGjwbDAAJ8XAACN2a5Sk06RJY2CtwPHgQ",
       "file_unique_id": "AgADfFwAAjdmuUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2345,7 +2655,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw3Pd-J3wbmotJ6YVLthKWCEAAnxcAAI3ZrlKTTpEljYK3A8ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZrengn5Mv9JF5j93_EaPBsMAAnxcAAI3ZrlKTTpEljYK3A8ACAEAB20ABx4E",
           "file_unique_id": "AgADfFwAAjdmuUo",
           "width": 128,
           "height": 128,
@@ -2369,7 +2679,7 @@
     "id": 5983471780763796287,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MyGIwVWcCc1BZmIC_8V1tkAAJeagACE7K5Stnk_ZiT1Ib8HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ax5JoSESoMi4VCnV9IgbFfAAJeagACE7K5Stnk_ZiT1Ib8HgQ",
       "file_unique_id": "AgADXmoAAhOyuUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2384,7 +2694,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwzIYjBVZwJzUFmYgL_xXW2QAAl5qAAITsrlK2eT9mJPUhvwACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZrHkmhIRKgyLhUKdX0iBsV8AAl5qAAITsrlK2eT9mJPUhvwACAEAB20ABx4E",
           "file_unique_id": "AgADXmoAAhOyuUo",
           "width": 128,
           "height": 128,
@@ -2408,7 +2718,7 @@
     "id": 5981132629905245483,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8N-C1mOWRGjsvGDtmLkgXUgAAI-WgACqZlgSu219j4pPcD4HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bl8Wp8RUf8Zi1bg5dLv61jAAI-WgACqZlgSu219j4pPcD4HgQ",
       "file_unique_id": "AgADPloAAqmZYEo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2423,7 +2733,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw34LWY5ZEaOy8YO2YuSBdSAAAj5aAAKpmWBK7bX2Pik9wPgACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZuXxanxFR_xmLVuDl0u_rWMAAj5aAAKpmWBK7bX2Pik9wPgACAEAB20ABx4E",
           "file_unique_id": "AgADPloAAqmZYEo",
           "width": 128,
           "height": 128,
@@ -2447,7 +2757,7 @@
     "id": 5980789805615678057,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MCksJ1dKpid4pBiNgetX8UAAKVXwACWBmISpA2bswVniXQHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YEucleNNLYR1oAAd4Okq9ZxwAClV8AAlgZiEqQNm7MFZ4l0B4E",
       "file_unique_id": "AgADlV8AAlgZiEo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2462,7 +2772,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwwKSwnV0qmJ3ikGI2B61fxQAApVfAAJYGYhKkDZuzBWeJdAACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZgS5yV400thHWgAB3g6Sr1nHAAKVXwACWBmISpA2bswVniXQAAgBAAdtAAceBA",
           "file_unique_id": "AgADlV8AAlgZiEo",
           "width": 128,
           "height": 128,
@@ -2486,7 +2796,7 @@
     "id": 5981026247860290310,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PNmQoziTl1wVihu4LVpPRbAAK3VwACwROgSq_YbObpL6ZeHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2aeQ7w6xt_XHzRl8DIM-UvCAAK3VwACwROgSq_YbObpL6ZeHgQ",
       "file_unique_id": "AgADt1cAAsEToEo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2501,7 +2811,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw82ZCjOJOXXBWKG7gtWk9FsAArdXAALBE6BKr9hs5ukvpl4ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZp5DvDrG39cfNGXwMgz5S8IAArdXAALBE6BKr9hs5ukvpl4ACAEAB20ABx4E",
           "file_unique_id": "AgADt1cAAsEToEo",
           "width": 128,
           "height": 128,
@@ -2525,7 +2835,7 @@
     "id": 5933590374185435592,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MQD5OKMi64UMuPLkLI_N8EAAKhXAACN4qRScf3IWcFPM3YHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YFhp9LUIeh011iG-q-6EvhAAKhXAACN4qRScf3IWcFPM3YHgQ",
       "file_unique_id": "AgADoVwAAjeKkUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2541,7 +2851,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwxAPk4oyLrhQy48uQsj83wQAAqFcAAI3ipFJx_chZwU8zdgACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZgWGn0tQh6HTXWIb6r7oS-EAAqFcAAI3ipFJx_chZwU8zdgACAEAB20ABx4E",
           "file_unique_id": "AgADoVwAAjeKkUk",
           "width": 128,
           "height": 128,
@@ -2565,7 +2875,7 @@
     "id": 5936017773737018241,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MLReswfAuh6L0ok3jsjsQGAAI_tgACycZoSrasXHuF9bjQHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YMw7BVx6EUa-RJw0NAWYvvAAI_tgACycZoSrasXHuF9bjQHgQ",
       "file_unique_id": "AgADP7YAAsnGaEo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2581,7 +2891,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwwtF6zB8C6HovSiTeOyOxAYAAj-2AALJxmhKtqxce4X1uNAACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZgzDsFXHoRRr5EnDQ0BZi-8AAj-2AALJxmhKtqxce4X1uNAACAEAB20ABx4E",
           "file_unique_id": "AgADP7YAAsnGaEo",
           "width": 128,
           "height": 128,
@@ -2605,7 +2915,7 @@
     "id": 5935936766358847989,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NhEFicMtLbxYV7fcb5G9GGAAJbVwACAfdoSYw9fUwl1cD2HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2avTtArwDy_lD2mzpG6qn7KAAJbVwACAfdoSYw9fUwl1cD2HgQ",
       "file_unique_id": "AgADW1cAAgH3aEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2621,7 +2931,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw2EQWJwy0tvFhXt9xvkb0YYAAltXAAIB92hJjD19TCXVwPYACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZq9O0CvAPL-UPabOkbqqfsoAAltXAAIB92hJjD19TCXVwPYACAEAB20ABx4E",
           "file_unique_id": "AgADW1cAAgH3aEk",
           "width": 128,
           "height": 128,
@@ -2645,7 +2955,7 @@
     "id": 5936043693864651359,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OX2NY0xoxKL8QuQ_fdOweLAALPWwACUdRwScoxIEcUEF75HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2aXxsQ2aUmX39jcErF0-otbAALPWwACUdRwScoxIEcUEF75HgQ",
       "file_unique_id": "AgADz1sAAlHUcEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2661,7 +2971,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw5fY1jTGjEovxC5D9907B4sAAs9bAAJR1HBJyjEgRxQQXvkACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZpfGxDZpSZff2NwSsXT6i1sAAs9bAAJR1HBJyjEgRxQQXvkACAEAB20ABx4E",
           "file_unique_id": "AgADz1sAAlHUcEk",
           "width": 128,
           "height": 128,
@@ -2685,7 +2995,7 @@
     "id": 5936085638515261992,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OWVQsM1pT4mNgol0p1LSoRAAK7YgACKhY5Ss9IjRLrZ0iSHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZuQBJLZpc51wM-Xb5Vch9zAAK7YgACKhY5Ss9IjRLrZ0iSHgQ",
       "file_unique_id": "AgADu2IAAioWOUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2701,7 +3011,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw5ZVCwzWlPiY2CiXSnUtKhEAArtiAAIqFjlKz0iNEutnSJIACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZm5AEktmlznXAz5dvlVyH3MAArtiAAIqFjlKz0iNEutnSJIACAEAB20ABx4E",
           "file_unique_id": "AgADu2IAAioWOUo",
           "width": 128,
           "height": 128,
@@ -2725,7 +3035,7 @@
     "id": 5933531623327795414,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MYqD-Z-d9k1jCcEy1DjZSWAAJ5WwACXCC4SVb9bfM0I8bkHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Z9WJLTp2svuFihlB2I_P9EAAJ5WwACXCC4SVb9bfM0I8bkHgQ",
       "file_unique_id": "AgADeVsAAlwguEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2741,7 +3051,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwxioP5n532TWMJwTLUONlJYAAnlbAAJcILhJVv1t8zQjxuQACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZn1YktOnay-4WKGUHYj8_0QAAnlbAAJcILhJVv1t8zQjxuQACAEAB20ABx4E",
           "file_unique_id": "AgADeVsAAlwguEk",
           "width": 128,
           "height": 128,
@@ -2765,7 +3075,7 @@
     "id": 5933629604416717361,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PfAQQc3QVp2ikvyOzSpn53AAI9WgADo-hJcV67YLhP_wseBA",
+      "file_id": "CAACAgIAAxUAAWgib2ZysDhWu-gdjdAZpBUiNj_UAAI9WgADo-hJcV67YLhP_wseBA",
       "file_unique_id": "AgADPVoAA6PoSQ",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2781,7 +3091,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw98BBBzdBWnaKS_I7NKmfncAAj1aAAOj6ElxXrtguE__CwAIAQAHbQAHHgQ",
+          "file_id": "AAMCAgADFQABaCJvZnKwOFa76B2N0BmkFSI2P9QAAj1aAAOj6ElxXrtguE__CwAIAQAHbQAHHgQ",
           "file_unique_id": "AgADPVoAA6PoSQ",
           "width": 128,
           "height": 128,
@@ -2805,7 +3115,7 @@
     "id": 5933671725160989227,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MaZ-fOyYW5za47FiM2RUILAAJJVgACgUpxSRYw4xrNnEobHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Yc7WMfc55jrqy3qCyNXLvDAAJJVgACgUpxSRYw4xrNnEobHgQ",
       "file_unique_id": "AgADSVYAAoFKcUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2821,7 +3131,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwxpn587JhbnNrjsWIzZFQgsAAklWAAKBSnFJFjDjGs2cShsACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZhztYx9znmOurLeoLI1cu8MAAklWAAKBSnFJFjDjGs2cShsACAEAB20ABx4E",
           "file_unique_id": "AgADSVYAAoFKcUk",
           "width": 128,
           "height": 128,
@@ -2845,7 +3155,7 @@
     "id": 5936013938331222567,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8P5UFcD8eh52A4Pn_7zyWpoAAKgXQAC-lMJSjabmOFusRl9HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZVbT4kgUiLFeAPmdzxk6BpAAKgXQAC-lMJSjabmOFusRl9HgQ",
       "file_unique_id": "AgADoF0AAvpTCUo",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2861,7 +3171,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw_lQVwPx6HnYDg-f_vPJamgAAqBdAAL6UwlKNpuY4W6xGX0ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZlVtPiSBSIsV4A-Z3PGToGkAAqBdAAL6UwlKNpuY4W6xGX0ACAEAB20ABx4E",
           "file_unique_id": "AgADoF0AAvpTCUo",
           "width": 128,
           "height": 128,
@@ -2885,7 +3195,7 @@
     "id": 5913442287462908725,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MPPb6bc5jkgmOA-Oy9H8i4AAIZYgAC2YL5SVAvhEcEEoFrHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZeU0KsfPLFV6FYdRRw1CzIAAIZYgAC2YL5SVAvhEcEEoFrHgQ",
       "file_unique_id": "AgADGWIAAtmC-Uk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2901,7 +3211,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzww89vptzmOSCY4D47L0fyLgAAhliAALZgvlJUC-ERwQSgWsACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZl5TQqx88sVXoVh1FHDULMgAAhliAALZgvlJUC-ERwQSgWsACAEAB20ABx4E",
           "file_unique_id": "AgADGWIAAtmC-Uk",
           "width": 128,
           "height": 128,
@@ -2925,7 +3235,7 @@
     "id": 5915502858152706668,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8Pqyy-37v8peqarklNKMao2AAJrYwACBfpxSVsG1CXX3q-fHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2aalWWrBiRFvtHp40iFN4yIAAJrYwACBfpxSVsG1CXX3q-fHgQ",
       "file_unique_id": "AgADa2MAAgX6cUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2941,7 +3251,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw-rLL7fu_yl6pquSU0oxqjYAAmtjAAIF-nFJWwbUJdfer58ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZpqVZasGJEW-0enjSIU3jIgAAmtjAAIF-nFJWwbUJdfer58ACAEAB20ABx4E",
           "file_unique_id": "AgADa2MAAgX6cUk",
           "width": 128,
           "height": 128,
@@ -2965,7 +3275,7 @@
     "id": 5915733223018594841,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8O4UQvc27Mgczf6ca27b4B1AAJtWAACnbxgSdfxgy0QbupHHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZfEOUZ56QUkprqOrtYeDY6AAJtWAACnbxgSdfxgy0QbupHHgQ",
       "file_unique_id": "AgADbVgAAp28YEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -2981,7 +3291,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw7hRC9zbsyBzN_pxrbtvgHUAAm1YAAKdvGBJ1_GDLRBu6kcACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZl8Q5RnnpBSSmuo6u1h4NjoAAm1YAAKdvGBJ1_GDLRBu6kcACAEAB20ABx4E",
           "file_unique_id": "AgADbVgAAp28YEk",
           "width": 128,
           "height": 128,
@@ -3005,7 +3315,7 @@
     "id": 5915521180483191380,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NfevE3NmBCVKCP0geqBx-zAAJEWgACIKX4SWMZN9mZAAFrNh4E",
+      "file_id": "CAACAgIAAxUAAWgib2Yeu7axVBNajiw8DuH5xWamAAJEWgACIKX4SWMZN9mZAAFrNh4E",
       "file_unique_id": "AgADRFoAAiCl-Ek",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3021,7 +3331,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw1968Tc2YEJUoI_SB6oHH7MAAkRaAAIgpfhJYxk32ZkAAWs2AAgBAAdtAAceBA",
+          "file_id": "AAMCAgADFQABaCJvZh67trFUE1qOLDwO4fnFZqYAAkRaAAIgpfhJYxk32ZkAAWs2AAgBAAdtAAceBA",
           "file_unique_id": "AgADRFoAAiCl-Ek",
           "width": 128,
           "height": 128,
@@ -3045,7 +3355,7 @@
     "id": 5915550639663874519,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MdxuiJsvs-04A3HgJldUNmAAIuXwAC-3hZSfKozlVY-kYRHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2aWGFUC1xnZuwGIZExlpaGwAAIuXwAC-3hZSfKozlVY-kYRHgQ",
       "file_unique_id": "AgADLl8AAvt4WUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3061,7 +3371,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwx3G6Imy-z7TgDceAmV1Q2YAAi5fAAL7eFlJ8qjOVVj6RhEACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZpYYVQLXGdm7AYhkTGWlobAAAi5fAAL7eFlJ8qjOVVj6RhEACAEAB20ABx4E",
           "file_unique_id": "AgADLl8AAvt4WUk",
           "width": 128,
           "height": 128,
@@ -3085,7 +3395,7 @@
     "id": 5913517067138499193,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8Pk1Z50gshOHG3ihz2UJxGyAALsVgAC6e4pSSUFZCwwQH7GHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZUoNA6Wl5QdDXdXFSbc9_cAALsVgAC6e4pSSUFZCwwQH7GHgQ",
       "file_unique_id": "AgAD7FYAAunuKUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3101,7 +3411,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw-TVnnSCyE4cbeKHPZQnEbIAAuxWAALp7ilJJQVkLDBAfsYACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZlSg0DpaXlB0Nd1cVJtz39wAAuxWAALp7ilJJQVkLDBAfsYACAEAB20ABx4E",
           "file_unique_id": "AgAD7FYAAunuKUk",
           "width": 128,
           "height": 128,
@@ -3125,7 +3435,7 @@
     "id": 5879737836550226478,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OfMO4z8MIqNVamhJlMapQUAAJGWQACfAJRSXBUeO8sW9yOHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YhFExhwZpxdfd4vSa3mr0IAAJGWQACfAJRSXBUeO8sW9yOHgQ",
       "file_unique_id": "AgADRlkAAnwCUUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3141,7 +3451,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw58w7jPwwio1VqaEmUxqlBQAAkZZAAJ8AlFJcFR47yxb3I4ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZiEUTGHBmnF193i9JreavQgAAkZZAAJ8AlFJcFR47yxb3I4ACAEAB20ABx4E",
           "file_unique_id": "AgADRlkAAnwCUUk",
           "width": 128,
           "height": 128,
@@ -3165,7 +3475,7 @@
     "id": 5882125812596999035,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PJU7QrrWV8AdObvfWAUydBAAJZXAAC1ro5SW5sSZ5lghRtHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Z-v8nCAZDFl0zkEIGdPtSPAAJZXAAC1ro5SW5sSZ5lghRtHgQ",
       "file_unique_id": "AgADWVwAAta6OUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3181,7 +3491,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw8lTtCutZXwB05u99YBTJ0EAAllcAALWujlJbmxJnmWCFG0ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZn6_ycIBkMWXTOQQgZ0-1I8AAllcAALWujlJbmxJnmWCFG0ACAEAB20ABx4E",
           "file_unique_id": "AgADWVwAAta6OUk",
           "width": 128,
           "height": 128,
@@ -3205,7 +3515,7 @@
     "id": 5882252952218894938,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8MRsYVZM3wrIB4ihwuHTvlUAAJBYgAClIc5SSK0Pg7FBteyHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Y5R3E1RWszgDE8DphranaYAAJBYgAClIc5SSK0Pg7FBteyHgQ",
       "file_unique_id": "AgADQWIAApSHOUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3221,7 +3531,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwxGxhVkzfCsgHiKHC4dO-VQAAkFiAAKUhzlJIrQ-DsUG17IACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZjlHcTVFazOAMTwOmGtqdpgAAkFiAAKUhzlJIrQ-DsUG17IACAEAB20ABx4E",
           "file_unique_id": "AgADQWIAApSHOUk",
           "width": 128,
           "height": 128,
@@ -3245,7 +3555,7 @@
     "id": 5859442703032386168,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NGzpum4awlyLQxB3jI2LVoAAKtYgADvEhK2TorGiITT2QeBA",
+      "file_id": "CAACAgIAAxUAAWgib2aRCOSbAYn9gKwAAQmlU6fe7AACrWIAA7xIStk6KxoiE09kHgQ",
       "file_unique_id": "AgADrWIAA7xISg",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3261,7 +3571,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw0bOm6bhrCXItDEHeMjYtWgAAq1iAAO8SErZOisaIhNPZAAIAQAHbQAHHgQ",
+          "file_id": "AAMCAgADFQABaCJvZpEI5JsBif2ArAABCaVTp97sAAKtYgADvEhK2TorGiITT2QACAEAB20ABx4E",
           "file_unique_id": "AgADrWIAA7xISg",
           "width": 128,
           "height": 128,
@@ -3284,7 +3594,7 @@
     "id": 5857140566201991735,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PqbBY2o91Vf-OgjoVJTg61AAK9XgACrw8oSc4sahyfJv2KHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZkR-Gol9RPj15eOHb2YI8KAAK9XgACrw8oSc4sahyfJv2KHgQ",
       "file_unique_id": "AgADvV4AAq8PKEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3300,7 +3610,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw-psFjaj3VV_46COhUlODrUAAr1eAAKvDyhJzixqHJ8m_YoACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZmRH4aiX1E-PXl44dvZgjwoAAr1eAAKvDyhJzixqHJ8m_YoACAEAB20ABx4E",
           "file_unique_id": "AgADvV4AAq8PKEk",
           "width": 128,
           "height": 128,
@@ -3324,7 +3634,7 @@
     "id": 5856973938650776169,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OXzWBYRKhfXuNjMQasaAKyAAJsWQACCRUwSc2K92hLfV-mHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2aSiSUTp_naWsRz3Q_bjd7pAAJsWQACCRUwSc2K92hLfV-mHgQ",
       "file_unique_id": "AgADbFkAAgkVMEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3340,7 +3650,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw5fNYFhEqF9e42MxBqxoArIAAmxZAAIJFTBJzYr3aEt9X6YACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZpKJJROn-dpaxHPdD9uN3ukAAmxZAAIJFTBJzYr3aEt9X6YACAEAB20ABx4E",
           "file_unique_id": "AgADbFkAAgkVMEk",
           "width": 128,
           "height": 128,
@@ -3364,7 +3674,7 @@
     "id": 5846226946928673709,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8Nv-p_BUQPiMC9jI55jN-AIAAJZOwACHOn4SHmVbOJtV5xKHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZBh41v7ZG-E3fTSerLE5J4AAJZOwACHOn4SHmVbOJtV5xKHgQ",
       "file_unique_id": "AgADWTsAAhzp-Eg",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3380,7 +3690,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw2_6n8FRA-IwL2MjnmM34AgAAlk7AAIc6fhIeZVs4m1XnEoACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZkGHjW_tkb4Td9NJ6ssTkngAAlk7AAIc6fhIeZVs4m1XnEoACAEAB20ABx4E",
           "file_unique_id": "AgADWTsAAhzp-Eg",
           "width": 128,
           "height": 128,
@@ -3404,7 +3714,7 @@
     "id": 5846192273657692751,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PQ1wmtUqV7XcbHEFy8DNtuAAJSOwACsExxSOtMYBwWHu9fHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Z3SQ4wpjZWQibrDbNTP1VjAAJSOwACsExxSOtMYBwWHu9fHgQ",
       "file_unique_id": "AgADUjsAArBMcUg",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3420,7 +3730,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw9DXCa1SpXtdxscQXLwM224AAlI7AAKwTHFI60xgHBYe718ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZndJDjCmNlZCJusNs1M_VWMAAlI7AAKwTHFI60xgHBYe718ACAEAB20ABx4E",
           "file_unique_id": "AgADUjsAArBMcUg",
           "width": 128,
           "height": 128,
@@ -3444,7 +3754,7 @@
     "id": 5845776576658015084,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NXG0DktZ3saEAnJIk68xgBAALgPQACPKkhSU7HiTDW9eu6HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2b07mKohQka2Xhsrmobuj5_AALgPQACPKkhSU7HiTDW9eu6HgQ",
       "file_unique_id": "AgAD4D0AAjypIUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3460,7 +3770,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw1cbQOS1nexoQCckiTrzGAEAAuA9AAI8qSFJTseJMNb167oACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZvTuYqiFCRrZeGyuahu6Pn8AAuA9AAI8qSFJTseJMNb167oACAEAB20ABx4E",
           "file_unique_id": "AgAD4D0AAjypIUk",
           "width": 128,
           "height": 128,
@@ -3484,7 +3794,7 @@
     "id": 5825895989088617224,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8P7PTZq8-ykV6ZBkmo3xsMLAAJMOgACkieYSCu5oclP2DsGHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bwMykAAQgD5n-xQzrQpafw8gACTDoAApInmEgruaHJT9g7Bh4E",
       "file_unique_id": "AgADTDoAApInmEg",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3500,7 +3810,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw_s9Nmrz7KRXpkGSajfGwwsAAkw6AAKSJ5hIK7mhyU_YOwYACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZvAzKQABCAPmf7FDOtClp_DyAAJMOgACkieYSCu5oclP2DsGAAgBAAdtAAceBA",
           "file_unique_id": "AgADTDoAApInmEg",
           "width": 128,
           "height": 128,
@@ -3524,7 +3834,7 @@
     "id": 5825801628657124140,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NRK7s6f5niPMgax5vIvCLxAAKlMwACXQRpSaS8Pwf4mYV_HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Z723CIsbx_qNgtD2i1xif3AAKlMwACXQRpSaS8Pwf4mYV_HgQ",
       "file_unique_id": "AgADpTMAAl0EaUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3540,7 +3850,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw1Eruzp_meI8yBrHm8i8IvEAAqUzAAJdBGlJpLw_B_iZhX8ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZnvbcIixvH-o2C0PaLXGJ_cAAqUzAAJdBGlJpLw_B_iZhX8ACAEAB20ABx4E",
           "file_unique_id": "AgADpTMAAl0EaUk",
           "width": 128,
           "height": 128,
@@ -3564,7 +3874,7 @@
     "id": 5825480571261813595,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NjDmssDq1lxJhrLmlcpyoNAAKSLgACEIrxS22jsBhWhJK3HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZdxdBYeFbjvZlp_KaHv8gyAAKSLgACEIrxS22jsBhWhJK3HgQ",
       "file_unique_id": "AgADki4AAhCK8Us",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3580,7 +3890,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw2MOaywOrWXEmGsuaVynKg0AApIuAAIQivFLbaOwGFaEkrcACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZl3F0Fh4VuO9mWn8poe_yDIAApIuAAIQivFLbaOwGFaEkrcACAEAB20ABx4E",
           "file_unique_id": "AgADki4AAhCK8Us",
           "width": 128,
           "height": 128,
@@ -3604,7 +3914,7 @@
     "id": 5843762284240831056,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8M7K7aBnq8PfSstVgHGn_sxAAJOOQACqekwSA114I8H9SaMHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YKYZQkbqc2bJkWTw1CFesPAAJOOQACqekwSA114I8H9SaMHgQ",
       "file_unique_id": "AgADTjkAAqnpMEg",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3620,7 +3930,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwzsrtoGerw99Ky1WAcaf-zEAAk45AAKp6TBIDXXgjwf1JowACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZgphlCRupzZsmRZPDUIV6w8AAk45AAKp6TBIDXXgjwf1JowACAEAB20ABx4E",
           "file_unique_id": "AgADTjkAAqnpMEg",
           "width": 128,
           "height": 128,
@@ -3644,7 +3954,7 @@
     "id": 5841689550203650524,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8Pi3jGwrNfXzrSHJCQgn-6BAAKONQACZFdxSAEnG1yajJjXHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Z5EUTbE5umllebLbNcQuISAAKONQACZFdxSAEnG1yajJjXHgQ",
       "file_unique_id": "AgADjjUAAmRXcUg",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3660,7 +3970,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw-LeMbCs19fOtIckJCCf7oEAAo41AAJkV3FIAScbXJqMmNcACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZnkRRNsTm6aWV5sts1xC4hIAAo41AAJkV3FIAScbXJqMmNcACAEAB20ABx4E",
           "file_unique_id": "AgADjjUAAmRXcUg",
           "width": 128,
           "height": 128,
@@ -3684,7 +3994,7 @@
     "id": 5841632504448025405,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8O7JQ8UEhaqFCD3Pd3J7FHAAAKFNgAC9bnwS5956AJItFBeHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YcKWi7WNckG-G_LDGyvm0NAAKFNgAC9bnwS5956AJItFBeHgQ",
       "file_unique_id": "AgADhTYAAvW58Es",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3700,7 +4010,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw7slDxQSFqoUIPc93cnsUcAAAoU2AAL1ufBLn3noAki0UF4ACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZhwpaLtY1yQb4b8sMbK-bQ0AAoU2AAL1ufBLn3noAki0UF4ACAEAB20ABx4E",
           "file_unique_id": "AgADhTYAAvW58Es",
           "width": 128,
           "height": 128,
@@ -3724,7 +4034,7 @@
     "id": 5841391256135008713,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NNkyTlx0io7xt7mdTdh1EQAALSPAAC_Dz4SYSSUNP0NTEyHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2aqxLxtPGAeURGEjCIKWEyxAALSPAAC_Dz4SYSSUNP0NTEyHgQ",
       "file_unique_id": "AgAD0jwAAvw8-Ek",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3740,7 +4050,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw02TJOXHSKjvG3uZ1N2HURAAAtI8AAL8PPhJhJJQ0_Q1MTIACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZqrEvG08YB5REYSMIgpYTLEAAtI8AAL8PPhJhJJQ0_Q1MTIACAEAB20ABx4E",
           "file_unique_id": "AgAD0jwAAvw8-Ek",
           "width": 128,
           "height": 128,
@@ -3764,7 +4074,7 @@
     "id": 5839038009193792264,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PJ-vx6SblznLR5Vh3Pe2UKAAISNgAC3IO5SC0lBfjChz7YHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZrrHIhOWTPrkUzEJ2pbLb0AAISNgAC3IO5SC0lBfjChz7YHgQ",
       "file_unique_id": "AgADEjYAAtyDuUg",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3780,7 +4090,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw8n6_HpJuXOctHlWHc97ZQoAAhI2AALcg7lILSUF-MKHPtgACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZmusciE5ZM-uRTMQnalstvQAAhI2AALcg7lILSUF-MKHPtgACAEAB20ABx4E",
           "file_unique_id": "AgADEjYAAtyDuUg",
           "width": 128,
           "height": 128,
@@ -3804,7 +4114,7 @@
     "id": 5841336413697606412,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8Oyk42Xe32UfwkhvclrEvL1AAKjMgACgzspSW0yGw-WzY6aHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YWex-6xK70WWq-3TNhN43FAAKjMgACgzspSW0yGw-WzY6aHgQ",
       "file_unique_id": "AgADozIAAoM7KUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3820,7 +4130,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw7KTjZd7fZR_CSG9yWsS8vUAAqMyAAKDOylJbTIbD5bNjpoACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZhZ7H7rErvRZar7dM2E3jcUAAqMyAAKDOylJbTIbD5bNjpoACAEAB20ABx4E",
           "file_unique_id": "AgADozIAAoM7KUk",
           "width": 128,
           "height": 128,
@@ -3844,7 +4154,7 @@
     "id": 5837063436634161765,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OUcGHJbTS-ouWb3WSSyv1HAAJ-PgACxvdASdGYIMI9yMx5HgQ",
+      "file_id": "CAACAgIAAxUAAWgib2YadOhyufLlCn2hZxCMt9kfAAJ-PgACxvdASdGYIMI9yMx5HgQ",
       "file_unique_id": "AgADfj4AAsb3QEk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3860,7 +4170,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw5RwYcltNL6i5ZvdZJLK_UcAAn4-AALG90BJ0Zggwj3IzHkACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZhp06HK58uUKfaFnEIy32R8AAn4-AALG90BJ0Zggwj3IzHkACAEAB20ABx4E",
           "file_unique_id": "AgADfj4AAsb3QEk",
           "width": 128,
           "height": 128,
@@ -3884,7 +4194,7 @@
     "id": 5836780359634649414,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PrkfE_Oyb_SaR1y6jLWGKmAALuOAACZBDZSFSU5_nBltZKHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ar04dCYFeryDsT9GO0RmE4AALuOAACZBDZSFSU5_nBltZKHgQ",
       "file_unique_id": "AgAD7jgAAmQQ2Ug",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3900,7 +4210,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw-uR8T87Jv9JpHXLqMtYYqYAAu44AAJkENlIVJTn-cGW1koACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZqvTh0JgV6vIOxP0Y7RGYTgAAu44AAJkENlIVJTn-cGW1koACAEAB20ABx4E",
           "file_unique_id": "AgAD7jgAAmQQ2Ug",
           "width": 128,
           "height": 128,
@@ -3924,7 +4234,7 @@
     "id": 5837059369300132790,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8M6KB1ydadeQgIrAz4G94zMAAIrOAAC-zXxSC-UZ4bkC41rHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZEIVojK94SrQGgy0Ac326OAAIrOAAC-zXxSC-UZ4bkC41rHgQ",
       "file_unique_id": "AgADKzgAAvs18Ug",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3940,7 +4250,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwzooHXJ1p15CAisDPgb3jMwAAis4AAL7NfFIL5RnhuQLjWsACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZkQhWiMr3hKtAaDLQBzfbo4AAis4AAL7NfFIL5RnhuQLjWsACAEAB20ABx4E",
           "file_unique_id": "AgADKzgAAvs18Ug",
           "width": 128,
           "height": 128,
@@ -3964,7 +4274,7 @@
     "id": 5821384757304362229,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8M98eentbJ8WPP-y5Jhw5ORAALaOQACiGqBSegtruMvVRswHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2Zi9wlB8b3uzqLHv02qYvfgAALaOQACiGqBSegtruMvVRswHgQ",
       "file_unique_id": "AgAD2jkAAohqgUk",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -3980,7 +4290,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwz3x56e1snxY8_7LkmHDk5EAAto5AAKIaoFJ6C2u4y9VGzAACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZmL3CUHxve7Oose_Tapi9-AAAto5AAKIaoFJ6C2u4y9VGzAACAEAB20ABx4E",
           "file_unique_id": "AgAD2jkAAohqgUk",
           "width": 128,
           "height": 128,
@@ -4004,7 +4314,7 @@
     "id": 5821205665758053411,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8NLuOrsW2Q9D1sTY6vOmmsXAAJjPAACivToSN578juNMaUhHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2bX9-85ZGc3gDwht4MHhTCKAAJjPAACivToSN578juNMaUhHgQ",
       "file_unique_id": "AgADYzwAAor06Eg",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -4020,7 +4330,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw0u46uxbZD0PWxNjq86aaxcAAmM8AAKK9OhI3nvyO40xpSEACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZtf37zlkZzeAPCG3gweFMIoAAmM8AAKK9OhI3nvyO40xpSEACAEAB20ABx4E",
           "file_unique_id": "AgADYzwAAor06Eg",
           "width": 128,
           "height": 128,
@@ -4044,7 +4354,7 @@
     "id": 5821261908354794038,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PTjAXazCzZxvs8juOvawPtAAKbNwACZPfxS6j5no12R2_gHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ajZgqe_DOOFKdhRmTHw5rbAAKbNwACZPfxS6j5no12R2_gHgQ",
       "file_unique_id": "AgADmzcAAmT38Us",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -4060,7 +4370,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw9OMBdrMLNnG-zyO469rA-0AAps3AAJk9_FLqPmejXZHb-AACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZqNmCp78M44Up2FGZMfDmtsAAps3AAJk9_FLqPmejXZHb-AACAEAB20ABx4E",
           "file_unique_id": "AgADmzcAAmT38Us",
           "width": 128,
           "height": 128,
@@ -4084,7 +4394,7 @@
     "id": 5170594532177215681,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8OrkXG6XnyMwSnfBvjqzOrsAAJeGwACFsJIS-gZUO6nWSNFHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZcxIvT27ojCjeOpYglaYQKAAJeGwACFsJIS-gZUO6nWSNFHgQ",
       "file_unique_id": "AgADXhsAAhbCSEs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -4100,7 +4410,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw6uRcbpefIzBKd8G-OrM6uwAAl4bAAIWwkhL6BlQ7qdZI0UACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZlzEi9PbuiMKN46liCVphAoAAl4bAAIWwkhL6BlQ7qdZI0UACAEAB20ABx4E",
           "file_unique_id": "AgADXhsAAhbCSEs",
           "width": 128,
           "height": 128,
@@ -4124,7 +4434,7 @@
     "id": 5167939598143193218,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8M14wABCCELFmlRROVLz_Z8wQACKhwAAiUFgEuEMMy2pMHTeB4E",
+      "file_id": "CAACAgIAAxUAAWgib2ZHsgeZiOQaQKnfimlcXSwCAAIqHAACJQWAS4QwzLakwdN4HgQ",
       "file_unique_id": "AgADKhwAAiUFgEs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -4140,7 +4450,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzwzXjAAEIIQsWaVFE5UvP9nzBAAIqHAACJQWAS4QwzLakwdN4AAgBAAdtAAceBA",
+          "file_id": "AAMCAgADFQABaCJvZkeyB5mI5BpAqd-KaVxdLAIAAiocAAIlBYBLhDDMtqTB03gACAEAB20ABx4E",
           "file_unique_id": "AgADKhwAAiUFgEs",
           "width": 128,
           "height": 128,
@@ -4164,7 +4474,7 @@
     "id": 5783075783622787539,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PIGCHAZnfvlXx0sfnpuoMgAAIlPAAChpepS0gglbXt2KajHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2b4cqxdWW2zophBLu9q9FC3AAIlPAAChpepS0gglbXt2KajHgQ",
       "file_unique_id": "AgADJTwAAoaXqUs",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -4180,7 +4490,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw8gYIcBmd--VfHSx-em6gyAAAiU8AAKGl6lLSCCVte3YpqMACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZvhyrF1ZbbOimEEu72r0ULcAAiU8AAKGl6lLSCCVte3YpqMACAEAB20ABx4E",
           "file_unique_id": "AgADJTwAAoaXqUs",
           "width": 128,
           "height": 128,
@@ -4204,7 +4514,7 @@
     "id": 5782988952268964995,
     "sticker": {
       "_": "Sticker",
-      "file_id": "CAACAgIAAxUAAWfsc8PuiqVfvprKBxIdxdCBqZXrAAJcPQACPovwSzcro45SHj-qHgQ",
+      "file_id": "CAACAgIAAxUAAWgib2ZBfeQlmz3yYIhBFVl7UBXtAAJcPQACPovwSzcro45SHj-qHgQ",
       "file_unique_id": "AgADXD0AAj6L8Es",
       "file_name": "AnimatedSticker.tgs",
       "mime_type": "application/x-tgsticker",
@@ -4220,7 +4530,7 @@
       "thumbs": [
         {
           "_": "Thumbnail",
-          "file_id": "AAMCAgADFQABZ-xzw-6KpV--msoHEh3F0IGplesAAlw9AAI-i_BLNyujjlIeP6oACAEAB20ABx4E",
+          "file_id": "AAMCAgADFQABaCJvZkF95CWbPfJgiEEVWXtQFe0AAlw9AAI-i_BLNyujjlIeP6oACAEAB20ABx4E",
           "file_unique_id": "AgADXD0AAj6L8Es",
           "width": 128,
           "height": 128,

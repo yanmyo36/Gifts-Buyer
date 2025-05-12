@@ -1,6 +1,5 @@
 import json
 import os
-from importlib import import_module
 
 import pyfiglet
 
@@ -36,15 +35,3 @@ def cmd(app_info: dict):
     title_text = f"{app_info['title']} by @{app_info['publisher']['contact']['telegram'][13:]}"
     if os.name == 'nt':
         os.system(f"title {title_text}")
-
-
-def get_locale(lang: str):
-    if not lang:
-        lang = 'EN'
-
-    try:
-        locale_module = import_module(f'locales.{lang.lower()}')
-        return locale_module.LANG[3:], locale_module
-    except ModuleNotFoundError:
-        locale_module = import_module('locales.en')
-        return locale_module.LANG[3:], locale_module

@@ -15,16 +15,15 @@ i18n.set('filename_format', '{locale}.{format}')
 i18n.set('file_format', 'yml')
 i18n.set('skip_locale_root_data', True)
 i18n.set('fallback', 'en')
-i18n.set('available_locales', ['en', 'ru', 'uk'])
+i18n.set('available_locales', ['en', 'ru'])
 
 LANGUAGE_INFO = {
     'en': {'display': 'English', 'code': 'EN-US'},
     'ru': {'display': 'Русский', 'code': 'RU-RU'},
-    'uk': {'display': 'Українська', 'code': 'UK-UA'},
 }
 
 
-def _(key: str, **kwargs) -> str:
+def t(key: str, **kwargs) -> str:
     locale = kwargs.pop('locale', i18n.get('locale'))
     return i18n.t(key, locale=locale, **kwargs)
 
@@ -50,42 +49,29 @@ class Config:
     def __init__(self):
         self.config_parser = configparser.ConfigParser()
         self.config_parser.read('config.ini')
-        self._init_paths()
-        self._init_telegram_settings()
-        self._init_bot_settings()
-        self._init_gift_settings()
-        i18n.set('locale', self.LANGUAGE.lower())
-
-        self._validate_config()
-
-    def _init_paths(self):
         self.SESSION = str(Path(__file__).parent.parent / "data/account")
         self.DATA_FILEPATH = Path(__file__).parent / "json/history.json"
-
-    def _init_telegram_settings(self):
         self.API_ID = self.config_parser.getint('Telegram', 'API_ID', fallback=0)
         self.API_HASH = self.config_parser.get('Telegram', 'API_HASH', fallback='')
         self.PHONE_NUMBER = self.config_parser.get('Telegram', 'PHONE_NUMBER', fallback='')
         self.CHANNEL_ID = self.config_parser.getint('Telegram', 'CHANNEL_ID', fallback=0)
-
-    def _init_bot_settings(self):
         self.INTERVAL = self.config_parser.getfloat('Bot', 'INTERVAL', fallback=10.0)
         self.TIMEZONE = self.config_parser.get('Bot', 'TIMEZONE', fallback='UTC')
         self.LANGUAGE = self.config_parser.get('Bot', 'LANGUAGE', fallback='EN').lower()
         self.LANGUAGE_DISPLAY = get_language_display(self.LANGUAGE)
         self.LANGUAGE_CODE = get_language_code(self.LANGUAGE)
-
-    def _init_gift_settings(self):
         self.USER_ID = self._parse_user_ids()
         self.MIN_GIFT_PRICE = self.config_parser.getint('Gifts', 'MIN_GIFT_PRICE', fallback=0)
         self.MAX_GIFT_PRICE = self.config_parser.getint('Gifts', 'MAX_GIFT_PRICE', fallback=10000)
         self.GIFT_QUANTITY = self.config_parser.getint('Gifts', 'GIFT_QUANTITY', fallback=1)
-        self.GIFT_DELAY = self.config_parser.getfloat('Gifts', 'GIFT_DELAY', fallback=5.0)
         self.PURCHASE_NON_LIMITED_GIFTS = self.config_parser.getboolean('Gifts', 'PURCHASE_NON_LIMITED_GIFTS',
                                                                         fallback=False)
         self.PURCHASE_ONLY_UPGRADABLE_GIFTS = self.config_parser.getboolean('Gifts', 'PURCHASE_ONLY_UPGRADABLE_GIFTS',
                                                                             fallback=False)
-        self.HIDE_SENDER_NAME = self.config_parser.getboolean('Gifts', 'HIDE_SENDER_NAME', fallback=True)
+
+        i18n.set('locale', self.LANGUAGE.lower())
+
+        self._validate_config()
 
     def _parse_user_ids(self) -> List:
         user_ids = []
@@ -98,7 +84,7 @@ class Config:
                     user_ids.append(user_id)
         return user_ids
 
-    def _validate_config(self):
+    def _validate_config(self) -> None:
         missing_fields = []
 
         if self.API_ID == 0:
@@ -117,7 +103,7 @@ class Config:
             missing_fields.append("Gifts > GIFT_QUANTITY (must be > 0)")
 
         if missing_fields:
-            error_message = _("errors.missing_config").format(
+            error_message = t("errors.missing_config").format(
                 '\n'.join(f'- {field}' for field in missing_fields)
             )
             error(error_message)
