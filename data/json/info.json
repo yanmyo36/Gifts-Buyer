@@ -1,9 +1,9 @@
 {
   "name": "Telegram Gifts Auto-buyer",
   "title": "Gifts Buyer",
-  "version": "2025.6 (70)",
+  "version": "2025.6 (72)",
   "description": "A Telegram user-bot that automatically buys new gifts, both limited and non-limited. Very flexible setup.",
-  "release_date": "13.05.2025",
+  "release_date": "27.05.2025",
   "publisher": {
     "name": "Bohdan",
     "contact": {

@@ -2,7 +2,8 @@
 
 <img src="https://github.com/user-attachments/assets/a8d750d3-500c-4372-9733-3bbd509643e8" alt="Program Preview" width="100%" />
 
-An automated Telegram userbot that purchases new gifts as they become available in the Telegram store. The bot can handle both limited and non-limited gifts with flexible configuration options.
+An automated Telegram userbot that purchases new gifts as they become available in the Telegram store. The bot can
+handle both limited and non-limited gifts with flexible configuration options.
 
 > 🌐 [Русская версия документации](README-RU.md)
 
@@ -38,8 +39,8 @@ An automated Telegram userbot that purchases new gifts as they become available 
    ```
 
 3. Configure the application:
-   - Edit the `config.ini` file with your API credentials
-   - Set your preferred gift purchasing parameters
+    - Edit the `config.ini` file with your API credentials
+    - Set your preferred gift purchasing parameters
 
 ## ⚙️ Configuration
 

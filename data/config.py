@@ -61,8 +61,8 @@ class Config:
         self.LANGUAGE_DISPLAY = get_language_display(self.LANGUAGE)
         self.LANGUAGE_CODE = get_language_code(self.LANGUAGE)
         self.USER_ID = self._parse_user_ids()
-        self.MIN_GIFT_PRICE = self.config_parser.getint('Gifts', 'MIN_GIFT_PRICE', fallback=0)
-        self.MAX_GIFT_PRICE = self.config_parser.getint('Gifts', 'MAX_GIFT_PRICE', fallback=10000)
+        self.MIN_GIFT_PRICE = self.config_parser.getint('Gifts', 'MIN_GIFT_PRICE', fallback=100000)
+        self.MAX_GIFT_PRICE = self.config_parser.getint('Gifts', 'MAX_GIFT_PRICE', fallback=100000)
         self.GIFT_QUANTITY = self.config_parser.getint('Gifts', 'GIFT_QUANTITY', fallback=1)
         self.PURCHASE_NON_LIMITED_GIFTS = self.config_parser.getboolean('Gifts', 'PURCHASE_NON_LIMITED_GIFTS',
                                                                         fallback=False)
@@ -85,22 +85,17 @@ class Config:
         return user_ids
 
     def _validate_config(self) -> None:
-        missing_fields = []
+        validation_rules = {
+            "Telegram > API_ID": lambda: self.API_ID == 0,
+            "Telegram > API_HASH": lambda: not self.API_HASH,
+            "Telegram > PHONE_NUMBER": lambda: not self.PHONE_NUMBER,
+            "Gifts > USER_ID": lambda: not self.USER_ID,
+            "Gifts > MIN_GIFT_PRICE (must be >= 0)": lambda: self.MIN_GIFT_PRICE < 0,
+            "Gifts > MAX_GIFT_PRICE (must be > 0)": lambda: self.MAX_GIFT_PRICE <= 0,
+            "Gifts > GIFT_QUANTITY (must be > 0)": lambda: self.GIFT_QUANTITY <= 0,
+        }
 
-        if self.API_ID == 0:
-            missing_fields.append("Telegram > API_ID")
-        if not self.API_HASH:
-            missing_fields.append("Telegram > API_HASH")
-        if not self.PHONE_NUMBER:
-            missing_fields.append("Telegram > PHONE_NUMBER")
-        if not self.USER_ID:
-            missing_fields.append("Gifts > USER_ID")
-        if self.MIN_GIFT_PRICE < 0:
-            missing_fields.append("Gifts > MIN_GIFT_PRICE (must be >= 0)")
-        if self.MAX_GIFT_PRICE <= 0:
-            missing_fields.append("Gifts > MAX_GIFT_PRICE (must be > 0)")
-        if self.GIFT_QUANTITY <= 0:
-            missing_fields.append("Gifts > GIFT_QUANTITY (must be > 0)")
+        missing_fields = [field for field, validator in validation_rules.items() if validator()]
 
         if missing_fields:
             error_message = t("errors.missing_config").format(
