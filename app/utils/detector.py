@@ -72,6 +72,13 @@ async def detector(app: Client, callback: Callable) -> None:
                     skip_counts['non_upgradable_count'] += 1
 
             sorted_gifts = sorted(new_gifts.items(), key=lambda x: x[1]["number"])
+
+            if config.PRIORITIZE_LOW_SUPPLY:
+                sorted_gifts = sorted(sorted_gifts, key=lambda x: (
+                    x[1].get("total_amount", float('inf')) if x[1].get("is_limited", False) else float('inf'),
+                    x[1]["number"]
+                ))
+
             for gift_id, gift_data in sorted_gifts:
                 await callback(app, gift_data)
 

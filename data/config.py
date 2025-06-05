@@ -43,6 +43,7 @@ class Config:
         self.PURCHASE_NON_LIMITED_GIFTS = self.parser.getboolean('Gifts', 'PURCHASE_NON_LIMITED_GIFTS', fallback=False)
         self.PURCHASE_ONLY_UPGRADABLE_GIFTS = self.parser.getboolean('Gifts', 'PURCHASE_ONLY_UPGRADABLE_GIFTS',
                                                                      fallback=False)
+        self.PRIORITIZE_LOW_SUPPLY = self.parser.getboolean('Gifts', 'PRIORITIZE_LOW_SUPPLY', fallback=False)
 
     def _parse_recipients(self) -> List[Union[int, str]]:
         raw_ids = self.parser.get('Gifts', 'USER_ID', fallback='').split(',')
