@@ -6,7 +6,7 @@ from app.utils.logger import error
 from data.config import config, t
 
 
-async def send_message(app: Client, message: str, disable_web_page_preview: bool = True) -> None:
+async def send_message(app: Client, message: str) -> None:
     if not config.CHANNEL_ID:
         return
 
@@ -14,7 +14,7 @@ async def send_message(app: Client, message: str, disable_web_page_preview: bool
         await app.send_message(
             config.CHANNEL_ID,
             message,
-            disable_web_page_preview=disable_web_page_preview
+            disable_web_page_preview=True
         )
     except RPCError as ex:
         error(f'Failed to send notification: {str(ex)}')
@@ -54,7 +54,7 @@ async def send_notification(app: Client, gift_id: int, **kwargs) -> None:
 async def send_start_message(client: Client) -> None:
     balance = await get_user_balance(client)
     message = t("telegram.start_message",
-                language=config.LANGUAGE_DISPLAY,
+                language=config.language_display,
                 locale=config.LANGUAGE,
                 balance=balance,
                 min_price=config.MIN_GIFT_PRICE,

@@ -10,7 +10,7 @@ from app.utils.logger import log_same_line, info
 from data.config import config, t
 
 
-async def _load_old_gifts() -> Dict[int, dict]:
+async def load_old_gifts() -> Dict[int, dict]:
     try:
         with config.DATA_FILEPATH.open("r", encoding='utf-8') as file:
             return {gift["id"]: gift for gift in json.load(file)}
@@ -18,51 +18,51 @@ async def _load_old_gifts() -> Dict[int, dict]:
         return {}
 
 
-async def _save_gifts(gifts: List[dict]) -> None:
+async def save_gifts(gifts: List[dict]) -> None:
     with config.DATA_FILEPATH.open("w", encoding='utf-8') as file:
         json.dump(gifts, file, indent=4, default=types.Object.default, ensure_ascii=False)
 
 
-async def _get_formatted_gifts(app: Client) -> Tuple[Dict[int, dict], List[int]]:
-    all_gifts = [
+async def get_current_gifts(app: Client) -> Tuple[Dict[int, dict], List[int]]:
+    gifts = [
         json.loads(json.dumps(gift, default=types.Object.default, ensure_ascii=False))
         for gift in await app.get_available_gifts()
     ]
+    gifts_dict = {gift["id"]: gift for gift in gifts}
+    return gifts_dict, list(gifts_dict.keys())
 
-    all_gifts_raw = {gift["id"]: gift for gift in all_gifts}
-    return all_gifts_raw, list(all_gifts_raw.keys())
 
-
-async def detector(app: Client, new_callback: Callable) -> None:
-    dot = 0
+async def detector(app: Client, callback: Callable) -> None:
+    dot_count = 0
 
     while True:
-        dot = (dot + 1) % 4
-        log_same_line(f'{t("console.gift_checking")}{"." * dot}')
+        dot_count = (dot_count + 1) % 4
+        log_same_line(f'{t("console.gift_checking")}{"." * dot_count}')
         time.sleep(0.2)
 
         if not app.is_connected:
             await app.start()
 
-        old_gifts = await _load_old_gifts()
-        all_gifts_raw, all_gifts_ids = await _get_formatted_gifts(app)
+        old_gifts = await load_old_gifts()
+        current_gifts, gift_ids = await get_current_gifts(app)
 
-        new_gifts_raw = {
-            key: value for key, value in all_gifts_raw.items()
-            if key not in old_gifts
+        new_gifts = {
+            gift_id: gift_data for gift_id, gift_data in current_gifts.items()
+            if gift_id not in old_gifts
         }
 
-        if new_gifts_raw:
-            info(f'{t("console.new_gifts")} {len(new_gifts_raw)}')
+        if new_gifts:
+            info(f'{t("console.new_gifts")} {len(new_gifts)}')
 
-            all_gifts_amount = len(all_gifts_ids)
-            for gift_id, gift_raw in new_gifts_raw.items():
-                gift_raw["number"] = all_gifts_amount - all_gifts_ids.index(gift_id)
+            total_gifts = len(gift_ids)
+            for gift_id, gift_data in new_gifts.items():
+                gift_data["number"] = total_gifts - gift_ids.index(gift_id)
 
-            for gift_id, gift_raw in sorted(new_gifts_raw.items(), key=lambda it: it[1]["number"]):
-                await new_callback(app, gift_raw)
+            sorted_gifts = sorted(new_gifts.items(), key=lambda x: x[1]["number"])
+            for gift_id, gift_data in sorted_gifts:
+                await callback(app, gift_data)
 
             await process_skipped_gifts(app)
 
-        await _save_gifts(list(all_gifts_raw.values()))
+        await save_gifts(list(current_gifts.values()))
         await asyncio.sleep(config.INTERVAL)

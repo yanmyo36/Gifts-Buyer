@@ -18,11 +18,6 @@ handle both limited and non-limited gifts with flexible configuration options.
 
 ## 🛠️ Installation
 
-### Prerequisites
-
-- Python 3.9 or higher
-- A Telegram account with API access
-
 ### Setup Steps
 
 1. Clone the repository:
@@ -39,8 +34,8 @@ handle both limited and non-limited gifts with flexible configuration options.
    ```
 
 3. Configure the application:
-    - Edit the `config.ini` file with your API credentials
-    - Set your preferred gift purchasing parameters
+   - Edit the `config.ini` file with your API credentials
+   - Set your preferred gift purchasing parameters
 
 ## ⚙️ Configuration
 

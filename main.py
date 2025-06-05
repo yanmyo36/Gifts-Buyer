@@ -4,20 +4,20 @@ import traceback
 from pyrogram import Client
 from pytz import timezone as _timezone
 
-from app.core.banner import title, info, cmd
+from app.core.banner import display_title, get_app_info, set_window_title
 from app.core.callbacks import new_callback
 from app.notifications import send_start_message
 from app.utils.detector import detector
-from app.utils.logger import info as log_info, error
+from app.utils.logger import info, error
 from data.config import config, t, get_language_display
 
 timezone = _timezone(config.TIMEZONE)
-app_info = info()
+app_info = get_app_info()
 
 
 async def main() -> None:
-    cmd(app_info)
-    title(app_info, get_language_display(config.LANGUAGE))
+    set_window_title(app_info)
+    display_title(app_info, get_language_display(config.LANGUAGE))
 
     async with Client(
             name=config.SESSION,
@@ -33,7 +33,7 @@ if __name__ == "__main__":
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        log_info(t("console.terminated"))
+        info(t("console.terminated"))
     except Exception:
         error(t("console.unexpected_error"))
         traceback.print_exc()

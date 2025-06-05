@@ -4,17 +4,17 @@ import os
 import pyfiglet
 
 
-def info(file_path="data/json/info.json"):
+def get_app_info(file_path="data/json/app.json"):
     with open(file_path, "r", encoding="utf-8") as file:
         return json.load(file)
 
 
-def app_banner(app_name: str) -> str:
+def create_banner(app_name: str) -> str:
     return pyfiglet.figlet_format(app_name, font="slant")
 
 
-def title(app_info: dict, language: str):
-    banner = app_banner(app_info["title"])
+def display_title(app_info: dict, language: str):
+    banner = create_banner(app_info["title"])
     separator = "-" * 80
     description = (
         f"Language: \033[1m{language}\033[0m | "
@@ -31,7 +31,7 @@ def title(app_info: dict, language: str):
     print(separator)
 
 
-def cmd(app_info: dict):
+def set_window_title(app_info: dict):
     title_text = f"{app_info['title']} by @{app_info['publisher']['contact']['telegram'][13:]}"
     if os.name == 'nt':
         os.system(f"title {title_text}")

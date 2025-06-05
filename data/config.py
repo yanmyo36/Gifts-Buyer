@@ -1,108 +1,92 @@
 import configparser
-import os
 import sys
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Union
 
-import i18n
-import yaml
-
+from app.utils.localization import localization
 from app.utils.logger import error
-
-locales_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'locales')
-i18n.load_path.append(locales_path)
-i18n.set('filename_format', '{locale}.{format}')
-i18n.set('file_format', 'yml')
-i18n.set('skip_locale_root_data', True)
-i18n.set('fallback', 'en')
-i18n.set('available_locales', ['en', 'ru'])
-
-LANGUAGE_INFO = {
-    'en': {'display': 'English', 'code': 'EN-US'},
-    'ru': {'display': 'Русский', 'code': 'RU-RU'},
-}
-
-
-def t(key: str, **kwargs) -> str:
-    locale = kwargs.pop('locale', i18n.get('locale'))
-    return i18n.t(key, locale=locale, **kwargs)
-
-
-def get_language_display(locale: str) -> str:
-    return LANGUAGE_INFO.get(locale.lower(), {}).get('display', locale)
-
-
-def get_language_code(locale: str) -> str:
-    return LANGUAGE_INFO.get(locale.lower(), {}).get('code', locale.upper())
-
-
-def get_all_translations(locale: str) -> Dict[str, Any]:
-    file_path = os.path.join(locales_path, f"{locale.lower()}.yml")
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            return yaml.safe_load(file) or {}
-    except (FileNotFoundError, yaml.YAMLError):
-        return {}
 
 
 class Config:
     def __init__(self):
-        self.config_parser = configparser.ConfigParser()
-        self.config_parser.read('config.ini')
-        self.SESSION = str(Path(__file__).parent.parent / "data/account")
-        self.DATA_FILEPATH = Path(__file__).parent / "json/history.json"
-        self.API_ID = self.config_parser.getint('Telegram', 'API_ID', fallback=0)
-        self.API_HASH = self.config_parser.get('Telegram', 'API_HASH', fallback='')
-        self.PHONE_NUMBER = self.config_parser.get('Telegram', 'PHONE_NUMBER', fallback='')
-        self.CHANNEL_ID = self.config_parser.getint('Telegram', 'CHANNEL_ID', fallback=0)
-        self.INTERVAL = self.config_parser.getfloat('Bot', 'INTERVAL', fallback=10.0)
-        self.TIMEZONE = self.config_parser.get('Bot', 'TIMEZONE', fallback='UTC')
-        self.LANGUAGE = self.config_parser.get('Bot', 'LANGUAGE', fallback='EN').lower()
-        self.LANGUAGE_DISPLAY = get_language_display(self.LANGUAGE)
-        self.LANGUAGE_CODE = get_language_code(self.LANGUAGE)
-        self.USER_ID = self._parse_user_ids()
-        self.MIN_GIFT_PRICE = self.config_parser.getint('Gifts', 'MIN_GIFT_PRICE', fallback=100000)
-        self.MAX_GIFT_PRICE = self.config_parser.getint('Gifts', 'MAX_GIFT_PRICE', fallback=100000)
-        self.GIFT_QUANTITY = self.config_parser.getint('Gifts', 'GIFT_QUANTITY', fallback=1)
-        self.PURCHASE_NON_LIMITED_GIFTS = self.config_parser.getboolean('Gifts', 'PURCHASE_NON_LIMITED_GIFTS',
-                                                                        fallback=False)
-        self.PURCHASE_ONLY_UPGRADABLE_GIFTS = self.config_parser.getboolean('Gifts', 'PURCHASE_ONLY_UPGRADABLE_GIFTS',
-                                                                            fallback=False)
+        self.parser = configparser.ConfigParser()
+        self._load_config()
+        self._setup_paths()
+        self._setup_properties()
+        self._validate()
+        localization.set_locale(self.LANGUAGE)
 
-        i18n.set('locale', self.LANGUAGE.lower())
+    def _load_config(self) -> None:
+        config_file = Path('config.ini')
+        if not config_file.exists():
+            error("Configuration file 'config.ini' not found!")
+            sys.exit(1)
+        self.parser.read(config_file, encoding='utf-8')
 
-        self._validate_config()
+    def _setup_paths(self) -> None:
+        base_dir = Path(__file__).parent
+        self.SESSION = str(base_dir.parent / "data/account")
+        self.DATA_FILEPATH = base_dir / "json/history.json"
 
-    def _parse_user_ids(self) -> List:
-        user_ids = []
-        for user_id in self.config_parser.get('Gifts', 'USER_ID', fallback='').split(','):
+    def _setup_properties(self) -> None:
+        self.API_ID = self.parser.getint('Telegram', 'API_ID', fallback=0)
+        self.API_HASH = self.parser.get('Telegram', 'API_HASH', fallback='')
+        self.PHONE_NUMBER = self.parser.get('Telegram', 'PHONE_NUMBER', fallback='')
+        self.CHANNEL_ID = self.parser.getint('Telegram', 'CHANNEL_ID', fallback=0) or None
+
+        self.INTERVAL = self.parser.getfloat('Bot', 'INTERVAL', fallback=10.0)
+        self.TIMEZONE = self.parser.get('Bot', 'TIMEZONE', fallback='UTC')
+        self.LANGUAGE = self.parser.get('Bot', 'LANGUAGE', fallback='EN').lower()
+
+        self.USER_ID = self._parse_recipients()
+        self.MIN_GIFT_PRICE = self.parser.getint('Gifts', 'MIN_GIFT_PRICE', fallback=0)
+        self.MAX_GIFT_PRICE = self.parser.getint('Gifts', 'MAX_GIFT_PRICE', fallback=100000)
+        self.GIFT_QUANTITY = self.parser.getint('Gifts', 'GIFT_QUANTITY', fallback=1)
+        self.PURCHASE_NON_LIMITED_GIFTS = self.parser.getboolean('Gifts', 'PURCHASE_NON_LIMITED_GIFTS', fallback=False)
+        self.PURCHASE_ONLY_UPGRADABLE_GIFTS = self.parser.getboolean('Gifts', 'PURCHASE_ONLY_UPGRADABLE_GIFTS',
+                                                                     fallback=False)
+
+    def _parse_recipients(self) -> List[Union[int, str]]:
+        raw_ids = self.parser.get('Gifts', 'USER_ID', fallback='').split(',')
+        recipients = []
+        for user_id in raw_ids:
             user_id = user_id.strip()
             if user_id:
                 try:
-                    user_ids.append(int(user_id))
+                    recipients.append(int(user_id))
                 except ValueError:
-                    user_ids.append(user_id)
-        return user_ids
+                    recipients.append(user_id)
+        return recipients
 
-    def _validate_config(self) -> None:
-        validation_rules = {
-            "Telegram > API_ID": lambda: self.API_ID == 0,
-            "Telegram > API_HASH": lambda: not self.API_HASH,
-            "Telegram > PHONE_NUMBER": lambda: not self.PHONE_NUMBER,
-            "Gifts > USER_ID": lambda: not self.USER_ID,
-            "Gifts > MIN_GIFT_PRICE (must be >= 0)": lambda: self.MIN_GIFT_PRICE < 0,
-            "Gifts > MAX_GIFT_PRICE (must be > 0)": lambda: self.MAX_GIFT_PRICE <= 0,
-            "Gifts > GIFT_QUANTITY (must be > 0)": lambda: self.GIFT_QUANTITY <= 0,
+    def _validate(self) -> None:
+        checks = {
+            "Telegram > API_ID": self.API_ID == 0,
+            "Telegram > API_HASH": not self.API_HASH,
+            "Telegram > PHONE_NUMBER": not self.PHONE_NUMBER,
+            "Gifts > USER_ID": not self.USER_ID,
+            "Gifts > MIN_GIFT_PRICE (>= 0)": self.MIN_GIFT_PRICE < 0,
+            "Gifts > MAX_GIFT_PRICE (> 0)": self.MAX_GIFT_PRICE <= 0,
+            "Gifts > GIFT_QUANTITY (> 0)": self.GIFT_QUANTITY <= 0,
         }
 
-        missing_fields = [field for field, validator in validation_rules.items() if validator()]
-
-        if missing_fields:
-            error_message = t("errors.missing_config").format(
-                '\n'.join(f'- {field}' for field in missing_fields)
-            )
-            error(error_message)
+        invalid = [field for field, invalid in checks.items() if invalid]
+        if invalid:
+            error_msg = localization.translate("errors.missing_config").format(
+                '\n'.join(f'- {field}' for field in invalid))
+            error(error_msg)
             sys.exit(1)
+
+    @property
+    def language_display(self) -> str:
+        return localization.get_display_name(self.LANGUAGE)
+
+    @property
+    def language_code(self) -> str:
+        return localization.get_language_code(self.LANGUAGE)
 
 
 config = Config()
+t = localization.translate
+get_language_display = localization.get_display_name
+get_language_code = localization.get_language_code
+get_all_translations = localization.load_all_translations

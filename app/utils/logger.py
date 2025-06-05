@@ -9,8 +9,7 @@ logging.addLevelName(SUCCESS_LEVEL, "SUCCESS")
 class SimpleFormatter(logging.Formatter):
     def format(self, record):
         timestamp = datetime.datetime.now().strftime("%d.%m.%y %H:%M:%S")
-        formatted_levelname = f"[{timestamp}] - [{record.levelname}]: "
-        record.levelname = formatted_levelname
+        record.levelname = f"[{timestamp}] - [{record.levelname}]: "
         return super().format(record)
 
 
@@ -21,17 +20,13 @@ class CustomLogger(logging.Logger):
 
 
 logging.setLoggerClass(CustomLogger)
-
 logger = logging.getLogger("gifts_buyer")
 logger.setLevel(logging.DEBUG)
 
-console_handler = logging.StreamHandler(sys.stdout)
-console_handler.setLevel(logging.DEBUG)
-
-formatter = SimpleFormatter('%(levelname)s %(message)s')
-console_handler.setFormatter(formatter)
-
-logger.addHandler(console_handler)
+handler = logging.StreamHandler(sys.stdout)
+handler.setLevel(logging.DEBUG)
+handler.setFormatter(SimpleFormatter('%(levelname)s %(message)s'))
+logger.addHandler(handler)
 
 
 def info(message: str) -> None:
@@ -59,5 +54,4 @@ def success(message: str) -> None:
 
 def log_same_line(message: str, level: str = "INFO") -> None:
     timestamp = datetime.datetime.now().strftime("%d.%m.%y %H:%M:%S")
-    formatted_message = f"\r[{timestamp}] - [{level.upper()}]: {message}"
-    print(formatted_message, end="", flush=True)
+    print(f"\r[{timestamp}] - [{level.upper()}]: {message}", end="", flush=True)
