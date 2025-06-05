@@ -30,7 +30,7 @@ async def handle_gift_error(app: Client, ex: RPCError, gift_id: int, chat_id: in
         }
     }
 
-    for error_type, handler in error_types.items():
+    for handler in error_types.values():
         if handler['check'](ex):
             if handler['log']:
                 error(handler['log'])

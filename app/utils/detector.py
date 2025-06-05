@@ -5,7 +5,7 @@ from typing import Callable, Dict, List, Tuple
 
 from pyrogram import Client, types
 
-from app.core.callbacks import process_skipped_gifts
+from app.notifications import send_summary_message
 from app.utils.logger import log_same_line, info
 from data.config import config, t
 
@@ -55,14 +55,27 @@ async def detector(app: Client, callback: Callable) -> None:
             info(f'{t("console.new_gifts")} {len(new_gifts)}')
 
             total_gifts = len(gift_ids)
+            skip_counts = {
+                'sold_out_count': 0,
+                'non_limited_count': 0,
+                'non_upgradable_count': 0
+            }
+
             for gift_id, gift_data in new_gifts.items():
                 gift_data["number"] = total_gifts - gift_ids.index(gift_id)
+
+                if gift_data.get("is_sold_out"):
+                    skip_counts['sold_out_count'] += 1
+                elif not gift_data.get("is_limited") and not config.PURCHASE_NON_LIMITED_GIFTS:
+                    skip_counts['non_limited_count'] += 1
+                elif config.PURCHASE_ONLY_UPGRADABLE_GIFTS and "upgrade_price" not in gift_data:
+                    skip_counts['non_upgradable_count'] += 1
 
             sorted_gifts = sorted(new_gifts.items(), key=lambda x: x[1]["number"])
             for gift_id, gift_data in sorted_gifts:
                 await callback(app, gift_data)
 
-            await process_skipped_gifts(app)
+            await send_summary_message(app, **skip_counts)
 
         await save_gifts(list(current_gifts.values()))
         await asyncio.sleep(config.INTERVAL)

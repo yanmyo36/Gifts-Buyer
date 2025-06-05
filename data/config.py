@@ -34,12 +34,11 @@ class Config:
         self.PHONE_NUMBER = self.parser.get('Telegram', 'PHONE_NUMBER', fallback='')
         self.CHANNEL_ID = self.parser.getint('Telegram', 'CHANNEL_ID', fallback=0) or None
 
-        self.INTERVAL = self.parser.getfloat('Bot', 'INTERVAL', fallback=10.0)
-        self.TIMEZONE = self.parser.get('Bot', 'TIMEZONE', fallback='UTC')
+        self.INTERVAL = self.parser.getfloat('Bot', 'INTERVAL', fallback=15.0)
         self.LANGUAGE = self.parser.get('Bot', 'LANGUAGE', fallback='EN').lower()
 
         self.USER_ID = self._parse_recipients()
-        self.MIN_GIFT_PRICE = self.parser.getint('Gifts', 'MIN_GIFT_PRICE', fallback=0)
+        self.MIN_GIFT_PRICE = self.parser.getint('Gifts', 'MIN_GIFT_PRICE', fallback=10000)
         self.MAX_GIFT_PRICE = self.parser.getint('Gifts', 'MAX_GIFT_PRICE', fallback=100000)
         self.GIFT_QUANTITY = self.parser.getint('Gifts', 'GIFT_QUANTITY', fallback=1)
         self.PURCHASE_NON_LIMITED_GIFTS = self.parser.getboolean('Gifts', 'PURCHASE_NON_LIMITED_GIFTS', fallback=False)

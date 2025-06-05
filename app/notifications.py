@@ -11,11 +11,7 @@ async def send_message(app: Client, message: str) -> None:
         return
 
     try:
-        await app.send_message(
-            config.CHANNEL_ID,
-            message,
-            disable_web_page_preview=True
-        )
+        await app.send_message(config.CHANNEL_ID, message, disable_web_page_preview=True)
     except RPCError as ex:
         error(f'Failed to send notification: {str(ex)}')
 
@@ -33,10 +29,6 @@ async def send_notification(app: Client, gift_id: int, **kwargs) -> None:
         'balance_error': lambda: t("telegram.balance_error", gift_id=gift_id,
                                    gift_price=kwargs.get('gift_price', 0),
                                    current_balance=kwargs.get('current_balance', 0)),
-        'sold_out': lambda: t("telegram.sold_out_error", gift_id=gift_id),
-        'sold_out_summary': lambda: t("telegram.sold_out_summary", count=kwargs.get('count', 0)),
-        'non_limited_summary': lambda: t("telegram.non_limited_summary", count=kwargs.get('count', 0)),
-        'non_upgradable_summary': lambda: t("telegram.non_upgradable_summary", count=kwargs.get('count', 0)),
         'gift_price_error': lambda: t("telegram.gift_price", gift_id=gift_id,
                                       price=kwargs.get('gift_price'),
                                       supply_text=supply_text),
@@ -61,3 +53,25 @@ async def send_start_message(client: Client) -> None:
                 max_price=config.MAX_GIFT_PRICE,
                 quantity=config.GIFT_QUANTITY)
     await send_message(client, message)
+
+
+async def send_summary_message(app: Client, sold_out_count: int = 0,
+                               non_limited_count: int = 0, non_upgradable_count: int = 0) -> None:
+    if not config.CHANNEL_ID:
+        return
+
+    skip_types = {
+        'sold_out_item': sold_out_count,
+        'non_limited_item': non_limited_count,
+        'non_upgradable_item': non_upgradable_count
+    }
+
+    summary_parts = [
+        t(f"telegram.{skip_type}", count=count)
+        for skip_type, count in skip_types.items()
+        if count > 0
+    ]
+
+    if summary_parts:
+        message = t("telegram.skip_summary_header") + "\n" + "\n".join(summary_parts)
+        await send_message(app, message)

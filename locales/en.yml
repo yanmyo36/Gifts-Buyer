@@ -9,6 +9,7 @@ errors:
 telegram:
   start_message: |
     <b>✅ Gifts Buyer Successfully Started</b>
+
     <b>Selected language:</b> <code>%{language}</code>
     <b>Your current balance:</b> <code>%{balance} ⭐</code>
 
@@ -17,18 +18,22 @@ telegram:
     • Gifts in the price range <b>%{min_price}-%{max_price} ⭐</b> will be purchased
     • Each matching gift will be sent <b>%{quantity}x</b> times</blockquote>
 
-    <i>💡 Gifts outside the specified criteria will be automatically skipped</i>
+    💡 Gifts outside the specified criteria will be automatically skipped
+
+    @GiftsTracker • @GiftMints | Made with ❤️ by @bohd4nx
   peer_id_error: |
     <b>❗Error while sending gift!</b>
+    
     Please make sure the initialization message has been sent successfully 
     and that you have interacted with this user previously.
   error_message: "<b>❗Error while buying a gift!</b>\n\n<pre>%{error}</pre>"
   balance_error: "<b>🎁 Gift</b> [<code>%{gift_id}</code>] could not be sent due to insufficient balance!\n\n<b>Required:</b> <code>%{gift_price} ⭐</code>\n<b>Balance:</b> <code>%{current_balance} ⭐</code>"
   gift_price: "<b>🎁 Gift</b> [<code>%{gift_id}</code>] does not match the user's specified settings\n\nPrice: <b>%{price} ⭐%{supply_text}</b>. Skipping..."
   success_message: "<b>🎁 Gift (%{current}/%{total}):</b> [<code>%{gift_id}</code>] has been successfully sent!\n\n<b>Recipient:%{recipient}</b>"
-  sold_out_summary: "<b>⚠️ Skipped %{count} sold out gifts</b>"
-  non_limited_summary: "<b>⚠️ Skipped %{count} non-limited gifts</b>"
-  non_upgradable_summary: "<b>⚠️ Skipped %{count} non-upgradable gifts</b>"
+  skip_summary_header: "<b>📊 Gift processing summary:</b>\n"
+  sold_out_item: "• <b>%{count}</b> sold out gifts skipped"
+  non_limited_item: "• <b>%{count}</b> non-limited gifts skipped"
+  non_upgradable_item: "• <b>%{count}</b> non-upgradable gifts skipped"
   available: "Available"
 
 console:

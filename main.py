@@ -2,7 +2,6 @@ import asyncio
 import traceback
 
 from pyrogram import Client
-from pytz import timezone as _timezone
 
 from app.core.banner import display_title, get_app_info, set_window_title
 from app.core.callbacks import new_callback
@@ -11,7 +10,6 @@ from app.utils.detector import detector
 from app.utils.logger import info, error
 from data.config import config, t, get_language_display
 
-timezone = _timezone(config.TIMEZONE)
 app_info = get_app_info()
 
 
