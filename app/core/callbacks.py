@@ -16,7 +16,7 @@ class GiftFilter:
         is_limited = gift_data.get("is_limited", False)
         is_sold_out = gift_data.get("is_sold_out", False)
         is_upgradable = "upgrade_price" in gift_data
-        total_amount = gift_data.get("total_amount", "N/A") if is_limited else "N/A"
+        total_amount = gift_data.get("total_amount", 0) if is_limited else 0
 
         validation_rules = [
             {
@@ -32,9 +32,9 @@ class GiftFilter:
                 'return_data': {}
             },
             {
-                'condition': not (config.MIN_GIFT_PRICE <= gift_price <= config.MAX_GIFT_PRICE),
+                'condition': is_limited and not config.get_matching_range(gift_price, total_amount),
                 'return_data': {
-                    "gift_price_error": True,
+                    "range_error": True,
                     "gift_price": gift_price,
                     "total_amount": total_amount
                 }

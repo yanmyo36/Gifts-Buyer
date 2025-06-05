@@ -10,7 +10,7 @@ handle both limited and non-limited gifts with flexible configuration options.
 ## 📋 Features
 
 - **Automated Gift Detection**: Continuously monitors for new gifts in the Telegram store
-- **Selective Purchasing**: Buy gifts within your specified price range
+- **Range-Based Purchasing**: Buy gifts based on price ranges with supply requirements
 - **Multiple Recipients**: Send gifts to one or more users
 - **Customizable Quantity**: Send multiple copies of the same gift
 - **Notification System**: Get updates on purchases through a designated Telegram channel
@@ -34,8 +34,8 @@ handle both limited and non-limited gifts with flexible configuration options.
    ```
 
 3. Configure the application:
-   - Edit the `config.ini` file with your API credentials
-   - Set your preferred gift purchasing parameters
+    - Edit the `config.ini` file with your API credentials
+    - Set your preferred gift purchasing parameters
 
 ## ⚙️ Configuration
 
@@ -64,13 +64,25 @@ LANGUAGE = EN     # Interface language (EN or RU)
 
 ```ini
 [Gifts]
-MIN_GIFT_PRICE = 0          # Minimum price to consider
-MAX_GIFT_PRICE = 10000      # Maximum price to consider
+# Price ranges with supply limits (format: min_price-max_price: supply_limit)
+PRICE_RANGES = 1-1000: 500000, 1001-5000: 100000, 5001-10000: 50000
 GIFT_QUANTITY = 1           # Number of each gift to send
 USER_ID = 123456789         # Recipients (comma-separated)
 PURCHASE_NON_LIMITED_GIFTS = False    # Whether to buy non-limited gifts
 PURCHASE_ONLY_UPGRADABLE_GIFTS = False  # Buy only upgradable gifts
 ```
+
+#### Price Range Configuration
+
+The `PRICE_RANGES` parameter allows you to specify multiple price ranges with corresponding supply limits (all ranges
+are **inclusive**):
+
+- `1-1000: 500000` - Buy gifts priced 1-1000 stars if supply ≤ 500,000
+- `1001-5000: 100000` - Buy gifts priced 1001-5000 stars if supply ≤ 100,000
+- `5001-10000: 50000` - Buy gifts priced 5001-10000 stars if supply ≤ 50,000
+
+**Example:** A gift priced at 1000 stars with 500,000 supply will match the first range. A gift with 500,001 supply will
+NOT match any range.
 
 ## 🚀 Usage
 

@@ -20,7 +20,7 @@ async def send_notification(app: Client, gift_id: int, **kwargs) -> None:
     num = config.GIFT_QUANTITY
 
     supply_text = ""
-    if 'total_amount' in kwargs and kwargs['total_amount'] != "N/A":
+    if 'total_amount' in kwargs and kwargs['total_amount'] > 0:
         supply_text = f" | {t('telegram.available')}: {kwargs.get('total_amount')}"
 
     message_types = {
@@ -29,9 +29,10 @@ async def send_notification(app: Client, gift_id: int, **kwargs) -> None:
         'balance_error': lambda: t("telegram.balance_error", gift_id=gift_id,
                                    gift_price=kwargs.get('gift_price', 0),
                                    current_balance=kwargs.get('current_balance', 0)),
-        'gift_price_error': lambda: t("telegram.gift_price", gift_id=gift_id,
-                                      price=kwargs.get('gift_price'),
-                                      supply_text=supply_text),
+        'range_error': lambda: t("telegram.range_error", gift_id=gift_id,
+                                 price=kwargs.get('gift_price'),
+                                 supply=kwargs.get('total_amount'),
+                                 supply_text=supply_text),
         'success_message': lambda: t("telegram.success_message", current=kwargs.get('current_gift'), total=num,
                                      gift_id=gift_id, recipient='') +
                                    format_user_reference(kwargs.get('user_id'), kwargs.get('username'))
@@ -45,12 +46,16 @@ async def send_notification(app: Client, gift_id: int, **kwargs) -> None:
 
 async def send_start_message(client: Client) -> None:
     balance = await get_user_balance(client)
+    ranges_text = "\n".join([
+        f"• {r['min_price']}-{r['max_price']} ⭐ (supply ≤ {r['supply_limit']})"
+        for r in config.PRICE_RANGES
+    ])
+
     message = t("telegram.start_message",
                 language=config.language_display,
                 locale=config.LANGUAGE,
                 balance=balance,
-                min_price=config.MIN_GIFT_PRICE,
-                max_price=config.MAX_GIFT_PRICE,
+                ranges=ranges_text,
                 quantity=config.GIFT_QUANTITY)
     await send_message(client, message)
 

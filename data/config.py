@@ -1,7 +1,7 @@
 import configparser
 import sys
 from pathlib import Path
-from typing import List, Union
+from typing import List, Union, Dict
 
 from app.utils.localization import localization
 from app.utils.logger import error
@@ -38,8 +38,7 @@ class Config:
         self.LANGUAGE = self.parser.get('Bot', 'LANGUAGE', fallback='EN').lower()
 
         self.USER_ID = self._parse_recipients()
-        self.MIN_GIFT_PRICE = self.parser.getint('Gifts', 'MIN_GIFT_PRICE', fallback=10000)
-        self.MAX_GIFT_PRICE = self.parser.getint('Gifts', 'MAX_GIFT_PRICE', fallback=100000)
+        self.PRICE_RANGES = self._parse_price_ranges()
         self.GIFT_QUANTITY = self.parser.getint('Gifts', 'GIFT_QUANTITY', fallback=1)
         self.PURCHASE_NON_LIMITED_GIFTS = self.parser.getboolean('Gifts', 'PURCHASE_NON_LIMITED_GIFTS', fallback=False)
         self.PURCHASE_ONLY_UPGRADABLE_GIFTS = self.parser.getboolean('Gifts', 'PURCHASE_ONLY_UPGRADABLE_GIFTS',
@@ -57,14 +56,45 @@ class Config:
                     recipients.append(user_id)
         return recipients
 
+    def _parse_price_ranges(self) -> List[Dict[str, int]]:
+        ranges_str = self.parser.get('Gifts', 'PRICE_RANGES', fallback='')
+        ranges = []
+
+        for range_item in ranges_str.split(','):
+            range_item = range_item.strip()
+            if not range_item:
+                continue
+
+            try:
+                price_part, supply_part = range_item.split(':')
+                min_price, max_price = map(int, price_part.strip().split('-'))
+                supply_limit = int(supply_part.strip())
+
+                ranges.append({
+                    'min_price': min_price,
+                    'max_price': max_price,
+                    'supply_limit': supply_limit
+                })
+            except (ValueError, IndexError):
+                error(f"Invalid price range format: {range_item}")
+                continue
+
+        return ranges
+
+    def get_matching_range(self, price: int, total_amount: int) -> bool:
+        for range_config in self.PRICE_RANGES:
+            if (range_config['min_price'] <= price <= range_config['max_price'] and
+                    total_amount <= range_config['supply_limit']):
+                return True
+        return False
+
     def _validate(self) -> None:
         checks = {
             "Telegram > API_ID": self.API_ID == 0,
             "Telegram > API_HASH": not self.API_HASH,
             "Telegram > PHONE_NUMBER": not self.PHONE_NUMBER,
             "Gifts > USER_ID": not self.USER_ID,
-            "Gifts > MIN_GIFT_PRICE (>= 0)": self.MIN_GIFT_PRICE < 0,
-            "Gifts > MAX_GIFT_PRICE (> 0)": self.MAX_GIFT_PRICE <= 0,
+            "Gifts > PRICE_RANGES": not self.PRICE_RANGES,
             "Gifts > GIFT_QUANTITY (> 0)": self.GIFT_QUANTITY <= 0,
         }
 
